@@ -129,6 +129,11 @@ export const marketsList: Record<string, string>[] = [
     description: "Market tracker for Book of Detection",
     url: "http://detection.market/",
   },
+  {
+    name: "FloorBags.Market",
+    description: "Market tracker for any item",
+    url: "http://floorbags.market/",
+  },
 ];
 
 // Loot resources
