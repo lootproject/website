@@ -81,9 +81,9 @@ export const guildsList: Record<string, string>[] = [
     url: "https://tinyurl.com/ancientadventurers",
   },
   {
-    name: "Katana Gang",
+    name: "Katana Garden",
     description: "For owners of Katanas",
-    url: "https://tinyurl.com/j4akkrmd",
+    url: "https://katana.garden",
   },
 ];
 
