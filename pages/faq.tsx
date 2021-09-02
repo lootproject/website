@@ -91,7 +91,7 @@ export default function FAQ(): ReactElement {
           </p>
           <p>
             Thus, anyone with an Ethereum wallet is allowed to participate in
-            the ecosystem, while still maintining distinction between original
+            the ecosystem, while still maintaining distinction between original
             Loot and synthetics.
           </p>
         </div>
