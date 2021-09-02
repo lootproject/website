@@ -243,4 +243,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The Holy War",
     url: "https://twitter.com/HolyWarLoots/status/1433293231840653312",
   },
+  {
+    name: "Loot Avatars",
+    description: "The Avatars on chain for Loot community",
+    url: "https://twitter.com/lootavatars",
+  }
 ];
