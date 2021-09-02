@@ -7,7 +7,11 @@ import styles from "@styles/components/Layout.module.scss"; // Styles
 // Types
 import type { ReactElement } from "react";
 
-export default function Layout({ children }: { children: ReactElement }) {
+export default function Layout({
+  children,
+}: {
+  children: ReactElement | ReactElement[];
+}) {
   return (
     <div>
       {/* Meta */}

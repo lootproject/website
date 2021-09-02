@@ -1,4 +1,5 @@
 // Imports
+import Link from "next/link"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/FAQ.module.scss"; // Page styles
 
@@ -26,14 +27,72 @@ export default function FAQ(): ReactElement {
               Dom Hofmann
             </a>
             . At release, anyone could claim loot bags for just gas, and all
-            bags were claimed in under 4 hours. Each loot bag contain 8 items: a
-            piece each for an adventurers chest, foot, hand, head, neck, ring,
+            bags were claimed in under 4 hours. Each loot bag contains 8 items:
+            a piece for an adventurers chest, foot, hand, head, neck, ring,
             waist, and weapon.
           </p>
           <p>
             Loot is an unaudited project. Bags #1 to #7777 were claimable by
             anyone and #7778 to #8000 are currently reserved for the contract
             deployer (Dom).
+          </p>
+        </div>
+
+        {/* Why is loot special? */}
+        <div className={styles.faq__item}>
+          <h3>Why is loot special?</h3>
+          <p>
+            Loot is unique—the first project of its kind. With no company, art,
+            team, or attributes, Loot makes it impossible to gate-keep any
+            creative decisions (h/t{" "}
+            <a
+              href="https://twitter.com/john_c_palmer/status/1432606797186179072?s=20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @john_c_palmer
+            </a>
+            ).
+          </p>
+          <p>
+            Loot is the unfiltered, uncensorable building block for stories,
+            experiences, games, and more, in the hands of the community, at no
+            cost. Loot pursues complete decentralization from day one.
+          </p>
+        </div>
+
+        {/* Can I build with loot? */}
+        <div className={styles.faq__item}>
+          <h3>Can I build with Loot?</h3>
+          <p>
+            Yes, you are free to use Loot in any way you want. For inspiration,
+            see existing{" "}
+            <Link href="/resources">
+              <a>resources</a>
+            </Link>{" "}
+            put together by the community.
+          </p>
+        </div>
+
+        {/* Am I priced out of loot? */}
+        <div className={styles.faq__item}>
+          <h3>Am I priced out of loot?</h3>
+          <p>
+            Not at all. Through{" "}
+            <a
+              href="https://twitter.com/dhof/status/1433110412187287560?s=20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Synthetic Loot
+            </a>
+            , all addresses have access to virtual Loot that developers can
+            integrate into the Loot projects they build.
+          </p>
+          <p>
+            Thus, anyone with an Ethereum wallet is allowed to participate in
+            the ecosystem, while still maintining distinction between original
+            Loot and synthetics.
           </p>
         </div>
 
