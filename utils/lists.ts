@@ -8,7 +8,7 @@ export const resourceList: Record<string, string>[] = [
   {
     name: "dhof-loot",
     description:
-      "All bags, item occurences, bag rarity, and images by @anish-agnihotri and @ktasbas",
+      "All bags, item occurrences, bag rarity, and images by @anish-agnihotri and @ktasbas",
     url: "https://github.com/Anish-Agnihotri/dhof-loot",
   },
   {
@@ -129,6 +129,16 @@ export const marketsList: Record<string, string>[] = [
     description: "Market tracker for Book of Detection",
     url: "http://detection.market/",
   },
+  {
+    name: "FloorBags.Market",
+    description: "Market tracker for any item",
+    url: "http://floorbags.market/",
+  },
+  {
+    name: "Dragons.Market",
+    description: "Market tracker for Dragon/Dragonskin items",
+    url: "http://dragons.market/",
+  },
 ];
 
 // Loot resources
@@ -215,7 +225,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Poorly Drawn Loot",
-    description: "Experimetal, poorly drawn bags",
+    description: "Experimental, poorly drawn bags",
     url: "https://opensea.io/activity/loot-poorly-drawn",
   },
   {
@@ -244,8 +254,13 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/HolyWarLoots/status/1433293231840653312",
   },
   {
+    name: "Treasure",
+    description: "Decentralized, composable money for the metaverse",
+    url: "https://opensea.io/collection/treasure-for-loot"
+  },
+  {
     name: "Loot Avatars",
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
-  }
+  },
 ];
