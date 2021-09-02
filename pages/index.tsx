@@ -9,8 +9,12 @@ import type { ReactElement } from "react";
 export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
-    { name: "Discord", url: "https://discord.gg/NXEntTSHgy" },
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
+    { name: "Discord", url: "https://discord.gg/NXEntTSHgy" },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/lootproject",
+    },
     {
       name: "Contract",
       url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
