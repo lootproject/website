@@ -35,8 +35,8 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot — For Adventurers</title>
-      <meta name="title" content="Loot — For Adventurers" />
+      <title>Loot</title>
+      <meta name="title" content="Loot" />
       <meta
         name="description"
         content="Loot is randomized adventurer gear generated and stored on chain."
@@ -44,23 +44,23 @@ function Head(): ReactElement {
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootrng.com/" />
-      <meta property="og:title" content="Loot — For Adventurers" />
+      <meta property="og:url" content="https://www.lootproject.com/" />
+      <meta property="og:title" content="Loot" />
       <meta
         property="og:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="og:image" content="https://lootrng.com/meta.png" />
+      <meta property="og:image" content="https://lootproject.com/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootrng.com/" />
-      <meta property="twitter:title" content="Loot — For Adventurers" />
+      <meta property="twitter:url" content="https://www.lootproject.com/" />
+      <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="twitter:image" content="https://lootrng.com/meta.png" />
+      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -138,7 +138,7 @@ function Footer(): ReactElement {
       <p>
         This website is{" "}
         <a
-          href="https://github.com/anish-agnihotri/lootrng.com"
+          href="https://github.com/lootproject/website"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -34,7 +34,7 @@ export default function FAQ(): ReactElement {
           <p>
             Loot is an unaudited project. Bags #1 to #7777 were claimable by
             anyone and #7778 to #8000 are currently reserved for the contract
-            deployer (Dom).
+            deployer.
           </p>
         </div>
 
