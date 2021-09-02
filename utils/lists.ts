@@ -257,5 +257,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot"
-  }
+  },
+  {
+    name: "Loot Avatars",
+    description: "The Avatars on chain for Loot community",
+    url: "https://twitter.com/lootavatars",
+  },
 ];
