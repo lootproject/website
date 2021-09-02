@@ -8,7 +8,7 @@ export const resourceList: Record<string, string>[] = [
   {
     name: "dhof-loot",
     description:
-      "All bags, item occurences, bag rarity, and images by @anish-agnihotri and @ktasbas",
+      "All bags, item occurrences, bag rarity, and images by @anish-agnihotri and @ktasbas",
     url: "https://github.com/Anish-Agnihotri/dhof-loot",
   },
   {
@@ -225,7 +225,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Poorly Drawn Loot",
-    description: "Experimetal, poorly drawn bags",
+    description: "Experimental, poorly drawn bags",
     url: "https://opensea.io/activity/loot-poorly-drawn",
   },
   {
