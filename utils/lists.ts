@@ -292,4 +292,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://opensea.io/collection/maps-restored"
   },
+  {
+    name: "Monsters",
+    description: "Slay unique Monsters with your Loot",
+    url: "https://monstersforadventurers.com",
+  },
 ];
