@@ -277,4 +277,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
   },
+  {
+    name: "Maps",
+    description: "Journey maps and location names for your Loot Adventures.",
+    url: "https://opensea.io/collection/maps-restored"
+  },
 ];
