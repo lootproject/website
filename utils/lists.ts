@@ -263,4 +263,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
   },
+  {
+    name: "Super Loot",
+    description: "The superset of the LOOT with more parts, more gears and emojis 🧬🔥💎🔮.",
+    url: "https://etherscan.io/address/0xdeed638915ea9160912a77221829364f19a7b99d#writeContract",
+  }
 ];
