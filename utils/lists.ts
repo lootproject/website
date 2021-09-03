@@ -278,6 +278,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/lootavatars",
   },
   {
+    name: "Encounters",
+    description: "Randomly generated encounters for your Characters and Loot",
+    url: "https://www.adventurerencounters.com/",
+  },
+  {
     name: "Name",
     description: "Names for adventurers that can be changed by spending Adventure Gold",
     url: "https://etherscan.io/address/0xb9310af43f4763003f42661f6fc098428469adab",
