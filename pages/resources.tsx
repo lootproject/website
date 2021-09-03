@@ -35,7 +35,7 @@ const resources = [
   },
   {
     title: "Derivative Projects",
-    description: "Projects building with or on top of Loot:",
+    description: "Projects that remix or build on top of Loot:",
     list: derivativesList,
   },
 ];

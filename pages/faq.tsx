@@ -28,7 +28,7 @@ export default function FAQ(): ReactElement {
             </a>
             . At release, anyone could claim loot bags for just gas, and all
             bags were claimed in under 4 hours. Each loot bag contains 8 items:
-            a piece for an adventurers chest, foot, hand, head, neck, ring,
+            a piece for an adventurer&apos;s chest, foot, hand, head, neck, ring,
             waist, and weapon.
           </p>
           <p>
@@ -91,7 +91,7 @@ export default function FAQ(): ReactElement {
           </p>
           <p>
             Thus, anyone with an Ethereum wallet is allowed to participate in
-            the ecosystem, while still maintining distinction between original
+            the ecosystem, while still maintaining distinction between original
             Loot and synthetics.
           </p>
         </div>
