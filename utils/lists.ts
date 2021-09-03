@@ -1,15 +1,15 @@
 // Loot communities
 export const communityList: Record<string, string>[] = [
   {
-    name: "Loot Talk",
-    description: "A place for structured discussion of all things Loot, for builders and the community",
-    url: "https://forum.lootproject.com",
-  },
-  {
     name: "Loot Community Discord",
     description: "For all things Loot and derivatives (note: high traffic, can be noisy)",
     url: "https://discord.gg/NXEntTSHgy",
-  }
+  },
+  {
+    name: "Loot Talk (Forum)",
+    description: "A place for structured discussion of all things Loot, for builders and the community",
+    url: "https://forum.lootproject.com",
+  },
 ];
 
 // Loot resources
