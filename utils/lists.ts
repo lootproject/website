@@ -263,4 +263,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
   },
+  {
+    name: "MapsProject",
+    description: "Maps with place names and adventurers journey",
+    url: "https://etherscan.io/address/0x511372B44231a31527025a3D273C1dc0a83D77aF#code",
+  },
 ];
