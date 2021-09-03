@@ -32,6 +32,8 @@ export default function FAQ(): ReactElement {
           <p>The original Loot contract is immutable, meaning it is impossible to change. Although it is possible to create new contracts that expand the numbers, it is purely up to the community to decide whether or not to do this and for developers to decide what is and isn&apos;t recognized.</p>
           <p>It&apos;s important for the community to think about precedents. Expanding in small increments now only kicks the can down the road. As more people want Loot, more contracts will need to be created, which will lead to fragmentation where infrastructure and utilities that are built today will not work with the contracts of tomorrow.</p>
           <p>Conversely, the supply of Synthetic Loot is always equal to the number of Ethereum wallets and will always be forward compatible.</p>
+          <h3>Acknowledgements</h3>
+          <p>Thank you to community member <a href="https://twitter.com/stephancill">@stephancill</a> for creating the demonstration page.</p>
 
         </div>
       </div>
