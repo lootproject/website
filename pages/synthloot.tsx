@@ -17,7 +17,7 @@ export default function FAQ(): ReactElement {
         <div className={styles.faq__item}>
           <h3>What is Synthetic Loot?</h3>
           <p>
-            Synthetic Loot (or &quot;Synthloot&quot;) is a virtual form of Loot that <strong>every wallet has automatically</strong> and <strong>does not need to be minted</strong>.
+            Synthetic Loot (or &quot;Synth Loot&quot;) is a virtual form of Loot that <strong>every wallet has automatically</strong> and <strong>does not need to be minted</strong>.
           </p>
           <p>
             Unlike original Loot which is generated based on a numeric identifier, Synthetic Loot is generated based on your Ethereum wallet address. Developers who are building on top of Loot can easily incorporate Synthetic Loot into their projects, allowing the entire Ethereum ecosystem to access their projects for free.
