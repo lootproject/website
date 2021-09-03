@@ -7,8 +7,7 @@ export const communityList: Record<string, string>[] = [
   },
   {
     name: "Loot Talk (Forum)",
-    description:
-      "A place for structured discussion of all things Loot, for builders and the community",
+    description: "A place for structured discussion of all things Loot, for builders and the community",
     url: "https://loot-talk.com",
   },
 ];
@@ -271,7 +270,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
-    url: "https://opensea.io/collection/treasure-for-loot",
+    url: "https://opensea.io/collection/treasure-for-loot"
   },
   {
     name: "Loot Avatars",
@@ -285,19 +284,17 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Name",
-    description:
-      "Names for adventurers that can be changed by spending Adventure Gold",
+    description: "Names for adventurers that can be changed by spending Adventure Gold",
     url: "https://etherscan.io/address/0xb9310af43f4763003f42661f6fc098428469adab",
   },
   {
     name: "Maps",
     description: "Journey maps and location names for your Loot Adventures.",
-    url: "https://opensea.io/collection/maps-restored",
+    url: "https://opensea.io/collection/maps-restored"
   },
   {
     name: "Monster Maps (for Adventurers)",
-    description:
-      "Monsters and their locations, drawn on unique, generative maps.",
+    description: "Monsters and their locations, drawn on unique, generative maps.",
     url: "https://opensea.io/collection/maps-restored",
   },
 ];
