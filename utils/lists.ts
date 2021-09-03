@@ -263,4 +263,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
   },
+  {
+    name: "Encounters",
+    description: "Randomly generated encounters for your Characters and Loot",
+    url: "https://www.adventurerencounters.com/",
+  },
 ];
