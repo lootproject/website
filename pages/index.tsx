@@ -10,6 +10,7 @@ export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
+    { name: "Synthetic Loot", url: "/synthloot" },
     {
       name: "Twitter",
       url: "https://twitter.com/lootproject",

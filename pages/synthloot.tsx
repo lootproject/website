@@ -22,7 +22,7 @@ export default function FAQ(): ReactElement {
           <p>
             Unlike original Loot which is generated based on a numeric identifier, Synthetic Loot is generated based on your Ethereum wallet address. Developers who are building on top of Loot can easily incorporate Synthetic Loot into their projects, allowing the entire Ethereum ecosystem to access their projects for free.
           </p>
-          <p>To see an example of this, visit <a href="https://loot.stephancill.co.za/#/">this example page</a> and enter your wallet address or ENS handle. You will see your Snyth Loot and a generated character that corresponds to it.</p>
+          <p>To see this in action, visit <a href="https://loot.stephancill.co.za/#/">this example page</a> and enter your wallet address or ENS handle. You will see your Snyth Loot and a generated character that corresponds to it.</p>
           <h3>Why can't I mint Synthetic Loot?</h3>
           <p>Right now, there is no reason to. Because Synthetic Loot is associated with every Ethereum address that ever has been or ever will be, there is no one "without" Synthetic Loot. Still, there is no reason someone couldn't build a mintable implementation on top of Synthetic Loot for those who want to do it.</p>
           <h3>What if someone re-rolls wallets to get "great" loot?</h3>
