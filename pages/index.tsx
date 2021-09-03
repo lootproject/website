@@ -10,7 +10,6 @@ export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
-    { name: "Discord", url: "https://discord.gg/NXEntTSHgy" },
     {
       name: "Twitter",
       url: "https://twitter.com/lootproject",

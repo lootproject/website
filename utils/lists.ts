@@ -1,3 +1,17 @@
+// Loot communities
+export const communityList: Record<string, string>[] = [
+  {
+    name: "Loot Community Discord",
+    description: "For all things Loot and derivatives (note: high traffic, can be noisy)",
+    url: "https://discord.gg/NXEntTSHgy",
+  },
+  {
+    name: "Loot Talk (Forum)",
+    description: "A place for structured discussion of all things Loot, for builders and the community",
+    url: "https://forum.lootproject.com",
+  },
+];
+
 // Loot resources
 export const resourceList: Record<string, string>[] = [
   {
@@ -264,8 +278,23 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/lootavatars",
   },
   {
+    name: "Encounters",
+    description: "Randomly generated encounters for your Characters and Loot",
+    url: "https://www.adventurerencounters.com/",
+  },
+  {
+    name: "Name",
+    description: "Names for adventurers that can be changed by spending Adventure Gold",
+    url: "https://etherscan.io/address/0xb9310af43f4763003f42661f6fc098428469adab",
+  },
+  {
+    name: "Maps",
+    description: "Journey maps and location names for your Loot Adventures.",
+    url: "https://opensea.io/collection/maps-restored"
+  },
+  {
     name: "Spells (For Wizards and other Adventurers)",
     description: "Spells (For Wizards and other Adventurers)",
-    url: "https://etherscan.io/token/0x38e942948cea825992f105e0ec4a2ee9138afae4",
+    url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4"
   },
 ];

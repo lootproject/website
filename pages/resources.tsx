@@ -4,6 +4,7 @@ import {
   guildsList,
   marketsList,
   resourceList,
+  communityList
 } from "@utils/lists"; // Lists
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/Resources.module.scss"; // Page styles
@@ -12,6 +13,11 @@ import styles from "@styles/pages/Resources.module.scss"; // Page styles
 import type { ReactElement } from "react";
 
 const resources = [
+  {
+    title: "Communities",
+    description: "Spaces run by the community for Loot enthusiasts to share news and build together:",
+    list: communityList
+  },
   {
     title: "Developer Tooling",
     description: "Aggregated resources built by the Loot community:",
@@ -29,7 +35,7 @@ const resources = [
   },
   {
     title: "Derivative Projects",
-    description: "Projects that remix or build on top of Loot:",
+    description: "Projects that remix or build on top of Loot. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
     list: derivativesList,
   },
 ];
