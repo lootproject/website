@@ -22,9 +22,9 @@ export default function FAQ(): ReactElement {
           <p>
             Unlike original Loot which is generated based on a numeric identifier, Synthetic Loot is generated based on your Ethereum wallet address. Developers who are building on top of Loot can easily incorporate Synthetic Loot into their projects, allowing the entire Ethereum ecosystem to access their projects for free.
           </p>
-          <p>To see this in action, visit <a href="https://loot.stephancill.co.za/#/">this example page</a> and enter your wallet address or ENS handle. You will see your Synth Loot and a generated character that corresponds to it.</p>
+          <p>To see this in action, visit <a href="https://loot.stephancill.co.za/#/">this example page</a> and enter your wallet address or ENS handle. You will see your Synth Loot and a generated character that corresponds to it. This data is portable and will travel with you to any project that suppors it.</p>
           <h3>Why can&apos;t I mint Synthetic Loot?</h3>
-          <p>Right now, there is very little reason to. Because Synthetic Loot is associated with every Ethereum address that ever has been or ever will be, there will never be anyone &quot;without&quot; Synthetic Loot. Still, there is no reason someone couldn&apos;t build a mintable contract on top of Synthetic Loot for those who want to do it.</p>
+          <p>Right now, there is very little reason to. Because Synthetic Loot is already associated with every Ethereum address that ever has been or ever will be, there will never be anyone &quot;without&quot; Synthetic Loot. Still, there is no reason someone couldn&apos;t build a mintable contract on top of Synthetic Loot for those who want to do it.</p>
           <h3>What if someone re-rolls wallets to get desirable loot?</h3>
           <p>In many cases, this doesn&apos;t matter. However, developers who are concerned about this can instead use variants like <a href="https://etherscan.io/address/0x9f4541a829f8a8c0fb5f26971b0ed19f995782b1#code">Synthetic Lesser Loot</a>, which reduces the rarity of some items. Synthetic variants still share all the same promises: they are available to every wallet automatically and do not need to be minted.</p>
           <h3>Why not expand the original Loot bag numbers past 8,000?</h3>
