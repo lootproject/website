@@ -265,7 +265,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Loot Dicc",
-    description: "Every adventurer needs a Dicc. Presenting Diccs (for adventurers). Diccs are randomly generated and stored on chain. Images and other functionality are intentionally omitted for others to interpret. Feel free to use Diccs in any way you want. Inspired and compatible with Loot (for Adventurers)",
+    description: "Every adventurer needs a Dicc!",
     url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
   },
 ];
