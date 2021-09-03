@@ -4,6 +4,7 @@ import {
   guildsList,
   marketsList,
   resourceList,
+  communityList
 } from "@utils/lists"; // Lists
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/Resources.module.scss"; // Page styles
@@ -12,6 +13,11 @@ import styles from "@styles/pages/Resources.module.scss"; // Page styles
 import type { ReactElement } from "react";
 
 const resources = [
+  {
+    title: "Communities",
+    description: "Spaces run by the community for Loot enthusiasts to share news and build together:",
+    list: communityList
+  },
   {
     title: "Developer Tooling",
     description: "Aggregated resources built by the Loot community:",
