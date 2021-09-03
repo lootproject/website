@@ -292,4 +292,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://opensea.io/collection/maps-restored"
   },
+  {
+    name: "Planets with Loot",
+    description: "Planets with Loot. Randomized Planets generated and stored on-chain. Because your Heroes need a place in the Universe to live too.",
+    url: "https://opensea.io/collection/planets-with-loot"
+  },
 ];
