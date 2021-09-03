@@ -28,8 +28,8 @@ export default function FAQ(): ReactElement {
           <h3>What if someone re-rolls wallets to get desirable loot?</h3>
           <p>In many cases, this doesn&apos;t matter. However, developers who are concerned about this can instead use variants like <a href="https://etherscan.io/address/0x9f4541a829f8a8c0fb5f26971b0ed19f995782b1#code">Synthetic Lesser Loot</a>, which reduces the rarity of some items. Synthetic variants still share all the same promises: they are available to every wallet automatically and do not need to be minted.</p>
           <h3>Why not expand the original Loot bag numbers past 8,000?</h3>
-          <p>The original Loot contract is immutable, meaning it is impossible to change. Although it is possible to create new contracts that expand the numbers, it is purely up to the community to do this and decide what is and isn&quot;t recognized.</p>
-          <p>It&quot;s important for the community to think about precedents. Expanding in small increments now only kicks the can down the road. As more people want Loot, more contracts will need to be created, which will lead to fragmentation where infrastructure and utilities that are built today will not work with the contracts of tomorrow.</p>
+          <p>The original Loot contract is immutable, meaning it is impossible to change. Although it is possible to create new contracts that expand the numbers, it is purely up to the community to do this and for developers to decide what is and isn&apos;t recognized.</p>
+          <p>It&apos;s important for the community to think about precedents. Expanding in small increments now only kicks the can down the road. As more people want Loot, more contracts will need to be created, which will lead to fragmentation where infrastructure and utilities that are built today will not work with the contracts of tomorrow.</p>
           <p>Conversely, the supply of Synthetic Loot is always equal to the number of Ethereum wallets and will always be forwards compatible.</p>
 
         </div>
