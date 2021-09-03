@@ -295,6 +295,6 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Monster Maps (for Adventurers)",
     description: "Monsters and their locations, drawn on unique, generative maps.",
-    url: "https://opensea.io/collection/maps-restored",
+    url: "https://twitter.com/monstermap",
   },
 ];
