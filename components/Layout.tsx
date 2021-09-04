@@ -35,7 +35,7 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
+      <title>Loot Buildings</title>
       <meta name="title" content="Loot" />
       <meta
         name="description"
@@ -96,7 +96,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Loot Buildings</a>
         </Link>
       </div>
 
