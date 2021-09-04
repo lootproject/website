@@ -292,4 +292,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://mapsproject.xyz"
   },
+    {
+    name: "Loot Of Ether",
+    description: "Random visual gear generated with Loot items list.",
+    url: "https://twitter.com/lootofether"
+  },
 ];
