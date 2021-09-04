@@ -292,4 +292,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://mapsproject.xyz"
   },
+  {
+    name: "Buildings",
+    description: "Randomized buildings for loot adventures.",
+    url: "https://opensea.io/collection/buildings-loot"
+  },
 ];
