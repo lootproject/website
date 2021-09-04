@@ -279,8 +279,8 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Super Loot",
-    description: "The superset of the LOOT with more parts, more gears and emojis 🧬🔥💎🔮.",
-    url: "https://etherscan.io/address/0xdeed638915ea9160912a77221829364f19a7b99d#writeContract",
+    description: "The superset of the Loot with more parts, more gears and emojis.",
+    url: "https://twitter.com/SuperLootNFT",
   },
   {
     name: "Encounters",
