@@ -248,6 +248,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xccab950f5b192603a94a26c4fa00c8d2d392b98d#writeContract",
   },
   {
+    name: "Loot Companions",
+    description: "Companions for your Loot Adventures.",
+    url: "https://companionsproject.io"
+  },
+  {
     name: "Loot Conditions",
     description: "Conditions that affect Ability Score and Character attributes",
     url: "https://opensea.io/collection/lootconditions",
@@ -366,5 +371,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
-  }
+  },
 ];
