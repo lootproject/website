@@ -292,4 +292,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://mapsproject.xyz"
   },
+  {
+    name: "Doggos (for $DOG Owners)",
+    description: "Doggos are 6969 playful lootiverse companions, adopt-able by anyone who owns a fraction of The Doge NFT ($DOG).",
+    url: "https://doge.pleasr.org"
+  },
 ];
