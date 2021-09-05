@@ -1,4 +1,5 @@
 // Imports
+import Link from "next/link"; // Local routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { defaultBags } from "@utils/constants"; // Bags to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
@@ -42,9 +43,17 @@ export default function Home(): ReactElement {
             {quicklinks.map(({ name, url }, i) => {
               return (
                 <li key={i}>
-                  <a href={url} target="_blank" rel="noopener noreferrer">
-                    {name}
-                  </a>
+                  {url.startsWith("/") ? (
+                    // If link to local page use Link
+                    <Link href={url}>
+                      <a>{name}</a>
+                    </Link>
+                  ) : (
+                    // Else, redirect in new tab
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                      {name}
+                    </a>
+                  )}
                 </li>
               );
             })}
