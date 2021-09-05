@@ -321,5 +321,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Loot+",
     description: "Expansion loot package with 200+ new items",
     url: "https://opensea.io/collection/lootplus",
+  },
+  {
+    name: "Loot Dicc",
+    description: "Every adventurer needs a Dicc!",
+    url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
   }
 ];
