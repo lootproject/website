@@ -294,7 +294,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Doggos (for $DOG Owners)",
-    description: "Doggos are 6969 playful lootiverse companions, adopt-able by anyone who owns a fraction of The Doge NFT ($DOG).",
-    url: "https://doge.pleasr.org"
+    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
+    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract"
   },
 ];
