@@ -1,3 +1,17 @@
+// Loot communities
+export const communityList: Record<string, string>[] = [
+  {
+    name: "Loot Community Discord",
+    description: "For all things Loot and derivatives (note: high traffic)",
+    url: "https://discord.gg/NXEntTSHgy",
+  },
+  {
+    name: "Loot Talk (Forum)",
+    description: "A place for structured discussion of all things Loot, for builders and the community",
+    url: "https://loot-talk.com",
+  },
+];
+
 // Loot resources
 export const resourceList: Record<string, string>[] = [
   {
@@ -256,7 +270,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
-    url: "https://opensea.io/collection/treasure-for-loot"
+    url: "https://opensea.io/collection/treasure-for-loot",
   },
   {
     name: "Loot Avatars",
@@ -264,8 +278,53 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/lootavatars",
   },
   {
+    name: "Super Loot",
+    description: "The superset of the Loot with more parts, more gears and emojis.",
+    url: "https://twitter.com/SuperLootNFT",
+  },
+  {
+    name: "Encounters",
+    description: "Randomly generated encounters for your Characters and Loot",
+    url: "https://www.adventurerencounters.com/",
+  },
+  {
+    name: "Name",
+    description: "Names for adventurers that can be changed by spending Adventure Gold",
+    url: "https://etherscan.io/address/0xb9310af43f4763003f42661f6fc098428469adab",
+  },
+  {
+    name: "Maps",
+    description: "Journey maps and location names for your Loot Adventures.",
+    url: "https://mapsproject.xyz"
+  },
+  {
+    name: "Monsters",
+    description: "Slay unique Monsters with your Loot",
+    url: "https://monstersforadventurers.com",
+  },
+  {
+    name: "Spells for Looters",
+    description: "Spells and Spellbooks for Loot Adventurers.",
+    url: "https://opensea.io/collection/spells-for-looters"
+  },
+  {
+    name: "Spells (For Wizards and other Adventurers)",
+    description: "Spells (For Wizards and other Adventurers)",
+    url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4"
+  },
+  {
+    name: "Planets with Loot",
+    description: "Randomized Planets generated and stored on-chain",
+    url: "https://opensea.io/collection/planets-with-loot"
+  },
+  {
+    name: "Loot+",
+    description: "Expansion loot package with 200+ new items",
+    url: "https://opensea.io/collection/lootplus",
+  },
+  {
     name: "Loot Dicc",
     description: "Every adventurer needs a Dicc!",
     url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
-  },
+  }
 ];
