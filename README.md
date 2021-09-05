@@ -11,8 +11,8 @@ Community-operated [website](https://www.lootproject.com/) for the Loot project.
 
 ```bash
 # Install dependencies
-npm install
+yarn
 
 # Run
-npm run dev
+yarn dev
 ```
