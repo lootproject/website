@@ -278,6 +278,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/lootavatars",
   },
   {
+    name: "Super Loot",
+    description: "The superset of the Loot with more parts, more gears and emojis.",
+    url: "https://twitter.com/SuperLootNFT",
+  },
+  {
     name: "Encounters",
     description: "Randomly generated encounters for your Characters and Loot",
     url: "https://www.adventurerencounters.com/",
