@@ -307,4 +307,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Spells (For Wizards and other Adventurers)",
     url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4"
   },
+  {
+    name: "Planets with Loot",
+    description: "Randomized Planets generated and stored on-chain",
+    url: "https://opensea.io/collection/planets-with-loot"
+  },
 ];
