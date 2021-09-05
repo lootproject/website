@@ -158,11 +158,6 @@ export const marketsList: Record<string, string>[] = [
 // Loot resources
 export const derivativesList: Record<string, string>[] = [
   {
-    name: "Loot Conditions",
-    description: "Conditions that affect Ability Score and Character attributes",
-    url: "https://opensea.io/collection/lootconditions",
-  },
-  {
     name: "Loot Descriptions",
     description: "AI-based role-playing descriptions",
     url: "https://opensea.io/collection/lootdescriptions",
@@ -296,5 +291,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Maps",
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://mapsproject.xyz"
+  },
+  {
+    name: "Loot Conditions",
+    description: "Conditions that affect Ability Score and Character attributes",
+    url: "https://opensea.io/collection/lootconditions",
   },
 ];
