@@ -4,7 +4,8 @@ import {
   guildsList,
   marketsList,
   resourceList,
-  communityList
+  communityList,
+  universeList
 } from "@utils/lists"; // Lists
 import Layout from "@components/Layout"; // Layout wrapper
 import styles from "@styles/pages/Resources.module.scss"; // Page styles
@@ -38,6 +39,11 @@ const resources = [
     description: "Projects that remix or build on top of Loot. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
     list: derivativesList,
   },
+  {
+    title: "Alternate Universes",
+    description: "Derivates forming a different universe type. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
+    list: universeList
+  },
 ];
 
 export default function Resources(): ReactElement {
@@ -50,7 +56,7 @@ export default function Resources(): ReactElement {
             <p>{description}</p>
 
             <ul>
-              {list.map(({ name, description, url }, i) => {
+              {list.map(({ name, description, url, socialUrl }, i) => {
                 // For each resource, render link and description
                 return (
                   <li key={i}>
@@ -59,7 +65,9 @@ export default function Resources(): ReactElement {
                         {name}
                       </a>{" "}
                       — {description}
+                      
                     </p>
+                    
                   </li>
                 );
               })}

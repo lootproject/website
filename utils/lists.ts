@@ -293,3 +293,27 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://mapsproject.xyz"
   },
 ];
+
+export const universeList: Record<string, string>[] = [
+  {
+    name: "Loot (For Cyberpunks)",
+    description: "A Cyperpunk themed loot derivate, the #1 alternate universe",
+    url: "https://opensea.io/collection/loot-for-cyberpunks",
+  },
+  {
+    name: "Loot (For SpaceCowboys)",
+    description: "Loot goes to Space in 25th Century",
+    url: "http://www.space-loot.com/",
+  },
+  {
+    name: "Space Loot Website",
+    description: "Another Space themed Loot universe",
+    url: "https://www.spaceloot.io/",
+  },
+  {
+    name: "Loot (For Zombieland)",
+    description: "A Zombie themed universe",
+    url: "https://opensea.io/collection/lootforzombieland",
+    socialUrl: "https://discord.com/invite/T37N9jT2Pn"
+  },
+];
