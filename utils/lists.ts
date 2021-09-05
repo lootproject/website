@@ -178,6 +178,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20#writeContract",
   },
   {
+    name: "Loot (for Cyberpunks)",
+    description: "Cyberpunk alternate Loot universe",
+    url: "https://www.lootmetaverse.club/",
+  },
+  {
     name: "Loot Characters",
     description: "Characters for your bags",
     url: "https://etherscan.io/address/0x7403ac30de7309a0bf019cda8eec034a5507cbb3#writeContract",
