@@ -342,4 +342,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Random visual gear generated with Loot items list.",
     url: "https://twitter.com/lootofether"
   },
+  {
+    name: "Emoji Loot",
+    description: "Emojis for your lifestyle.",
+    url: "https://emloot.xyz"
+  }
 ];
