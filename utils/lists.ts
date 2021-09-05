@@ -297,4 +297,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Slay unique Monsters with your Loot",
     url: "https://monstersforadventurers.com",
   },
+  {
+    name: "Spells for Looters",
+    description: "Spells and Spellbooks for Loot Adventurers.",
+    url: "https://opensea.io/collection/spells-for-looters"
+  },
 ];
