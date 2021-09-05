@@ -263,6 +263,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://www.lootloot.io"
   },
   {
+    name: "Loot (for Collectors)",
+    description: "Art and collectibles on chain for the Loot hyperverse",
+    url: "https://lootforcollectors.com/"
+  },
+  {
     name: "Loot (for Cyberpunks)",
     description: "Cyberpunk alternate Loot universe",
     url: "https://www.lootmetaverse.club/",
@@ -371,10 +376,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
-  },
-  {
-    name: "Loot (for Collectors)",
-    description: "Art and collectibles on chain for the Loot hyperverse",
-    url: "https://lootforcollectors.com/"
   },
 ];
