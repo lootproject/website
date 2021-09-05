@@ -302,4 +302,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Spells and Spellbooks for Loot Adventurers.",
     url: "https://opensea.io/collection/spells-for-looters"
   },
+  {
+    name: "Spells (For Wizards and other Adventurers)",
+    description: "Spells (For Wizards and other Adventurers)",
+    url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4"
+  },
 ];
