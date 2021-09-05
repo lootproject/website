@@ -164,11 +164,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20#writeContract",
   },
   {
-    name: "Loot+",
-    description: "Expansion loot package with 200+ new items",
-    url: "https://opensea.io/collection/lootplus",
-  },
-  {
     name: "Loot Characters",
     description: "Characters for your bags",
     url: "https://etherscan.io/address/0x7403ac30de7309a0bf019cda8eec034a5507cbb3#writeContract",
@@ -267,5 +262,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Loot Avatars",
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
+  },
+  {
+    name: "Loot+",
+    description: "Expansion loot package with 200+ new items",
+    url: "https://opensea.io/collection/lootplus",
   },
 ];
