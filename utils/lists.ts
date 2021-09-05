@@ -351,5 +351,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Loot for Ape",
     description: "One of the experimental projects for the Ape world.",
     url: "https://www.lootloot.io"
+  },
+  {
+    name: "Loot Conditions",
+    description: "Conditions that affect Ability Score and Character attributes",
+    url: "https://opensea.io/collection/lootconditions",
   }
 ];
