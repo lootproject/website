@@ -294,7 +294,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Planets with Loot",
-    description: "Planets with Loot. Randomized Planets generated and stored on-chain. Because your Heroes need a place in the Universe to live too.",
+    description: "Randomized Planets generated and stored on-chain",
     url: "https://opensea.io/collection/planets-with-loot"
   },
 ];
