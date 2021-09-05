@@ -194,7 +194,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Character",
-    description: "Randomized Characters based on the rules of 1974 Original (Little Brown Books) D&D",
+    description: "Based on the rules of the Original (Little Brown Books) D&D",
     url: "https://etherscan.io/address/0x4deafaa0f5512afa1f7fa74fd83cb98c498f3d7a#writeContract",
   },
   {
