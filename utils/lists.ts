@@ -67,7 +67,7 @@ export const resourceList: Record<string, string>[] = [
   },
   {
     name: "Loot Bibliotheca (for Adventurers)",
-    description: "Graphing community projects into one dashboard for adventurers to explore.",
+    description: "Graphing community projects for adventurers to explore.",
     url: "https://loot-bibliotheca-client.vercel.app/",
   },
 ];
