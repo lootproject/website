@@ -178,6 +178,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20#writeContract",
   },
   {
+    name: "Loot (for Cyberpunks)",
+    description: "Cyberpunk alternate Loot universe",
+    url: "https://www.lootmetaverse.club/",
+  },
+  {
     name: "Loot Characters",
     description: "Characters for your bags",
     url: "https://etherscan.io/address/0x7403ac30de7309a0bf019cda8eec034a5507cbb3#writeContract",
@@ -270,12 +275,17 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
-    url: "https://opensea.io/collection/treasure-for-loot"
+    url: "https://opensea.io/collection/treasure-for-loot",
   },
   {
     name: "Loot Avatars",
     description: "The Avatars on chain for Loot community",
     url: "https://twitter.com/lootavatars",
+  },
+  {
+    name: "Super Loot",
+    description: "The superset of the Loot with more parts, more gears and emojis.",
+    url: "https://twitter.com/SuperLootNFT",
   },
   {
     name: "Encounters",
@@ -292,7 +302,42 @@ export const derivativesList: Record<string, string>[] = [
     description: "Journey maps and location names for your Loot Adventures.",
     url: "https://mapsproject.xyz"
   },
-    {
+  {
+    name: "Monsters",
+    description: "Slay unique Monsters with your Loot",
+    url: "https://monstersforadventurers.com",
+  },
+  {
+    name: "Spells for Looters",
+    description: "Spells and Spellbooks for Loot Adventurers.",
+    url: "https://opensea.io/collection/spells-for-looters"
+  },
+  {
+    name: "Spells (For Wizards and other Adventurers)",
+    description: "Spells (For Wizards and other Adventurers)",
+    url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4"
+  },
+  {
+    name: "Planets with Loot",
+    description: "Randomized Planets generated and stored on-chain",
+    url: "https://opensea.io/collection/planets-with-loot"
+  },
+  {
+    name: "Loot+",
+    description: "Expansion loot package with 200+ new items",
+    url: "https://opensea.io/collection/lootplus",
+  },
+  {
+    name: "Loot Dicc",
+    description: "Every adventurer needs a Dicc!",
+    url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
+  },
+  {
+    name: "Adventurers (for Loot)",
+    description: "Adventurers with distinct but flexible aspects for inspiring stories",
+    url: "https://opensea.io/collection/adventurersproject",
+  },
+  {
     name: "Loot Of Ether",
     description: "Random visual gear generated with Loot items list.",
     url: "https://twitter.com/lootofether"
