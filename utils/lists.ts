@@ -12,7 +12,7 @@ export const communityList: Record<string, string>[] = [
   },
   {
     name: "Loot Builders Discord",
-    description: "Focused on developers, artists, and writers. Minimal derivative, token, and market chat.",
+    description: "Focused on developers, artists, and writers with minimal derivative, token, and market chat",
     url: "https://discord.gg/Btefs83ART"
   }
 ];
