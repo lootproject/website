@@ -273,6 +273,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://www.lootmetaverse.club/",
   },
   {
+    name: "Loot (Time)",
+    description: "Time units for use in Metaverse",
+    url: "https://opensea.io/collection/loot-time",
+  },
+  {
     name: "Loot Descriptions",
     description: "AI-based role-playing descriptions",
     url: "https://opensea.io/collection/lootdescriptions",
