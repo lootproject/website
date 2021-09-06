@@ -293,7 +293,7 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://mapsproject.xyz"
   },
   {
-    name: "Loot Rock (for Adventurers)",
+    name: "LootRock (for Adventurers)",
     description: "Inspired from EtherRock. Only 100 in existence.",
     url: "https://opensea.io/collection/lootrock-for-adventurers"
   },
