@@ -293,7 +293,7 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://mapsproject.xyz"
   },
   {
-    name: "Loot Rock",
+    name: "LootRock",
     description: "LootRock is the perfect collision of Loot and EtherRock.",
     url: "https://opensea.io/collection/ethlootrock"
   },
