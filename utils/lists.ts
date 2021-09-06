@@ -323,6 +323,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/planets-with-loot"
   },
   {
+    name: "Playlists",
+    description: "Randomized Top 20 hits from 2010s to 1960s along with kickass playlist names like 'Abbey Hits for Demons'",
+    url: "https://playlists-for-adventurers.carrd.co/",
+  },
+  {
     name: "Poorly Drawn Loot",
     description: "Experimental, poorly drawn bags",
     url: "https://opensea.io/activity/loot-poorly-drawn",
