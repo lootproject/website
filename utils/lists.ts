@@ -372,4 +372,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
   },
+  {
+    name: "MUDVERSE",
+    description: "MUD the metaverse together with all Loot projects",
+    url: "https://mudverse.org",
+  },
 ];
