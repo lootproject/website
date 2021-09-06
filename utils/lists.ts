@@ -10,6 +10,11 @@ export const communityList: Record<string, string>[] = [
     description: "A place for structured discussion of all things Loot, for builders and the community",
     url: "https://loot-talk.com",
   },
+  {
+    name: "Loot Builders Discord",
+    description: "Focused on developers, artists, and writers. Minimal derivative, token, and market chat.",
+    url: "https://discord.gg/Btefs83ART"
+  }
 ];
 
 // Loot resources
