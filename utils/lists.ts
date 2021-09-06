@@ -75,9 +75,9 @@ export const resourceList: Record<string, string>[] = [
 // Loot guilds
 export const guildsList: Record<string, string>[] = [
   {
-    name: "Ancient Adventurers",
+    name: "The Ancients",
     description: "For owners of Ancient Loot",
-    url: "https://tinyurl.com/ancientadventurers",
+    url: "https://ancients.vercel.app/",
   },
   {
     name: "CrownDAO",
