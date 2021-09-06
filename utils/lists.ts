@@ -56,6 +56,11 @@ export const resourceList: Record<string, string>[] = [
     url: "https://www.lootcharacter.com/",
   },
   {
+    name: "Loot sound",
+    description: "Sounds for loot attributes by @geeogi",
+    url: "https://www.lootsound.com/",
+  },
+  {
     name: "loot-rarity",
     description: "Rarity colors for loot (TypeScript SDK) by @bpierre",
     url: "https://github.com/bpierre/loot-rarity",
