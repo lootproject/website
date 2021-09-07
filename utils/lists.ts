@@ -382,4 +382,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "LootRock is the perfect collision of Loot and EtherRock.",
     url: "https://opensea.io/collection/ethlootrock"
   },
+  {
+    name: "LootRock (for Adventurers)",
+    description: "Inspired from EtherRock. Only 100 in existence.",
+    url: "https://opensea.io/collection/lootrock-for-adventurers"
+  },
 ];
