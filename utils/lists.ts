@@ -411,5 +411,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Tunes",
     description: "Unique 8bit songs for every Loot holder",
     url: "https://www.loottunes.fun/",
+  },
+  {
+    name: "MUDVERSE",
+    description: "MUD the metaverse together with all Loot projects",
+    url: "https://mudverse.org",
   }
 ];
