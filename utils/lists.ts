@@ -183,6 +183,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/LootAbodes/status/1433031932904935439?s=20",
   },
   {
+    name: "Abstract Loot",
+    description: "Abstract Loot is a collection of generative and animated artworks. This is the first collection designed from the Loot project's metadatas.",
+    url: "https://opensea.io/collection/abstract-loot",
+  },
+  {
     name: "Adventure Gold",
     description: "Loot DAO governance and gold token",
     url: "https://etherscan.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20#writeContract",
