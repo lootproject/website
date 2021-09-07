@@ -184,7 +184,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Abstract Loot",
-    description: "Abstract Loot is a collection of generative and animated artworks. This is the first collection designed from the Loot project's metadatas.",
+    description: "First collection on the Loot's project metadata. Generative and animated.",
     url: "https://opensea.io/collection/abstract-loot",
   },
   {
