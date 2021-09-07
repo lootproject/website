@@ -263,6 +263,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xccab950f5b192603a94a26c4fa00c8d2d392b98d#writeContract",
   },
   {
+    name: "Loot Codex",
+    description: "Lushly illustrated art based on Loot gear",
+    url: "https://opensea.io/collection/the-loot-codex",
+  },
+  {
     name: "Loot Companions",
     description: "Companions for your Loot Adventures.",
     url: "https://companionsproject.io"
