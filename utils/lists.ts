@@ -407,4 +407,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
     url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract"
   },
+  {
+    name: "Tunes",
+    description: "Unique 8bit songs for every Loot holder",
+    url: "https://www.loottunes.fun/",
+  }
 ];
