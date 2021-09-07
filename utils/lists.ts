@@ -198,6 +198,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
   },
   {
+    name: "Character",
+    description: "Based on the rules of the Original (Little Brown Books) D&D",
+    url: "https://etherscan.io/address/0x4deafaa0f5512afa1f7fa74fd83cb98c498f3d7a#writeContract",
+  },
+  {
     name: "Companions",
     description: "Friendly companions to join your adventure",
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
@@ -376,6 +381,26 @@ export const derivativesList: Record<string, string>[] = [
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
+  },
+  {
+    name: "LootRock",
+    description: "LootRock is the perfect collision of Loot and EtherRock.",
+    url: "https://opensea.io/collection/ethlootrock"
+  },
+  {
+    name: "LootRock (for Adventurers)",
+    description: "Inspired from EtherRock. Only 100 in existence.",
+    url: "https://opensea.io/collection/lootrock-for-adventurers"
+  },
+  {
+    name: "Monster Maps",
+    description: "Monsters and their locations on generative maps.",
+    url: "https://twitter.com/monstermap",
+  },
+  {
+    name: "Doggos (for $DOG Owners)",
+    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
+    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
   },
   {
     name: "Team for Loot",
