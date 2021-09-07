@@ -208,6 +208,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
   },
   {
+    name: "Dice (for Loot)",
+    description: "Dice is randomized weighted dice generated and stored on chain. Some dice are more fair, others are luckier.",
+    url: "https://etherscan.io/address/0x4Cec6Dca972BB810A1af1Ef3C8366B22b390c5Bc",
+  },
+  {
     name: "Emoji Loot",
     description: "Emojis for your lifestyle.",
     url: "https://emloot.xyz"
