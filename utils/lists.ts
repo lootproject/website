@@ -335,7 +335,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Planets with Loot",
     description: "Randomized Planets generated and stored on-chain",
-    url: "https://opensea.io/collection/planets-with-loot"
+    url: "https://lootplanets.net/"
   },
   {
     name: "Poorly Drawn Loot",
