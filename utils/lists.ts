@@ -10,6 +10,11 @@ export const communityList: Record<string, string>[] = [
     description: "A place for structured discussion of all things Loot, for builders and the community",
     url: "https://loot-talk.com",
   },
+  {
+    name: "Loot Builders Discord",
+    description: "Focused on developers, artists, and writers with minimal derivative, token, and market chat",
+    url: "https://discord.gg/Btefs83ART"
+  }
 ];
 
 // Loot resources
@@ -64,6 +69,11 @@ export const resourceList: Record<string, string>[] = [
     name: "LootComponents.sol",
     description: "Utility contract to easily interact with Loot properties",
     url: "https://etherscan.io/address/0x3eb43b1545a360d1D065CB7539339363dFD445F3#code",
+  },
+  {
+    name: "Loot Bibliotheca (for Adventurers)",
+    description: "Graphing community projects for adventurers to explore",
+    url: "https://loot-bibliotheca-client.vercel.app/",
   },
 ];
 
@@ -191,6 +201,11 @@ export const derivativesList: Record<string, string>[] = [
     name: "Banquets",
     description: "Randomized adventurer meals",
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
+  },
+  {
+    name: "Character",
+    description: "Based on the rules of the Original (Little Brown Books) D&D",
+    url: "https://etherscan.io/address/0x4deafaa0f5512afa1f7fa74fd83cb98c498f3d7a#writeContract",
   },
   {
     name: "Companions",
@@ -373,8 +388,28 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/treasure-for-loot",
   },
   {
+    name: "LootRock",
+    description: "LootRock is the perfect collision of Loot and EtherRock.",
+    url: "https://opensea.io/collection/ethlootrock"
+  },
+  {
+    name: "LootRock (for Adventurers)",
+    description: "Inspired from EtherRock. Only 100 in existence.",
+    url: "https://opensea.io/collection/lootrock-for-adventurers"
+  },
+  {
+    name: "Monster Maps",
+    description: "Monsters and their locations on generative maps.",
+    url: "https://twitter.com/monstermap",
+  },
+  {
+    name: "Doggos (for $DOG Owners)",
+    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
+    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract"
+  },
+  {
     name: "Tunes",
     description: "Unique 8bit songs for every Loot holder",
     url: "https://www.loottunes.fun/",
-  },
+  }
 ];
