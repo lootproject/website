@@ -10,15 +10,14 @@ import type { ReactElement } from "react";
 export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
-    { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
-    { name: "Synthetic Loot", url: "/synthloot" },
+    { name: "OpenSea", url: "https://opensea.io/collection/team-for-loot" },
     {
       name: "Twitter",
-      url: "https://twitter.com/lootproject",
+      url: "https://twitter.com/teamForLootNFT",
     },
     {
       name: "Contract",
-      url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+      url: "https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667",
     },
   ];
 
@@ -36,7 +35,7 @@ export default function Home(): ReactElement {
       <div>
         <div className={styles.home__cta}>
           {/* CTA title */}
-          <h1>Loot</h1>
+          <h1>Team</h1>
 
           {/* Quicklinks */}
           <ul>
@@ -61,20 +60,24 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            Loot is randomized adventurer gear generated and stored on chain.
+            Team is randomized adventure team for loot generated and stored on
+            chain.
+            <br />
+            Assemble your strongest team to get rare loot.
             <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
-            way you want.
+            omitted for others to interpret.
+            <br />
+            Feel free to use Team in any way you want.
           </p>
         </div>
 
         {/* Rendering sample loot bags */}
         <div className={styles.home__feature}>
-          <span>Example Bags:</span>
-          {getRandomThreeBags().map(({ id, attributes }, i) => (
+          <span>Example Teams:</span>
+          {defaultBags.map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
             <a
-              href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
+              href={`https://opensea.io/assets/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667/${id}`}
               target="_blank"
               rel="noopener noreferrer"
               key={i}
@@ -92,6 +95,25 @@ export default function Home(): ReactElement {
               </div>
             </a>
           ))}
+        </div>
+
+        {/* Rendering how to mined */}
+        <div className={styles.home__feature}>
+          <span>How to Mined:</span>
+          Step #1 : Open url{" "}
+          <a
+            style={{ color: "teal" }}
+            href="https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract
+          </a>
+          <br />
+          Step #2 : Click Connect to Web3 and Select Metamask <br />
+          Step #3 : Go to claim <br />
+          Step #4 : Input any unclaimed tokenID <br />
+          Step #5 : Click Write
         </div>
       </div>
     </Layout>

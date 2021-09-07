@@ -35,11 +35,11 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
-      <meta name="title" content="Loot" />
+      <title>Team</title>
+      <meta name="title" content="Team" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="Assemble your strongest team to get rare loot."
       />
 
       {/* OG + Faceook */}
@@ -60,7 +60,10 @@ function Head(): ReactElement {
         property="twitter:description"
         content="Loot is randomized adventurer gear generated and stored on chain."
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta
+        property="twitter:image"
+        content="https://lootproject.com/meta.png"
+      />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -96,12 +99,12 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Team</a>
         </Link>
       </div>
 
       {/* Navigation */}
-      <div className={styles.header__links}>
+      {/* <div className={styles.header__links}>
         <ul>
           {links.map(({ name, path }, i) => {
             // For each link, render link
@@ -123,7 +126,7 @@ function Header() {
             );
           })}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
@@ -135,17 +138,7 @@ function Header() {
 function Footer(): ReactElement {
   return (
     <div className={styles.footer}>
-      <p>
-        This website is{" "}
-        <a
-          href="https://github.com/lootproject/website"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          open-source
-        </a>
-        .
-      </p>
+      <p>© 2021 Team (for Loot)</p>
     </div>
   );
 }
