@@ -70,6 +70,11 @@ export const resourceList: Record<string, string>[] = [
     description: "Utility contract to easily interact with Loot properties",
     url: "https://etherscan.io/address/0x3eb43b1545a360d1D065CB7539339363dFD445F3#code",
   },
+  {
+    name: "Loot Bibliotheca (for Adventurers)",
+    description: "Graphing community projects for adventurers to explore",
+    url: "https://loot-bibliotheca-client.vercel.app/",
+  },
 ];
 
 // Loot guilds
