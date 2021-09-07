@@ -387,4 +387,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Inspired from EtherRock. Only 100 in existence.",
     url: "https://opensea.io/collection/lootrock-for-adventurers"
   },
+  {
+    name: "Monster Maps",
+    description: "Monsters and their locations on generative maps.",
+    url: "https://twitter.com/monstermap",
+  },
 ];
