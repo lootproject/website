@@ -400,6 +400,11 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Doggos (for $DOG Owners)",
     description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
-    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract"
+    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
+  },
+  {
+    name: "Team for Loot",
+    description: "Team of Adventurers to get rarity loot",
+    url: "https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract",
   },
 ];
