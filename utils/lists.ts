@@ -377,4 +377,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
   },
+  {
+    name: "LootRock",
+    description: "LootRock is the perfect collision of Loot and EtherRock.",
+    url: "https://opensea.io/collection/ethlootrock"
+  },
 ];
