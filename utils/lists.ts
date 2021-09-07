@@ -319,7 +319,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "NPCs (for Adventures)",
-    description: "Randomized characters generated on chain for use in adventures.",
+    description: "Randomized characters generated on chain for use in adventures",
     url: "https://etherscan.io/address/0x5a1e941e5a1c5e631ebdcc4303e83159169d6e0d#writeContract",
   },
   {
