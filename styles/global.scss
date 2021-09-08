@@ -1,17 +1,35 @@
+:root { 
+  // Color Scheme
+  --color-black: #1f1f1f;
+  --color-white: #ffffff;
+
+  --color-dark-green: #1f2e1f;
+  --color-mid-green: #64A925;
+  --color-light-green: #E0FBD2;
+
+  // Colors in Context
+  --color-text: var(--color-dark-green);
+  --color-link: var(--color-mid-green);
+
+  // Fonts
+  --font-primary: "EB Garamond", serif, sans-serif;
+
+  // Layout
+  --content-max-width: 800px;
+}
+
+
 html,
 body {
-  padding: 0;
+  background-color: var(--color-light-green);
+  color: var(--color-text);
+  font-family: var(--font-primary);
   margin: 0;
-
-  // Color
-  color: white;
-  background-color: hsl(0deg 0% 10%);
-
-  // Text
-  font-family: "EB Garamond", serif, sans-serif;
+  padding: 0;
 }
 
 a {
+  color: var(--color-link);
   text-decoration: none;
 }
 
@@ -21,5 +39,14 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--color-mid-green);
   font-weight: normal;
+}
+
+h1 { 
+  line-height: 1.25;
+}
+
+h2 { 
+  font-size: 2rem; 
 }

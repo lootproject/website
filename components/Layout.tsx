@@ -35,30 +35,34 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
-      <meta name="title" content="Loot" />
+      <title>Weed Loot</title>
+      <meta name="title" content="Weed Loot" />
+      {/* TODO: Update description */}
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content=""
       />
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootproject.com/" />
-      <meta property="og:title" content="Loot" />
+      <meta property="og:url" content="https://weedloot.xyz/" />
+      <meta property="og:title" content="Weed Loot" />
+      {/* TODO: Update description */}
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content=""
       />
+      {/* TODO: Create image */}
       <meta property="og:image" content="https://lootproject.com/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootproject.com/" />
-      <meta property="twitter:title" content="Loot" />
+      <meta property="twitter:url" content="https://weedloot.xyz/" />
+      <meta property="twitter:title" content="Weed Loot" />
+      {/* TODO: Update description */}
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content=""
       />
       <meta property="twitter:image" content="https://lootproject.com/meta.png" />
 
@@ -87,8 +91,8 @@ function Header() {
   const { pathname } = useRouter();
   // All links
   const links = [
-    { name: "FAQ", path: "/faq" },
-    { name: "Resources", path: "/resources" },
+    // { name: "FAQ", path: "/faq" },
+    // { name: "Resources", path: "/resources" },
   ];
 
   return (
@@ -96,7 +100,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Weed Loot</a>
         </Link>
       </div>
 
@@ -137,6 +141,7 @@ function Footer(): ReactElement {
     <div className={styles.footer}>
       <p>
         This website is{" "}
+        {/* TODO: Update link */}
         <a
           href="https://github.com/lootproject/website"
           target="_blank"

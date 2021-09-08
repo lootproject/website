@@ -1,10 +1,9 @@
 .resources {
-  max-width: 800px;
+  max-width: var(--content-max-width);
   margin: 0px auto;
   padding: 15px 20px;
 
   p {
-    color: #8e8e8e;
     font-size: 20px;
     margin: 0px auto;
   }
@@ -15,8 +14,6 @@
         margin: 15px 0px;
 
         a {
-          color: white;
-
           &:hover {
             text-decoration: underline;
           }

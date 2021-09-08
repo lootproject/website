@@ -1,23 +1,27 @@
 .home__cta {
-  max-width: 800px;
+  max-width: var(--content-max-width);
   margin: 0px auto;
   padding: 15px 20px;
   text-align: center;
 
   h1 {
     font-size: 5rem;
-    margin: 15px 0px 0px 0px;
+    margin: 1rem 0;
+
+    small { 
+      display: block;
+      font-size: 25%;
+    }
   }
 
   p {
-    color: #8e8e8e;
     font-size: 22px;
     margin: 0px;
   }
 
   ul {
     list-style-type: none;
-    margin: 10px auto 30px auto;
+    margin: 1.5rem auto 3rem auto;
     padding: 0px;
 
     li {
@@ -25,7 +29,7 @@
       margin: 0px 10px;
 
       a {
-        color: white;
+        color: var(--color-black);
         font-size: 22px;
 
         &:hover {
@@ -42,9 +46,8 @@
 
   > span {
     display: block;
-    color: #8e8e8e;
     font-size: 18px;
-    padding: 10px 0px;
+    padding: 1rem 0 .5rem;
   }
 }
 
@@ -52,15 +55,16 @@
   display: inline-block;
   vertical-align: top;
   margin: 15px;
-  color: white;
+  color: var(--color-light-green);
+  transition: transform 300ms ease-in-out;
 
   &:hover {
-    opacity: 0.8;
+    transform: translateY(-8px);
   }
 }
 
 .home__bag_attributes {
-  background-color: black;
+  background-color: var(--color-mid-green);
   width: 400px;
   height: 400px;
   position: relative;
@@ -100,7 +104,7 @@
 
 @media screen and (max-width: 600px) {
   .home__bag_attributes {
-    background-color: black;
+    background-color: var(--color-black);
     width: 300px;
     height: 300px;
     position: relative;

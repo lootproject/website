@@ -1,6 +1,6 @@
 // Page wrapper
 .faq {
-  max-width: 800px;
+  max-width: var(--content-max-width);
   margin: 0px auto;
   padding: 15px 20px;
 }
@@ -9,19 +9,16 @@
 .faq__item {
   h3 {
     font-size: 22px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid currentColor;
     margin: 20px 0px 0px 0px;
     display: inline-block;
   }
 
   p {
-    color: #8e8e8e;
     font-size: 20px;
     margin: 20px 0px;
 
     a {
-      color: #cbcbcb;
-
       &:hover {
         text-decoration: underline;
       }

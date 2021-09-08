@@ -1,6 +1,6 @@
 // Header
 .header {
-  max-width: 800px;
+  max-width: var(--content-max-width);
   margin: 0px auto;
   padding: 15px 20px;
 
@@ -21,7 +21,6 @@
 .header__logo {
   a {
     font-size: 24px;
-    color: white;
     transition: 50ms ease-in-out;
 
     &:hover {
@@ -43,7 +42,6 @@
       margin: 0px 15px;
 
       a {
-        color: #838383;
         font-size: 18px;
 
         &:hover {
@@ -59,20 +57,16 @@
 }
 
 .header__links_active {
-  color: white !important;
+  text-decoration: underline;
 }
 
 .footer {
-  padding: 20px 0px;
+  padding: 3rem 0;
   text-align: center;
 
   p {
-    font-size: 20px;
-    color: #838383;
-
     > a {
       text-decoration: underline;
-      color: #838383;
     }
   }
 }
