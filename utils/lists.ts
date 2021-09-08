@@ -223,6 +223,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x4deafaa0f5512afa1f7fa74fd83cb98c498f3d7a#writeContract",
   },
   {
+    name: "Color Loot",
+    description: "Color Loot provides Loot rarity data on chain",
+    url: "https://github.com/colorloot/colorloot",
+  },
+  {
     name: "Companions",
     description: "Friendly companions to join your adventure",
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
