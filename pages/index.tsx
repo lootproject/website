@@ -9,6 +9,7 @@ import type { ReactElement } from "react";
 
 export default function Home(): ReactElement {
   // Quicklinks to render
+  // TODO: Update OpenSea and Contract links
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/weedloot" },
     {
@@ -69,6 +70,7 @@ export default function Home(): ReactElement {
           <span>Example Bags:</span>
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
+            // TODO: Update OpenSea link
             <a
               href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
               target="_blank"

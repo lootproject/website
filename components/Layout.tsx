@@ -7,6 +7,7 @@ import styles from "@styles/components/Layout.module.scss"; // Styles
 // Types
 import type { ReactElement } from "react";
 
+// Construct our page layout
 export default function Layout({
   children,
 }: {
@@ -14,14 +15,9 @@ export default function Layout({
 }) {
   return (
     <div>
-      {/* Meta */}
       <Head />
-      {/* Top header */}
       <Header />
-
-      {/* Page content */}
       <div className={styles.content}>{children}</div>
-      {/* Bottom footer */}
       <Footer />
     </div>
   );
