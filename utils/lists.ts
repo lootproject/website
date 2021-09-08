@@ -333,6 +333,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
   },
   {
+    name: "Loot Dungeon",
+    description: "D&D-inspired game that lets you fight monsters using your Loot to earn NFT rewards",
+    url: "https://lootdungeon.app",
+  },
+  {
     name: "Loot Lore",
     description: "Jobs, Race, Religion, and Realms",
     url: "https://etherscan.io/address/0x32E58C6F1FF983924F385cE6aadF0595577beda1#writeContract",
