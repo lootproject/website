@@ -233,6 +233,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
   },
   {
+    name: "Craft Meterials",
+    description: "Loot Craft is a brand new mechanism of resources 💎 and craft ⛏",
+    url: "https://loot-craft.com/",
+  },
+  {
     name: "Doggos (for $DOG Owners)",
     description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
     url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
