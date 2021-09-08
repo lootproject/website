@@ -20,6 +20,7 @@
 
 .header__logo {
   a {
+    color: var(--color-light-green);
     font-size: 24px;
     transition: 50ms ease-in-out;
 
@@ -31,6 +32,10 @@
 
 .header__links {
   justify-content: flex-end;
+
+  a { 
+    color: var(--color-light-green);
+  }
 
   ul {
     list-style-type: none;

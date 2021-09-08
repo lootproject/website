@@ -29,7 +29,6 @@
       margin: 0px 10px;
 
       a {
-        color: var(--color-black);
         font-size: 22px;
 
         &:hover {
@@ -55,7 +54,7 @@
   display: inline-block;
   vertical-align: top;
   margin: 15px;
-  color: var(--color-light-green);
+  color: var(--color-mid-green);
   transition: transform 300ms ease-in-out;
 
   &:hover {
@@ -64,7 +63,7 @@
 }
 
 .home__bag_attributes {
-  background-color: var(--color-mid-green);
+  background-color: var(--color-light-green);
   width: 400px;
   height: 400px;
   position: relative;
@@ -104,7 +103,6 @@
 
 @media screen and (max-width: 600px) {
   .home__bag_attributes {
-    background-color: var(--color-black);
     width: 300px;
     height: 300px;
     position: relative;
