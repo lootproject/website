@@ -465,6 +465,6 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Upside Down Loot",
     description: "The first anti-metaverse built on Ethereum",
-    url: "https://upsidedownloot.com/"
+    url: "https://upsidedownloot.com/",
   },
 ];
