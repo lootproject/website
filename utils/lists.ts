@@ -208,6 +208,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
   },
   {
+    name: "Doggos (for $DOG Owners)",
+    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
+    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
+  },
+  {
     name: "Emoji Loot",
     description: "Emojis for your lifestyle.",
     url: "https://emloot.xyz"
@@ -298,6 +303,16 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/lootofether"
   },
   {
+    name: "LootRock",
+    description: "LootRock is the perfect collision of Loot and EtherRock.",
+    url: "https://opensea.io/collection/ethlootrock"
+  },
+  {
+    name: "LootRock (for Adventurers)",
+    description: "Inspired from EtherRock. Only 100 in existence.",
+    url: "https://opensea.io/collection/lootrock-for-adventurers"
+  },
+  {
     name: "Loot Personalities v0.1",
     description: "Provide a backstory for your adventurer",
     url: "https://etherscan.io/address/0x3b1bb53b1a42ff61b7399fc196469a742cd3e98d#code",
@@ -311,6 +326,11 @@ export const derivativesList: Record<string, string>[] = [
     name: "Monsters",
     description: "Slay unique Monsters with your Loot",
     url: "https://monstersforadventurers.com",
+  },
+  {
+    name: "Monster Maps",
+    description: "Monsters and their locations on generative maps.",
+    url: "https://twitter.com/monstermap",
   },
   {
     name: "Mounts",
@@ -373,6 +393,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/SuperLootNFT",
   },
   {
+    name: "Team for Loot",
+    description: "Team of Adventurers to get rarity loot",
+    url: "https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract",
+  },
+  {
     name: "The Traveling Musician",
     description: "Travel tunes for loot holders",
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
@@ -381,30 +406,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
-  },
-  {
-    name: "LootRock",
-    description: "LootRock is the perfect collision of Loot and EtherRock.",
-    url: "https://opensea.io/collection/ethlootrock"
-  },
-  {
-    name: "LootRock (for Adventurers)",
-    description: "Inspired from EtherRock. Only 100 in existence.",
-    url: "https://opensea.io/collection/lootrock-for-adventurers"
-  },
-  {
-    name: "Monster Maps",
-    description: "Monsters and their locations on generative maps.",
-    url: "https://twitter.com/monstermap",
-  },
-  {
-    name: "Doggos (for $DOG Owners)",
-    description: "Playful lootiverse companions adopt-able by owners of The Doge NFT ($DOG).",
-    url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
-  },
-  {
-    name: "Team for Loot",
-    description: "Team of Adventurers to get rarity loot",
-    url: "https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract",
   },
 ];
