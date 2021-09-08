@@ -34,8 +34,8 @@ module.exports = {
     live: {
       url: `https://eth-mainnet.alchemyapi.io/v2/${alchemyApiKeyProd}`,
       accounts: { mnemonic: mnemonic },
-      gas: gas, // Gas limit used for deploys (Without my additional code: 3,827,859)
-      gasPrice: gasPrice, // Can probably afford at 60000000000
-    }// 250000000000000000 = 4134452 * x
+      gas: gas,
+      gasPrice: gasPrice, 
+    }
   }
 };
