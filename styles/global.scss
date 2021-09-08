@@ -8,8 +8,8 @@
   --color-light-green: #E0FBD2;
 
   // Colors in Context
-  --color-text: var(--color-light-green);
-  --color-link: var(--color-dark-green);
+  --color-text: var(--color-dark-green);
+  --color-link: var(--color-mid-green);
 
   // Fonts
   --font-primary: "EB Garamond", serif, sans-serif;
@@ -21,7 +21,7 @@
 
 html,
 body {
-  background-color: var(--color-mid-green);
+  background-color: var(--color-light-green);
   color: var(--color-text);
   font-family: var(--font-primary);
   margin: 0;
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-dark-green);
+  color: var(--color-mid-green);
   font-weight: normal;
 }
 
