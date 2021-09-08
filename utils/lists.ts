@@ -85,6 +85,11 @@ export const resourceList: Record<string, string>[] = [
     description: "Graphing community projects for adventurers to explore",
     url: "https://loot-bibliotheca-client.vercel.app/",
   },
+  {
+    name: "Loot info",
+    description: "View what derivatives have been claimed by a Loot Bag",
+    url: "https://loot-info-client.herokuapp.com/projects/loot"
+  },
 ];
 
 // Loot guilds
