@@ -41,6 +41,11 @@ export const resourceList: Record<string, string>[] = [
     url: "https://www.npmjs.com/package/loot-sdk",
   },
   {
+    name: "loot.js",
+    description: "A javascript library that allow you to interact with loot and more loot contracts by @0x84A",
+    url: "https://github.com/0x84A/loot.js",
+  },
+  {
     name: "0xinventory.app",
     description: "Loot bag and item rarity explorer by @scotato",
     url: "https://0xinventory.app/",
