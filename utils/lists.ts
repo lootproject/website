@@ -436,5 +436,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "MUDVERSE",
     description: "MUD the metaverse together with all Loot projects",
     url: "https://mudverse.org",
+  },
+  {
+    name: "Loot Land",
+    description: "Loot Land are parts of the world in Loot metaverse",
+    url: "https://opensea.io/collection/landproject"
   }
 ];
