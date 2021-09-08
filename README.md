@@ -1,11 +1,10 @@
-# Loot
+# Weed Loot
 
-Community-operated [website](https://www.lootproject.com/) for the Loot project.
+Weed Loot for stoned adventurers is stored on chain
+50% of proceeds are donated to charity
+Don't be part of the craze, be part of the blaze 💨
 
-## Contribute
-
-- Update FAQ in `/pages/faq.tsx`
-- Update Resources in `/utils/lists.ts`
+Happily inspired by [Loot](https://www.lootproject.com/).
 
 ## Run locally
 
