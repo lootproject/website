@@ -59,7 +59,7 @@ export default function Home(): ReactElement {
           </ul>
 
           {/* CTA Description */}
-          <p>Weed Loot for stoned adventurers is stored on chain.</p>
+          <p>Weed Loot for stoned adventurers is stored on chain</p>
           <p>50% of proceeds are donated to <a href="/charity">charity</a></p>
           <p>Don't be part of the craze, be part of the blaze 💨</p>
         </div>
@@ -89,6 +89,17 @@ export default function Home(): ReactElement {
             </a>
           ))}
         </div>
+
+        {/* What is this? */}
+          {/* Inspired by Loot */}
+          {/* What's the utility? */}
+
+        {/* Donations */}
+          {/* Why we're passionate about donating proceeds */}
+              {/* More in-depth about charity of choice */}
+          {/* How we made our decision */}
+
+        {/* Minting area */}
       </div>
     </Layout>
   );
