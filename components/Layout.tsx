@@ -53,7 +53,7 @@ function Head(): ReactElement {
         content=""
       />
       {/* TODO: Create image */}
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://weedloot.xyz/social.jpg" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
@@ -64,7 +64,7 @@ function Head(): ReactElement {
         property="twitter:description"
         content=""
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content="https://weedloot.xyz/social.jpg" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -141,9 +141,8 @@ function Footer(): ReactElement {
     <div className={styles.footer}>
       <p>
         This website is{" "}
-        {/* TODO: Update link */}
         <a
-          href="https://github.com/lootproject/website"
+          href="https://github.com/keenanpayne/weedloot.xyz"
           target="_blank"
           rel="noopener noreferrer"
         >
