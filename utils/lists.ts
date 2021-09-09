@@ -243,11 +243,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
   },
   {
-    name: "Divine Stats",
-    description: "Every adventurer needs some stats",
-    url: "https://etherscan.io/address/0xf5dF2C0201Fd06fc5A387cCcBD70a1093AcB1455#writeContract",
-  },
-  {
     name: "Emoji Loot",
     description: "Emojis for your lifestyle.",
     url: "https://emloot.xyz"
