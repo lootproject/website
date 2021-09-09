@@ -428,6 +428,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d#writeContract",
   },
   {
+    name: "Runes",
+    description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
+    url: "https://runesmystery.github.io/"
+  },
+  {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
     url: "https://opensea.io/collection/spells-for-looters"
