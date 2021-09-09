@@ -88,7 +88,7 @@ export const resourceList: Record<string, string>[] = [
   {
     name: "Loot info",
     description: "View what derivatives have been claimed by a Loot Bag",
-    url: "https://loot-info-client.herokuapp.com/projects/loot"
+    url: "https://loot-info-client.herokuapp.com/projects/loot",
   },
   {
     name: "Encyclopedia (for Adventurers)",
