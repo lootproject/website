@@ -85,6 +85,11 @@ export const resourceList: Record<string, string>[] = [
     description: "Graphing community projects for adventurers to explore",
     url: "https://loot-bibliotheca-client.vercel.app/",
   },
+  {
+    name: "Encyclopedia (for Adventurers)",
+    description: "Visual Guide to Loot Derivatives",
+    url: "https://accesspegasus.notion.site/An-Encyclopedia-for-Adventurers-6f0c0e04fe154fed9a2ad2482bd41cc3",
+  },
 ];
 
 // Loot guilds
