@@ -68,7 +68,7 @@ export default function Home(): ReactElement {
           {/* TODO: Update link */}
           <div className={styles.home__cta}>
             <p className={styles.home__cta_promo}>
-              First 420 minted for .01Ξ before price change to .02Ξ
+              First <strong>420</strong> minted for <strong>.01Ξ</strong> before price change to <strong>.02Ξ</strong>
             </p>
             <a href="#" className="button" title="Mint a piece of Weed Loot">
               🔥 <span className="button_text">Mint</span> 🔥

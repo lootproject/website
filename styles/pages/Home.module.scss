@@ -141,9 +141,17 @@
       margin-top: 1rem;
       text-align: center;
     }
-  }
+  } 
 }
 
 .home__cta { 
   margin-top: 3rem;
+}
+
+p.home__cta_promo { 
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
