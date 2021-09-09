@@ -59,10 +59,18 @@ export default function Home(): ReactElement {
             })}
           </ul>
 
-          {/* CTA Description */}
+          {/* Project Description */}
           <p>Weed Loot for stoned adventurers is stored on chain</p>
-          <p>50% of proceeds are donated to <a href="/charity">charity</a></p>
+          <p>50% of proceeds are donated to <a href="#charity">charity</a></p>
           <p>Don&rsquo;t be part of the craze, be part of the blaze 💨</p>
+
+          {/* CTA */}
+          {/* TODO: Update link */}
+          <div className={styles.home__cta}>
+            <a href="#" class="button" title="Mint a piece of Weed Loot">
+              🔥 <span class="button_text">Mint</span> 🔥
+            </a>
+          </div>
         </div>
 
         {/* Rendering sample loot bags */}
@@ -93,7 +101,7 @@ export default function Home(): ReactElement {
         </div>
 
         {/* Donations */}
-        <div className={`container ${styles.home_description}`}>
+        <div className={`container ${styles.home_description}`} id="charity">
           <h2>
             50% of proceeds donated to charity
           </h2>

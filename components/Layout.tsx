@@ -91,8 +91,8 @@ function Header() {
   const { pathname } = useRouter();
   // All links
   const links = [
-    { name: "FAQ", path: "/faq" },
-    { name: "Resources", path: "/resources" },
+    // { name: "FAQ", path: "/faq" },
+    // { name: "Resources", path: "/resources" },
   ];
 
   return (

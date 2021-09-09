@@ -6,7 +6,7 @@
 
   h1 {
     font-size: 3.5rem;
-    margin: 1rem 0;
+    margin: 1rem 0 1.5rem;
 
     @media (min-width: 640px) { 
       font-size: 5rem;
@@ -14,12 +14,13 @@
 
     small { 
       display: block;
-      font-size: 25%;
+      font-size: 27.5%;
     }
   }
 
   p {
     font-size: 22px;
+    line-height: 1.25;
     margin: 0px;
   }
 
@@ -141,4 +142,8 @@
       text-align: center;
     }
   }
+}
+
+.home__cta { 
+  margin-top: 3rem;
 }

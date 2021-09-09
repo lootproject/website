@@ -56,10 +56,6 @@ h6 {
   font-weight: normal;
 }
 
-h1 { 
-  line-height: 1.25;
-}
-
 h2 { 
   font-size: 2.5rem; 
 }
@@ -75,4 +71,29 @@ h2 {
   max-width: var(--content-max-width);
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+
+//
+// Buttons
+// -------
+
+.button {
+  background-color: var(--color-mid-green);
+  border: 1px solid var(--color-mid-green);
+  color: var(--color-light-green);
+  font-size: 1.25rem;
+  padding: .75rem 1.25rem;
+  transition: background-color 150ms;
+
+  &:hover { 
+    background-color: transparent;
+    color: var(--color-mid-green);
+  }
+}
+
+.button_text { 
+  display: inline-block;
+  margin-left: .35rem;
+  margin-right: .35rem;
 }
