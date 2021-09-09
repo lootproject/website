@@ -90,6 +90,11 @@ export const resourceList: Record<string, string>[] = [
     description: "View what derivatives have been claimed by a Loot Bag",
     url: "https://loot-info-client.herokuapp.com/projects/loot"
   },
+  {
+    name: "Encyclopedia (for Adventurers)",
+    description: "Visual Guide to Loot Derivatives",
+    url: "https://accesspegasus.notion.site/An-Encyclopedia-for-Adventurers-6f0c0e04fe154fed9a2ad2482bd41cc3",
+  },
 ];
 
 // Loot guilds
@@ -238,9 +243,14 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
   },
   {
-    name: "Craft Meterials",
+    name: "Craft Materials",
     description: "Loot Craft is a brand new mechanism of resources 💎 and craft ⛏",
     url: "https://loot-craft.com/",
+  },
+  {
+    name: "Divine Stats",
+    description: "Every adventurer needs some stats",
+    url: "https://etherscan.io/address/0xf5dF2C0201Fd06fc5A387cCcBD70a1093AcB1455#writeContract",
   },
   {
     name: "Doggos (for $DOG Owners)",
@@ -338,6 +348,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
   },
   {
+    name: "Loot Land",
+    description: "Loot Land are parts of the world in Loot metaverse",
+    url: "https://opensea.io/collection/landproject",
+  },
+  {
     name: "Loot Lore",
     description: "Jobs, Race, Religion, and Realms",
     url: "https://etherscan.io/address/0x32E58C6F1FF983924F385cE6aadF0595577beda1#writeContract",
@@ -428,6 +443,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d#writeContract",
   },
   {
+    name: "Runes",
+    description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
+    url: "https://runesmystery.github.io/"
+  },
+  {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
     url: "https://opensea.io/collection/spells-for-looters"
@@ -466,5 +486,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "Tunes",
     description: "Unique 8bit songs for every Loot holder",
     url: "https://www.loottunes.fun/",
+  },
+  {
+    name: "Upside Down Loot",
+    description: "The first anti-metaverse built on Ethereum",
+    url: "https://upsidedownloot.com/",
   },
 ];
