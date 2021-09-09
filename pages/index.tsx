@@ -67,8 +67,8 @@ export default function Home(): ReactElement {
           {/* CTA */}
           {/* TODO: Update link */}
           <div className={styles.home__cta}>
-            <a href="#" class="button" title="Mint a piece of Weed Loot">
-              🔥 <span class="button_text">Mint</span> 🔥
+            <a href="#" className="button" title="Mint a piece of Weed Loot">
+              🔥 <span className="button_text">Mint</span> 🔥
             </a>
           </div>
         </div>
