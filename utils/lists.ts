@@ -398,6 +398,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x5a1e941e5a1c5e631ebdcc4303e83159169d6e0d#writeContract",
   },
   {
+    name: "NPCs (for Adventures)",
+    description: "NPCs are random onchain characters with stories to tell for Loot & xLoot Adventurers - including voting, licenses for holders",
+    url: "https://etherscan.io/address/0x8a41dED90481367FbF1323F75C88328256Ef1F68#writeContract",
+  }
+  {
     name: "Pets",
     description: "Randomized pet bags",
     url: "https://etherscan.io/address/0x70F11Bc4d6C07C821b20bbE1872c35aB57F0a112#writeContract",
