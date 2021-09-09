@@ -466,5 +466,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Loot Land",
     description: "Loot Land are parts of the world in Loot metaverse",
     url: "https://opensea.io/collection/landproject",
-  }
+  },
 ];
