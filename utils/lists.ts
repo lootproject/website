@@ -462,4 +462,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "Unique 8bit songs for every Loot holder",
     url: "https://www.loottunes.fun/",
   },
+  {
+    name: "Upside Down Loot",
+    description: "The first anti-metaverse built on Ethereum",
+    url: "https://upsidedownloot.com/",
+  },
 ];
