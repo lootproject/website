@@ -86,6 +86,11 @@ export const resourceList: Record<string, string>[] = [
     url: "https://loot-bibliotheca-client.vercel.app/",
   },
   {
+    name: "Loot info",
+    description: "View what derivatives have been claimed by a Loot Bag",
+    url: "https://loot-info-client.herokuapp.com/projects/loot",
+  },
+  {
     name: "Encyclopedia (for Adventurers)",
     description: "Visual Guide to Loot Derivatives",
     url: "https://accesspegasus.notion.site/An-Encyclopedia-for-Adventurers-6f0c0e04fe154fed9a2ad2482bd41cc3",
