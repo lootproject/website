@@ -9,6 +9,11 @@
   justify-content: space-between;
   -webkit-box-pack: justify;
   align-items: center;
+  flex-direction: column;
+
+  @media (min-width: 400px) { 
+    flex-direction: row;
+  }
 
   > div {
     width: auto;
@@ -19,8 +24,13 @@
 }
 
 .header__logo {
+  margin-bottom: 1rem;
+
+  @media (min-width: 400px) {
+    margin-bottom: 0;
+  }
+
   a {
-    color: var(--color-light-green);
     font-size: 24px;
     transition: 50ms ease-in-out;
 
@@ -33,10 +43,6 @@
 .header__links {
   justify-content: flex-end;
 
-  a { 
-    color: var(--color-light-green);
-  }
-
   ul {
     list-style-type: none;
     margin: 0px;
@@ -44,7 +50,10 @@
 
     li {
       display: inline-block;
-      margin: 0px 15px;
+
+      &:not(:first-of-type) {
+        margin-left: 1.5rem;
+      }
 
       a {
         font-size: 18px;

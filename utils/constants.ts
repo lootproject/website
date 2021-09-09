@@ -1,4 +1,5 @@
 // Export selected default bags
+// TODO: Update to real values
 export const defaultBags = [
   {
     id: 4,

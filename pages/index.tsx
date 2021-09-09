@@ -9,6 +9,7 @@ import type { ReactElement } from "react";
 
 export default function Home(): ReactElement {
   // Quicklinks to render
+  // TODO: Update OpenSea and Contract links
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/weedloot" },
     {
@@ -58,10 +59,21 @@ export default function Home(): ReactElement {
             })}
           </ul>
 
-          {/* CTA Description */}
+          {/* Project Description */}
           <p>Weed Loot for stoned adventurers is stored on chain</p>
-          <p>50% of proceeds are donated to <a href="/charity">charity</a></p>
+          <p>50% of proceeds are donated to <a href="#charity">charity</a></p>
           <p>Don&rsquo;t be part of the craze, be part of the blaze 💨</p>
+
+          {/* CTA */}
+          {/* TODO: Update link */}
+          <div className={styles.home__cta}>
+            <p className={styles.home__cta_promo}>
+              First 420 minted for .01Ξ before price change to .02Ξ
+            </p>
+            <a href="#" className="button" title="Mint a piece of Weed Loot">
+              🔥 <span className="button_text">Mint</span> 🔥
+            </a>
+          </div>
         </div>
 
         {/* Rendering sample loot bags */}
@@ -69,6 +81,7 @@ export default function Home(): ReactElement {
           <span>Example Bags:</span>
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
+            // TODO: Update OpenSea link
             <a
               href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
               target="_blank"
@@ -90,14 +103,20 @@ export default function Home(): ReactElement {
           ))}
         </div>
 
-        {/* What is this? */}
-          {/* Inspired by Loot */}
-          {/* What's the utility? */}
-
         {/* Donations */}
-          {/* Why we're passionate about donating proceeds */}
-              {/* More in-depth about charity of choice */}
-          {/* How we made our decision */}
+        <div className={`container ${styles.home_description}`} id="charity">
+          <h2>
+            50% of proceeds donated to charity
+          </h2>
+
+          <p>We love memes, weed, <em>and</em> making an impact.</p>
+
+          <p>More text about the charity that we're donating to and how, specifically, we've baked donation into our project (i.e., through the smart contract).</p>
+
+          <p>Text about how we made the decision for this organization.</p>
+
+          <p>Text about how donations will be handled throughout the lifecycle of the project.</p>
+        </div>
 
         {/* Minting area */}
       </div>
