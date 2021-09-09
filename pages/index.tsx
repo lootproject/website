@@ -92,14 +92,20 @@ export default function Home(): ReactElement {
           ))}
         </div>
 
-        {/* What is this? */}
-          {/* Inspired by Loot */}
-          {/* What's the utility? */}
-
         {/* Donations */}
-          {/* Why we're passionate about donating proceeds */}
-              {/* More in-depth about charity of choice */}
-          {/* How we made our decision */}
+        <div className={`container ${styles.home_description}`}>
+          <h2>
+            50% of proceeds donated to charity
+          </h2>
+
+          <p>We love memes, weed, <em>and</em> making an impact.</p>
+
+          <p>More text about the charity that we're donating to and how, specifically, we've baked donation into our project (i.e., through the smart contract).</p>
+
+          <p>Text about how we made the decision for this organization.</p>
+
+          <p>Text about how donations will be handled throughout the lifecycle of the project.</p>
+        </div>
 
         {/* Minting area */}
       </div>

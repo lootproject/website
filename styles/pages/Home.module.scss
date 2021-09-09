@@ -5,8 +5,12 @@
   text-align: center;
 
   h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin: 1rem 0;
+
+    @media (min-width: 640px) { 
+      font-size: 5rem;
+    }
 
     small { 
       display: block;
@@ -115,6 +119,26 @@
           font-size: 16px;
         }
       }
+    }
+  }
+}
+
+.home_description { 
+  padding-top: 3rem;
+
+  h2 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.25rem;
+
+    &:first-of-type { 
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+      margin-top: 1rem;
+      text-align: center;
     }
   }
 }

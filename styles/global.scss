@@ -1,3 +1,7 @@
+//
+// Custom Properties
+// -----------------
+
 :root { 
   // Color Scheme
   --color-black: #1f1f1f;
@@ -19,6 +23,10 @@
 }
 
 
+//
+// Global
+// ------
+
 html,
 body {
   background-color: var(--color-light-green);
@@ -27,6 +35,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+//
+// Typography
+// ----------
 
 a {
   color: var(--color-link);
@@ -48,5 +61,18 @@ h1 {
 }
 
 h2 { 
-  font-size: 2rem; 
+  font-size: 2.5rem; 
+}
+
+
+//
+// Layout
+// ------
+
+.container { 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--content-max-width);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
