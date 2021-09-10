@@ -324,7 +324,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Playlists",
-    description: "Randomized Top 20 hits from 2010s to 1960s along with kickass playlist names like 'Abbey Hits for Demons'",
+    description: "Randomized Top 20 hits from 2010s to 1960s",
     url: "https://playlists-for-adventurers.carrd.co/",
   },
   {
