@@ -14,7 +14,13 @@
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "sass": "^1.38.2"
+    "sass": "^1.38.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.1",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.5",
+    "hardhat": "^2.6.1"
   },
   "devDependencies": {
     "@types/react": "17.0.19",

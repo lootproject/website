@@ -15,3 +15,12 @@ yarn
 # Run
 yarn dev
 ```
+
+
+# To Test Out The App
+```
+// In different shells
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
+npm start
+```
