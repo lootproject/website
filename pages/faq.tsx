@@ -79,11 +79,7 @@ export default function FAQ(): ReactElement {
           <h3>Am I priced out of loot?</h3>
           <p>
             Not at all. Through{" "}
-            <a
-              href="https://twitter.com/dhof/status/1433110412187287560?s=20"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="/synthloot">
               Synthetic Loot
             </a>
             , all addresses have access to virtual Loot that developers can
