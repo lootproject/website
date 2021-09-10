@@ -60,9 +60,9 @@ export default function Home(): ReactElement {
           </ul>
 
           {/* Project Description */}
-          <p>Weed Loot for stoned adventurers is stored on chain</p>
-          <p>50% of proceeds are donated to <a href="#charity">charity</a></p>
-          <p>Don&rsquo;t be part of the craze, be part of the blaze 💨</p>
+          <p>Weed Loot is randomized adventurer gear generated and smoked on chain. Stats, Images, and other functionality are intentionally omitted for others to interpret. Feel free to use Weed Loot in any way you want.</p>
+
+          <p>50% of proceeds are donated to <a href="https://www.lastprisonerproject.org/" target="_blank">The Last Prisoner Project</a></p>
 
           {/* CTA */}
           {/* TODO: Update link */}
@@ -106,16 +106,20 @@ export default function Home(): ReactElement {
         {/* Donations */}
         <div className={`container ${styles.home_description}`} id="charity">
           <h2>
-            50% of proceeds donated to charity
+            50% of proceeds donated to<br />The Last Prisoner Project
           </h2>
 
-          <p>We love memes, weed, <em>and</em> making an impact.</p>
+          <p className={styles.home__description_lede}>The Last Prisoner Project is a nonprofit organization dedicated to cannabis criminal justice reform. LPP was founded in 2019 out of the belief that if anyone is able to profit and build wealth in the legal cannabis industry, those individuals must also work to release and rebuild the lives of those who have suffered from cannabis criminalization.</p>
 
-          <p>More text about the charity that we're donating to and how, specifically, we've baked donation into our project (i.e., through the smart contract).</p>
-
-          <p>Text about how we made the decision for this organization.</p>
-
-          <p>Text about how donations will be handled throughout the lifecycle of the project.</p>
+          <p>From the LPP:</p>
+          
+          <blockquote>
+            <p>“Imagine sitting in a cell for years, decades, or even for life, convicted of an activity that is no longer a crime, while thousands of other people build intergenerational wealth doing exactly the same thing.</p>
+          
+            <p>That’s the situation that over 40,000 cannabis prisoners face today in the United States alone, while countless others languish in jails and prisons worldwide.</p>
+            
+            <p>The Last Prisoner Project has one singular mission: to set them free.”</p>
+          </blockquote>
         </div>
 
         {/* Minting area */}
