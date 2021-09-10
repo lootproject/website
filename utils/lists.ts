@@ -447,6 +447,11 @@ export const derivativesList: Record<string, string>[] = [
     description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
     url: "https://runesmystery.github.io/"
   },
+ {
+    name: "sexy Loot - sLoots",
+    description: "sLoots are on-chain harlots and strumpets, for Adventurers' Pleasure",
+    url: "https://sexyloot.co/",
+  },
   {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
