@@ -253,6 +253,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://loot-craft.com/",
   },
   {
+    name: "Deck of Many Things",
+    description: "A Loot inspired 22 card Deck of Many Things",
+    url: "https://etherscan.io/address/0xb515bE4b1A1EF51b26bf268E96DB8FfFcE6b0Ff4#readContract",
+  },
+  {
     name: "Divine Stats",
     description: "Every adventurer needs some stats",
     url: "https://etherscan.io/address/0xf5dF2C0201Fd06fc5A387cCcBD70a1093AcB1455#writeContract",
