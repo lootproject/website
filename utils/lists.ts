@@ -497,4 +497,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The first anti-metaverse built on Ethereum",
     url: "https://upsidedownloot.com/",
   },
+  {
+    name: "CastleLoot",
+    description: "Castles for Adventurers",
+    url: "https://castles-nft.vercel.app/",
+  },
 ];
