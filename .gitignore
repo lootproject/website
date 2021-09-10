@@ -33,7 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-contracts/
+contracts/*
 
 scripts/
 secrets.json
@@ -43,4 +43,4 @@ node_modules
 
 #Hardhat files
 cache
-artifacts
+# artifacts
