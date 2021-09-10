@@ -228,6 +228,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
   },
   {
+    name: "Cangjie(倉頡)",
+    description: "The first Chinese characters Loot project with Yinyang, Wuxing and Zhouyi ☯",
+    url: "https://cangjie.art",
+  },
+  {
     name: "Character",
     description: "Based on the rules of the Original (Little Brown Books) D&D",
     url: "https://etherscan.io/address/0x4deafaa0f5512afa1f7fa74fd83cb98c498f3d7a#writeContract",
