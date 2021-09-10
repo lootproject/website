@@ -6,7 +6,7 @@ import { ethers } from 'ethers'
 
 import Token from '../src/artifacts/contracts/WeedLoot.sol/WeedLoot.json'
 
-const TokenAddress = '0x157998B5Cb6924A95c877a7f6d3447329D1aA312'
+const TokenAddress = '0xE884e9fC6823c00F7f82369049529A5A5adc157e'
 
 
   // Types
@@ -17,12 +17,6 @@ const TokenAddress = '0x157998B5Cb6924A95c877a7f6d3447329D1aA312'
     const [costToMint, setCostToMint] = useState('')
     const [totalSupply, setTotalSupply] = useState('')
     const [tokenImages, setTokenImages] = useState([''])
-
-    useEffect(() => {
-        if(!tokenImages || tokenImages[0] == ''){
-            getBalance()
-        }
-    })
 
     async function requestAccount() {
         return await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -145,7 +139,7 @@ const TokenAddress = '0x157998B5Cb6924A95c877a7f6d3447329D1aA312'
             <div>
                 <h1>Getters</h1>
                 <button onClick={getCost}>Get Cost To Mint</button><br /><br />
-                <button onClick={getBalance}>Get Balance</button><br /><br />
+                <button onClick={getBalance}>Show my Loot</button><br /><br />
             </div>
 
             <div>
@@ -156,7 +150,7 @@ const TokenAddress = '0x157998B5Cb6924A95c877a7f6d3447329D1aA312'
 
             <div>
                 <h1>Minting</h1>
-                <button onClick={mintMyOwn}>Mint My Own!</button>
+                <button onClick={mintMyOwn}>Mint My Own!</button><br /><br />
                 <button onClick={mintAsOwner}>Mint As Owner!</button>
             </div>
 
