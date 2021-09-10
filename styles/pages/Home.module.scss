@@ -64,16 +64,17 @@
   display: inline-block;
   vertical-align: top;
   margin: 15px;
-  color: var(--color-light-green);
+  color: var(--color-mid-green);
   transition: transform 300ms ease-in-out;
 
   &:hover {
     transform: translateY(-8px);
+    text-decoration: none;
   }
 }
 
 .home__bag_attributes {
-  background-color: var(--color-mid-green);
+  background-color: var(--color-light-green);
   width: 400px;
   height: 400px;
   position: relative;
@@ -140,7 +141,7 @@
   } 
 
   blockquote { 
-    border-left: 3px solid var(--color-mid-green);
+    border-left: 3px solid var(--color-light-green);
     padding: .25rem 1.5rem;
   }
 }
@@ -157,7 +158,7 @@
 }
 
 p.home__cta_promo { 
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background: linear-gradient(90deg, #ff0055 0%, #580184 100%);
   font-size: 1.5rem;
   margin-bottom: 2rem;
   -webkit-background-clip: text;

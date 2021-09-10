@@ -13,7 +13,7 @@
 
   // Colors in Context
   --color-text: var(--color-dark-green);
-  --color-link: var(--color-mid-green);
+  --color-link: var(--color-light-green);
 
   // Fonts
   --font-primary: "EB Garamond", serif, sans-serif;
@@ -29,7 +29,7 @@
 
 html,
 body {
-  background-color: var(--color-light-green);
+  background-color: var(--color-mid-green);
   color: var(--color-text);
   font-family: var(--font-primary);
   margin: 0;
@@ -44,6 +44,10 @@ body {
 a {
   color: var(--color-link);
   text-decoration: none;
+
+  &:hover { 
+    text-decoration: underline;
+  }
 }
 
 h1,
@@ -52,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-mid-green);
+  color: var(--color-light-green);
   font-weight: normal;
 }
 
@@ -79,16 +83,18 @@ h2 {
 // -------
 
 .button {
-  background-color: var(--color-mid-green);
-  border: 1px solid var(--color-mid-green);
-  color: var(--color-light-green);
+  background-color: var(--color-light-green);
+  border: 1px solid var(--color-light-green);
+  color: var(--color-dark-green);
   font-size: 1.25rem;
   padding: .75rem 1.25rem;
   transition: background-color 150ms;
 
   &:hover { 
-    background-color: transparent;
-    color: var(--color-mid-green);
+    background-color: var(--color-dark-green);
+    border-color: var(--color-dark-green);
+    color: var(--color-light-green);
+    text-decoration: none;
   }
 }
 
