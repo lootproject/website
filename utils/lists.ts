@@ -232,7 +232,7 @@ export const derivativesList: Record<string, string>[] = [
     description: "Friendly companions to join your adventure",
     url: "https://etherscan.io/address/0x3461d89c7dd0119c6411850eb69a8a0a5531dae4#readContract",
   },
-   {
+  {
     name: "Deck of Many Things",
     description: "A Loot inspired 22 card Deck of Many Things",
     url: "https://etherscan.io/address/0xb515bE4b1A1EF51b26bf268E96DB8FfFcE6b0Ff4#readContract",
