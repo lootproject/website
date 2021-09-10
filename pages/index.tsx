@@ -62,7 +62,7 @@ export default function Home(): ReactElement {
           {/* Project Description */}
           <p>Weed Loot is randomized adventurer gear generated and smoked on chain. Stats, Images, and other functionality are intentionally omitted for others to interpret. Feel free to use Weed Loot in any way you want.</p>
 
-          <p>50% of proceeds are donated to <a href="https://www.lastprisonerproject.org/" target="_blank">The Last Prisoner Project</a></p>
+          <p>50% of proceeds are donated to <a href="https://www.lastprisonerproject.org/" target="_blank" rel="noreferrer">The Last Prisoner Project</a></p>
 
           {/* CTA */}
           {/* TODO: Update link */}

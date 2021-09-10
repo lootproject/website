@@ -106,7 +106,7 @@ function Header() {
 
       {/* Navigation */}
       <div className={styles.header__links}>
-        <ul>
+        {/* <ul>
           {links.map(({ name, path }, i) => {
             // For each link, render link
             return (
@@ -126,7 +126,7 @@ function Header() {
               </li>
             );
           })}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
