@@ -228,8 +228,8 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
   },
   {
-    name: "Cangjie",
-    description: "Cangjie(仓颉) was the creator of Chinese characters. The Cangjie NFTs are Chinese characters generated with Taiji, Wuxing, Yi Jing, and more.",
+    name: "Cangjie(倉頡)",
+    description: "The first Chinese characters Loot project with Yinyang, Wuxing and Zhouyi ☯.",
     url: "https://cangjie.art",
   },
   {
