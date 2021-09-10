@@ -448,8 +448,8 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://runesmystery.github.io/"
   },
  {
-    name: “sexy Loot - sLoots“,
-    description: “sLoots are on-chain harlots and strumpets.”,
+    name: "sexy Loot - sLoots",
+    description: "sLoots are on-chain harlots and strumpets, for Adventurers' Pleasure",
     url: "https://sexyloot.co/",
   },
   {
