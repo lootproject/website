@@ -338,6 +338,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://www.lootmetaverse.club/",
   },
   {
+    name: "Loot (for Sex)",
+    description: "Sex themed loot for adventurers, punks, art etc...",
+    url: "https://opensea.io/collection/lootforsex",
+  },
+  {
     name: "Loot (Time)",
     description: "Time units for use in Metaverse",
     url: "https://opensea.io/collection/loot-time",
