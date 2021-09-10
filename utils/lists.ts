@@ -229,7 +229,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Cangjie(倉頡)",
-    description: "The first Chinese characters Loot project with Yinyang, Wuxing and Zhouyi ☯.",
+    description: "The first Chinese characters Loot project with Yinyang, Wuxing and Zhouyi ☯",
     url: "https://cangjie.art",
   },
   {
