@@ -7,6 +7,7 @@ import styles from "@styles/components/Layout.module.scss"; // Styles
 // Types
 import type { ReactElement } from "react";
 
+// Construct our page layout
 export default function Layout({
   children,
 }: {
@@ -14,18 +15,21 @@ export default function Layout({
 }) {
   return (
     <div>
-      {/* Meta */}
       <Head />
-      {/* Top header */}
       <Header />
-
-      {/* Page content */}
       <div className={styles.content}>{children}</div>
-      {/* Bottom footer */}
       <Footer />
     </div>
   );
 }
+
+/**
+ * Constants
+ */
+const url = 'https://weedloot.xyz/'
+const title = 'Weed Loot';
+const description = 'Loot for stored adventurers. 50% of proceeds donated to charity.';
+const socialImage = url + 'social.jpg';
 
 /**
  * Meta HTML Head
@@ -35,36 +39,32 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Weed Loot</title>
-      <meta name="title" content="Weed Loot" />
-      {/* TODO: Update description */}
+      <title>{title}</title>
+      <meta name="title" content={title} />
       <meta
         name="description"
-        content=""
+        content={description}
       />
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://weedloot.xyz/" />
-      <meta property="og:title" content="Weed Loot" />
-      {/* TODO: Update description */}
+      <meta property="og:url" content={url} />
+      <meta property="og:title" content={title} />
       <meta
         property="og:description"
-        content=""
+        content={description}
       />
-      {/* TODO: Create image */}
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content={socialImage} />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://weedloot.xyz/" />
-      <meta property="twitter:title" content="Weed Loot" />
-      {/* TODO: Update description */}
+      <meta property="twitter:url" content={url} />
+      <meta property="twitter:title" content={title} />
       <meta
         property="twitter:description"
-        content=""
+        content={description}
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content={socialImage} />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -141,9 +141,8 @@ function Footer(): ReactElement {
     <div className={styles.footer}>
       <p>
         This website is{" "}
-        {/* TODO: Update link */}
         <a
-          href="https://github.com/lootproject/website"
+          href="https://github.com/keenanpayne/weedloot.xyz"
           target="_blank"
           rel="noopener noreferrer"
         >

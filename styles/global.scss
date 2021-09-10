@@ -1,3 +1,7 @@
+//
+// Custom Properties
+// -----------------
+
 :root { 
   // Color Scheme
   --color-black: #1f1f1f;
@@ -8,8 +12,8 @@
   --color-light-green: #E0FBD2;
 
   // Colors in Context
-  --color-text: var(--color-light-green);
-  --color-link: var(--color-dark-green);
+  --color-text: var(--color-dark-green);
+  --color-link: var(--color-mid-green);
 
   // Fonts
   --font-primary: "EB Garamond", serif, sans-serif;
@@ -19,14 +23,23 @@
 }
 
 
+//
+// Global
+// ------
+
 html,
 body {
-  background-color: var(--color-mid-green);
+  background-color: var(--color-light-green);
   color: var(--color-text);
   font-family: var(--font-primary);
   margin: 0;
   padding: 0;
 }
+
+
+//
+// Typography
+// ----------
 
 a {
   color: var(--color-link);
@@ -39,16 +52,43 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--color-dark-green);
+  color: var(--color-mid-green);
   font-weight: normal;
 }
 
-h1 { 
-  line-height: 1.25;
+h2 { 
+  font-size: 2.5rem; 
 }
 
-h2 { 
-  font-size: 2rem; 
+//
+// Layout
+// ------
+
+.container { 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--content-max-width);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+//
+// Buttons
+// -------
+
+.button {
+  background-color: var(--color-mid-green);
+  border: 1px solid var(--color-mid-green);
+  color: var(--color-light-green);
+  font-size: 1.25rem;
+  padding: .75rem 1.25rem;
+  transition: background-color 150ms;
+
+  &:hover { 
+    background-color: transparent;
+    color: var(--color-mid-green);
+  }
 }
 
 .container{
@@ -58,4 +98,10 @@ h2 {
 
 .lootImg{
   margin: 5px;
+}
+
+.button_text { 
+  display: inline-block;
+  margin-left: .35rem;
+  margin-right: .35rem;
 }

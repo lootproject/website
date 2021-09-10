@@ -5,17 +5,22 @@
   text-align: center;
 
   h1 {
-    font-size: 5rem;
-    margin: 1rem 0;
+    font-size: 3.5rem;
+    margin: 1rem 0 1.5rem;
+
+    @media (min-width: 640px) { 
+      font-size: 5rem;
+    }
 
     small { 
       display: block;
-      font-size: 25%;
+      font-size: 27.5%;
     }
   }
 
   p {
     font-size: 22px;
+    line-height: 1.25;
     margin: 0px;
   }
 
@@ -29,6 +34,7 @@
       margin: 0px 10px;
 
       a {
+        color: var(--color-black);
         font-size: 22px;
 
         &:hover {
@@ -54,7 +60,7 @@
   display: inline-block;
   vertical-align: top;
   margin: 15px;
-  color: var(--color-mid-green);
+  color: var(--color-light-green);
   transition: transform 300ms ease-in-out;
 
   &:hover {
@@ -63,7 +69,7 @@
 }
 
 .home__bag_attributes {
-  background-color: var(--color-light-green);
+  background-color: var(--color-mid-green);
   width: 400px;
   height: 400px;
   position: relative;
@@ -103,6 +109,7 @@
 
 @media screen and (max-width: 600px) {
   .home__bag_attributes {
+    background-color: var(--color-black);
     width: 300px;
     height: 300px;
     position: relative;
@@ -115,4 +122,28 @@
       }
     }
   }
+}
+
+.home_description { 
+  padding-top: 3rem;
+
+  h2 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.25rem;
+
+    &:first-of-type { 
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+      margin-top: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+.home__cta { 
+  margin-top: 3rem;
 }
