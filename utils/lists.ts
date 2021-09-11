@@ -339,7 +339,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Loot (for Sex)",
-    description: "Sex themed loot for adventurers, punks, art etc...",
+    description: "Sex themed loot for adventurers, punks, art etc",
     url: "https://opensea.io/collection/lootforsex",
   },
   {
