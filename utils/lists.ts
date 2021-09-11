@@ -468,6 +468,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://sexyloot.co/",
   },
   {
+    name: "SpaceLoot",
+    description: "Starship-themed Loot on Terra",
+    url: "https://spaceloot.xyz/",
+  },
+  {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
     url: "https://opensea.io/collection/spells-for-looters"
