@@ -218,6 +218,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20#writeContract",
   },
   {
+    name: "Adventure Gems (for loot)",
+    description: "Rare and powerful gems 💎 for Loot holders that give the owner one or more special powers",
+    url: "https://etherscan.io/address/0xebb3e4c387951059f89963a7c4539ee724a9de65#writeContract",
+  },
+  {
     name: "Adventurers (for Loot)",
     description: "Adventurers with distinct but flexible aspects for inspiring stories",
     url: "https://opensea.io/collection/adventurersproject",
