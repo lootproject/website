@@ -15,6 +15,10 @@ export default function FAQ(): ReactElement {
 
         {/* What is loot ? */}
         <div className={styles.faq__item}>
+          <h3>Contract Address</h3>
+          <p>
+            Developers can access the Synthetic Loot contract at address <a href="https://etherscan.io/address/0x869ad3dfb0f9acb9094ba85228008981be6dbdde#readContract">0x869ad3dfb0f9acb9094ba85228008981be6dbdde</a>.
+          </p>
           <h3>What is Synthetic Loot?</h3>
           <p>
             Synthetic Loot (or &quot;Synth Loot&quot;) is a virtual form of Loot that <strong>every wallet has automatically</strong> and <strong>does not need to be minted</strong>.

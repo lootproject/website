@@ -253,6 +253,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://loot-craft.com/",
   },
   {
+    name: "Deck of Many Things",
+    description: "A Loot inspired 22 card Deck of Many Things",
+    url: "https://etherscan.io/address/0xb515bE4b1A1EF51b26bf268E96DB8FfFcE6b0Ff4#readContract",
+  },
+  {
     name: "Divine Stats",
     description: "Every adventurer needs some stats",
     url: "https://etherscan.io/address/0xf5dF2C0201Fd06fc5A387cCcBD70a1093AcB1455#writeContract",
@@ -338,6 +343,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://www.lootmetaverse.club/",
   },
   {
+    name: "Loot (for Sex)",
+    description: "Sex themed loot for adventurers, punks, art etc",
+    url: "https://opensea.io/collection/lootforsex",
+  },
+  {
     name: "Loot (Time)",
     description: "Time units for use in Metaverse",
     url: "https://opensea.io/collection/loot-time",
@@ -418,6 +428,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x5a1e941e5a1c5e631ebdcc4303e83159169d6e0d#writeContract",
   },
   {
+    name: "Perks (for Adventurers)",
+    description: "Perks and Trait bags for your Loot characters",
+    url: "https://etherscan.io/address/0x6b5f9713041f085af0f808e1445d8e6d38c51480#writeContract",
+  },
+  {
     name: "Pets",
     description: "Randomized pet bags",
     url: "https://etherscan.io/address/0x70F11Bc4d6C07C821b20bbE1872c35aB57F0a112#writeContract",
@@ -461,6 +476,11 @@ export const derivativesList: Record<string, string>[] = [
     name: "sexy Loot - sLoots",
     description: "sLoots are on-chain harlots and strumpets, for Adventurers' Pleasure",
     url: "https://sexyloot.co/",
+  },
+  {
+    name: "SpaceLoot",
+    description: "Starship-themed Loot on Terra",
+    url: "https://spaceloot.xyz/",
   },
   {
     name: "Spells for Looters",
