@@ -219,7 +219,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Adventure Gems (for loot)",
-    description: "Rare and powerful gems 💎 that give the owner one or more special powers",
+    description: "Rare and powerful on-chain gems 💎 for loot that give special powers",
     url: "https://etherscan.io/address/0xebb3e4c387951059f89963a7c4539ee724a9de65#writeContract",
   },
   {
