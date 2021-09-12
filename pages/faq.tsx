@@ -79,9 +79,9 @@ export default function FAQ(): ReactElement {
           <h3>Am I priced out of loot?</h3>
           <p>
             Not at all. Through{" "}
-            <a href="/synthloot">
+            <Link href="/synthloot">
               Synthetic Loot
-            </a>
+            </Link>
             , all addresses have access to virtual Loot that developers can
             integrate into the Loot projects they build.
           </p>
