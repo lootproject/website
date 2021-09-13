@@ -273,6 +273,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
   },
   {
+    name: "Dungeons (for Adventures)",
+    description: "On-chain generative Rogue style Dungeons with loot.  Free to mint for Loot holders.",
+    url: "https://twitter.com/dungeon_project",
+  },
+  {
     name: "Emoji Loot",
     description: "Emojis for your lifestyle.",
     url: "https://emloot.xyz",
