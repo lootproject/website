@@ -13,8 +13,8 @@ export const communityList: Record<string, string>[] = [
   {
     name: "Loot Builders Discord",
     description: "Focused on developers, artists, and writers with minimal derivative, token, and market chat",
-    url: "https://discord.gg/Btefs83ART"
-  }
+    url: "https://discord.gg/Btefs83ART",
+  },
 ];
 
 // Loot resources
@@ -275,7 +275,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Emoji Loot",
     description: "Emojis for your lifestyle.",
-    url: "https://emloot.xyz"
+    url: "https://emloot.xyz",
   },
   {
     name: "Encounters",
@@ -330,7 +330,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Loot Companions",
     description: "Companions for your Loot Adventures.",
-    url: "https://companionsproject.io"
+    url: "https://companionsproject.io",
   },
   {
     name: "Loot Conditions",
@@ -340,7 +340,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Loot for Ape",
     description: "One of the experimental projects for the Ape world.",
-    url: "https://www.lootloot.io"
+    url: "https://www.lootloot.io",
   },
   {
     name: "Loot (for Cyberpunks)",
@@ -380,17 +380,17 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Loot Of Ether",
     description: "Random visual gear generated with Loot items list.",
-    url: "https://twitter.com/lootofether"
+    url: "https://twitter.com/lootofether",
   },
   {
     name: "LootRock",
     description: "LootRock is the perfect collision of Loot and EtherRock.",
-    url: "https://opensea.io/collection/ethlootrock"
+    url: "https://opensea.io/collection/ethlootrock",
   },
   {
     name: "LootRock (for Adventurers)",
     description: "Inspired from EtherRock. Only 100 in existence.",
-    url: "https://opensea.io/collection/lootrock-for-adventurers"
+    url: "https://opensea.io/collection/lootrock-for-adventurers",
   },
   {
     name: "Loot Personalities v0.1",
@@ -400,7 +400,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Maps",
     description: "Journey maps and location names for your Loot Adventures.",
-    url: "https://mapsproject.xyz"
+    url: "https://mapsproject.xyz",
   },
   {
     name: "Monsters",
@@ -445,7 +445,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Planets with Loot",
     description: "Randomized Planets generated and stored on-chain",
-    url: "https://lootplanets.net/"
+    url: "https://lootplanets.net/",
   },
   {
     name: "Playlists",
@@ -475,7 +475,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Runes",
     description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
-    url: "https://runesmystery.github.io/"
+    url: "https://runesmystery.github.io/",
   },
  {
     name: "sexy Loot - sLoots",
@@ -490,12 +490,12 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
-    url: "https://opensea.io/collection/spells-for-looters"
+    url: "https://opensea.io/collection/spells-for-looters",
   },
   {
     name: "Spells (For Wizards and other Adventurers)",
     description: "Spells (For Wizards and other Adventurers)",
-    url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4"
+    url: "https://etherscan.io/address/0x38e942948cea825992f105e0ec4a2ee9138afae4",
   },
   {
     name: "Summons",
