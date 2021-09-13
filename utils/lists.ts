@@ -403,6 +403,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://mapsproject.xyz",
   },
   {
+    name: "Marz",
+    description: "MARZ PLOTS are a minimalist spatial framework for the Loot universe",
+    url: "https://marz.farm",
+  },
+  {
     name: "Monsters",
     description: "Slay unique Monsters with your Loot",
     url: "https://monstersforadventurers.com",
