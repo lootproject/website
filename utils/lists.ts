@@ -274,7 +274,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Dungeons (for Adventures)",
-    description: "On-chain generative Rogue style Dungeons with loot.  Free to mint for Loot holders.",
+    description: "On-chain generative Rogue style Dungeons for Loot",
     url: "https://twitter.com/dungeon_project",
   },
   {
