@@ -354,7 +354,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Loot Dungeon",
-    description: "D&D-inspired game that lets you fight monsters using your Loot to earn NFT rewards",
+    description: "D&D-inspired game. Fight monsters using your Loot to earn rewards.",
     url: "https://lootdungeon.app",
   },
   {
