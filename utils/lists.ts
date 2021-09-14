@@ -413,6 +413,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://marz.farm",
   },
   {
+    name: "MergeClues",
+    description: "Searches for clues in the metaverse, and builds an unknown prosperity.",
+    url: "https://mclues.io.ooo/",
+  },
+  {
     name: "Monsters",
     description: "Slay unique Monsters with your Loot",
     url: "https://monstersforadventurers.com",
