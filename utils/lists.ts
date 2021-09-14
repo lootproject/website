@@ -378,6 +378,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xfecc1e1449496c0cddfb1a075e0ef74c50538c1a",
   },
   {
+    name: "Loot Dungeon",
+    description: "D&D-inspired game. Fight monsters using your Loot to earn rewards.",
+    url: "https://lootdungeon.app",
+  },
+  {
     name: "Loot Land",
     description: "Loot Land are parts of the world in Loot metaverse",
     url: "https://opensea.io/collection/landproject",
