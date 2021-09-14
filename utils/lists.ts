@@ -228,6 +228,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/adventurersproject",
   },
   {
+    name: "⚔️ Battle! (for Loot)",
+    description: "Battle! for Loot is a brand new PvP mechanism for the Loot Metaverse. Fight against multiple ennemies to win Loot Craft Bags 💰💎",
+    url: "https://loot-craft.com/battle",
+  },
+  {
     name: "Banquets",
     description: "Randomized adventurer meals",
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
