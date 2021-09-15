@@ -234,7 +234,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "⚔️ Battle! (for Loot)",
-    description: "Battle! for Loot is a brand new PvP mechanism for the Loot Metaverse. Fight against multiple ennemies to win Loot Craft Bags 💰💎",
+    description: "Battle! for Loot is a new 🦊 PvE game for the Loot Metaverse.",
     url: "https://loot-craft.com/battle",
   },
   {
