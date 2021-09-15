@@ -105,6 +105,11 @@ export const guildsList: Record<string, string>[] = [
     url: "https://ancients.vercel.app/",
   },
   {
+    name: "CastleDAO",
+    description: "Castles for Adventurers",
+    url: "https://ethereum.castledao.com/",
+  },
+  {
     name: "CrownDAO",
     description: "For owners of Crowns",
     url: "https://tinyurl.com/crowndao",
@@ -496,10 +501,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Upside Down Loot",
     description: "The first anti-metaverse built on Ethereum",
     url: "https://upsidedownloot.com/",
-  },
-  {
-    name: "CastleLoot",
-    description: "Castles for Adventurers",
-    url: "https://castles-nft.vercel.app/",
-  },
+  }
 ];
