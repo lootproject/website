@@ -233,6 +233,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
   },
   {
+    name: "⚔️ Battle! (for Loot)",
+    description: "Battle! for Loot is a new 🦊 PvE game for the Loot Metaverse.",
+    url: "https://loot-craft.com/battle",
+  },
+  {
     name: "Cangjie(倉頡)",
     description: "The first Chinese characters Loot project with Yinyang, Wuxing and Zhouyi ☯",
     url: "https://cangjie.art",
