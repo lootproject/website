@@ -233,6 +233,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/adventurersproject",
   },
   {
+    name: "Astrology",
+    description: "Randomized generated astrological symbols stored on chain",
+    url: "https://opensea.io/collection/astrolonft",
+  },
+  {
     name: "Banquets",
     description: "Randomized adventurer meals",
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
