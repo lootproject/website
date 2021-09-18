@@ -378,6 +378,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/lootforsex",
   },
   {
+    name: "Loot (for LifeRestart)",
+    description: "结合Loot Project和 人生重开模拟器 的一套Play2Earn的游戏",
+    url: "https://opensea.io/collection/liferestart",
+  },
+  {
     name: "Loot (Time)",
     description: "Time units for use in Metaverse",
     url: "https://opensea.io/collection/loot-time",
