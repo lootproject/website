@@ -67,13 +67,13 @@ export const resourceList: Record<string, string>[] = [
   },
   {
     name: "loot-rarity",
-    description: "Rarity colors for loot (TypeScript SDK) by @bpierre",
+    description: "Rarity colors for Loot (TypeScript / JS library) by @bpierre",
     url: "https://github.com/bpierre/loot-rarity",
   },
   {
     name: "loot-rarity-bookmarklet",
-    description: "Bookmarklet to add rarity colors to OpenSea",
-    url: "https://sp9q2.csb.app/",
+    description: "Bookmarklet to add rarity colors to OpenSea by @bpierre",
+    url: "https://loot-rarity-for-opensea.bpier.re/",
   },
   {
     name: "LootComponents.sol",
