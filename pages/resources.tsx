@@ -16,7 +16,7 @@ const resources = [
   {
     title: "Communities",
     description: "Spaces run by the community for Loot enthusiasts to share news and build together:",
-    list: communityList
+    list: communityList,
   },
   {
     title: "Developer Tooling",
