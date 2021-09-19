@@ -323,6 +323,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/HolyWarLoots/status/1433293231840653312",
   },
   {
+    name: "Hymns (for Adventures)",
+    description: "Procedurally composed Hymns for past, present and future adventures",
+    url: "https://hymns.app/",
+  },
+  {
     name: "Loot+",
     description: "Expansion loot package with 200+ new items",
     url: "https://opensea.io/collection/lootplus",
@@ -576,5 +581,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Upside Down Loot",
     description: "The first anti-metaverse built on Ethereum",
     url: "https://upsidedownloot.com/",
-  }
+  },
 ];
