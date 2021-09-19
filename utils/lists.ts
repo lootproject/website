@@ -318,6 +318,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xb79d2717d14741266e1c23ff67dcb936e792113b#readContract",
   },
   {
+    name: "Genesis Project",
+    description: "game played with Genesis Adventurers, $TIME and $MANA",
+    url: "https://etherscan.io/token/0x8db687aceb92c66f013e1d614137238cc698fedb#writeProxyContract",
+  },  
+  {
     name: "Holy War Loots",
     description: "The Holy War",
     url: "https://twitter.com/HolyWarLoots/status/1433293231840653312",
