@@ -26,8 +26,7 @@ export const resourceList: Record<string, string>[] = [
   },
   {
     name: "dhof-loot",
-    description:
-      "All bags, item occurrences, bag rarity, and images by @anish-agnihotri and @ktasbas",
+    description: "All bags, item occurrences, bag rarity, and images by @anish-agnihotri and @ktasbas",
     url: "https://github.com/Anish-Agnihotri/dhof-loot",
   },
   {
@@ -323,6 +322,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/HolyWarLoots/status/1433293231840653312",
   },
   {
+    name: "Hymns (for Adventurers)",
+    description: "Procedurally composed Hymns for past, present and future adventures",
+    url: "https://hymns.app/",
+  },
+  {
     name: "Loot+",
     description: "Expansion loot package with 200+ new items",
     url: "https://opensea.io/collection/lootplus",
@@ -522,7 +526,7 @@ export const derivativesList: Record<string, string>[] = [
     description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
     url: "https://runesmystery.github.io/",
   },
- {
+  {
     name: "sexy Loot - sLoots",
     description: "sLoots are on-chain harlots and strumpets, for Adventurers' Pleasure",
     url: "https://sexyloot.co/",
@@ -576,5 +580,5 @@ export const derivativesList: Record<string, string>[] = [
     name: "Upside Down Loot",
     description: "The first anti-metaverse built on Ethereum",
     url: "https://upsidedownloot.com/",
-  }
+  },
 ];
