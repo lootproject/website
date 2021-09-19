@@ -26,8 +26,7 @@ export const resourceList: Record<string, string>[] = [
   },
   {
     name: "dhof-loot",
-    description:
-      "All bags, item occurrences, bag rarity, and images by @anish-agnihotri and @ktasbas",
+    description: "All bags, item occurrences, bag rarity, and images by @anish-agnihotri and @ktasbas",
     url: "https://github.com/Anish-Agnihotri/dhof-loot",
   },
   {
@@ -323,7 +322,7 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/HolyWarLoots/status/1433293231840653312",
   },
   {
-    name: "Hymns (for Adventures)",
+    name: "Hymns (for Adventurers)",
     description: "Procedurally composed Hymns for past, present and future adventures",
     url: "https://hymns.app/",
   },
@@ -527,7 +526,7 @@ export const derivativesList: Record<string, string>[] = [
     description: "Mysterious runes randomly generated and carved on chain. Gift from ancient world!",
     url: "https://runesmystery.github.io/",
   },
- {
+  {
     name: "sexy Loot - sLoots",
     description: "sLoots are on-chain harlots and strumpets, for Adventurers' Pleasure",
     url: "https://sexyloot.co/",
