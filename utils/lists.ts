@@ -277,6 +277,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://loot-craft.com/",
   },
   {
+    name: "Cryptoodles Loot Bag",
+    description: "10,000 free claimable Loot Bags for SciFi based projects.",
+    url: "https://etherscan.io/token/0x2a16107ea0d28ae822168c8bb3ef5460b1924a78#writeContract",
+  },
+  {
     name: "Deck of Many Things",
     description: "A Loot inspired 22 card Deck of Many Things",
     url: "https://etherscan.io/address/0xb515bE4b1A1EF51b26bf268E96DB8FfFcE6b0Ff4#readContract",
@@ -580,11 +585,6 @@ export const derivativesList: Record<string, string>[] = [
     name: "The Traveling Musician",
     description: "Travel tunes for loot holders",
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
-  },
-  {
-    name: "Toodle Loot Bag",
-    description: "10,000 Free Loot bags for SciFi based projects.",
-    url: "https://etherscan.io/token/0x2a16107ea0d28ae822168c8bb3ef5460b1924a78#writeContract",
   },
   {
     name: "Treasure",
