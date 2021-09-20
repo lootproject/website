@@ -231,6 +231,11 @@ export const derivativesList: Record<string, string>[] = [
     description: "Adventurers with distinct but flexible aspects for inspiring stories",
     url: "https://opensea.io/collection/adventurersproject",
   },
+   {
+    name: "Art (for Loot)",
+    description: "NFT Art collection inspired by the Loot project",
+    url: "https://opensea.io/collection/suprematism-regenesis",
+  },
   {
     name: "Astrology",
     description: "Randomized generated astrological symbols stored on chain",
