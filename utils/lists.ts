@@ -277,6 +277,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xb515bE4b1A1EF51b26bf268E96DB8FfFcE6b0Ff4#readContract",
   },
   {
+    name: "Dice (for Loot)",
+    description: "Dice is randomized weighted dice generated and stored on chain",
+    url: "https://diceforloot.com",
+  },
+  {
     name: "Divine Stats",
     description: "Every adventurer needs some stats",
     url: "https://etherscan.io/address/0xf5dF2C0201Fd06fc5A387cCcBD70a1093AcB1455#writeContract",
