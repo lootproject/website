@@ -35,7 +35,7 @@ const resources = [
   },
   {
     title: "Derivative Projects",
-    description: "Projects that remix or build on top of Loot. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
+    description: "Projects that remix or build on top of Loot. Because Loot is decentralized, there are *no* 'official' derivatives, tokens, or DAOs. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
     list: derivativesList,
   },
 ];
