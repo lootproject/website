@@ -279,7 +279,7 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "Cryptoodles Loot Bag",
     description: "10,000 free claimable Loot Bags for SciFi based projects.",
-    url: "https://etherscan.io/token/0x2a16107ea0d28ae822168c8bb3ef5460b1924a78#writeContract",
+    url: "https://cryptoodles.com",
   },
   {
     name: "Deck of Many Things",
