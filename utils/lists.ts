@@ -542,6 +542,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://spaceloot.xyz/",
   },
   {
+    name: "Spell & Talent",
+    description: "Spell & Talent is randomly generated skills for adventurers.",
+    url: "https://spellandtalent.noshit.dev/",
+  },
+  {
     name: "Spells for Looters",
     description: "Spells and Spellbooks for Loot Adventurers.",
     url: "https://opensea.io/collection/spells-for-looters",
