@@ -582,6 +582,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
   },
   {
+    name: "Toodle Loot Bag",
+    description: "10,000 Free Loot bags for SciFi based projects.",
+    url: "https://etherscan.io/token/0x2a16107ea0d28ae822168c8bb3ef5460b1924a78#writeContract",
+  },
+  {
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
