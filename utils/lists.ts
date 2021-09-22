@@ -587,6 +587,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xb0ce923d42ae2fc9572a1c69bce86a2451f4c667#writeContract",
   },
   {
+    name: "Terraloot",
+    description: "Terraform Mars with technology and science themed gear.",
+    url: "https://terraloot.dev/",
+  },
+  {
     name: "The Traveling Musician",
     description: "Travel tunes for loot holders",
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
