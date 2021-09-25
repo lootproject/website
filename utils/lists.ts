@@ -537,6 +537,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x4de9d18Fd8390c12465bA3C6cc8032992fD7655d",
   },
   {
+    name: "Quests with Loot",
+    description: "Randomized, on-chain solvable Quests for owners of Loot. By Tideweigh.",
+    url: "https://opensea.io/collection/quests-with-loot",
+  },
+  {
     name: "Realms",
     description: "Realm Wonders forked from @UnchartedAtlas",
     url: "https://etherscan.io/address/0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d#writeContract",
