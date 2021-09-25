@@ -611,4 +611,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The first anti-metaverse built on Ethereum",
     url: "https://upsidedownloot.com/",
   },
+  {
+    name: "MekaLoot",
+    description: "MekaLoot (for Meka Drivers of Loot ecosystem)",
+    url: "https://etherscan.io/address/0x1c653f203369ac9e67ba01fcf3ab5a509b6349d1",
+  },
 ];
