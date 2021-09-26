@@ -508,7 +508,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "OpenPalette",
-    description: "An OpenPalette is a randomized color palette generated on the ethereum blockchain.",
+    description: "A randomized color palette generated on the ethereum blockchain.",
     url: "https://www.openpalette.io/",
   },
   {
