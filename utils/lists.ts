@@ -35,6 +35,11 @@ export const resourceList: Record<string, string>[] = [
     url: "https://thegraph.com/legacy-explorer/subgraph/shahruz/loot",
   },
   {
+    name: "More Loot subgraph",
+    description: "Loot bag, owner, and transfer subgraph for 'More Loot' by @shahruz",
+    url: "https://thegraph.com/legacy-explorer/subgraph/shahruz/m-loot",
+  },
+  {
     name: "loot-sdk",
     description: "TypeScript wrapper to loot subgraph by @shahruz",
     url: "https://www.npmjs.com/package/loot-sdk",
