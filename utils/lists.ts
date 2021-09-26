@@ -467,6 +467,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://marz.farm",
   },
   {
+    name: "MekaLoot",
+    description: "MekaLoot (for Meka Drivers of Loot ecosystem)",
+    url: "https://etherscan.io/address/0x1c653f203369ac9e67ba01fcf3ab5a509b6349d1",
+  },
+  {
     name: "MergeClues",
     description: "Searches for clues in the metaverse, and builds an unknown prosperity.",
     url: "https://mclues.io.ooo/",
