@@ -212,6 +212,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://twitter.com/LootAbodes/status/1433031932904935439?s=20",
   },
   {
+    name: "Abominations (for Necromancers)",
+    description: "Randomly generated on-chain monstrosities",
+    url: "https://www.abomnft.com/",
+  },
+  {
     name: "Abstract Loot",
     description: "First collection on the Loot's project metadata. Generative and animated.",
     url: "https://opensea.io/collection/abstract-loot",
