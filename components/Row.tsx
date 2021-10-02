@@ -1,19 +1,6 @@
 import type { ReactElement } from "react";
 import { Card } from "@components/Card";
-interface CardDetails {
-    name: String;
-    description: String;
-    project: Array<Project>;
-}
-
-interface Project {
-    name: String;
-    description: String;
-    whatToDo: String;
-    roadMap: String;
-    website: String;
-    contract: String;
-}
+import { CardDetails, Project } from "../types/interface"
 
 export function CardRow(props: CardDetails) {
     return (

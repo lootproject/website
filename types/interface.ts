@@ -12,3 +12,8 @@ interface Project {
     website: String;
     contract: String;
 }
+
+export type {
+    CardDetails,
+    Project
+}
