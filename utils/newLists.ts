@@ -17,35 +17,6 @@ export const whatToGet = [
       {
         name: "Synthetic Loot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
-        roadMap: "Minting",
-        website: "loot.com",
-        contract: "sdasdaw",
-        twitter: "sdasdaw",
-        discord: "sdasdaw",
-        opensea: "sdasdaw",
-        
-      },
-      {
-        name: "mloot",
-        description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
-        roadMap: "Minting",
-        website: "loot.com",
-        contract: "sdasdaw",
-        twitter: "sdasdaw",
-        discord: "sdasdaw",
-        opensea: "sdasdaw",
-      },
-    ],
-  },
-  {
-    name: "Free Claims",
-    description: "All Loot items",
-    project: [
-      {
-        name: "loot",
-        description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
@@ -53,11 +24,12 @@ export const whatToGet = [
         twitter: "sdasdaw",
         discord: "sdasdaw",
         opensea: "sdasdaw",
+
       },
       {
-        name: "Synthetic Loot",
+        name: "mloot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
+        whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -85,19 +57,19 @@ export const whatToGet = [
       {
         name: "Ability Score",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
+        whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
         twitter: "sdasdaw",
         discord: "sdasdaw",
         opensea: "sdasdaw",
-        
+
       },
       {
         name: "Hymms",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
+        whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -108,7 +80,7 @@ export const whatToGet = [
       {
         name: "Quests",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
+        whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -139,19 +111,19 @@ export const whatToDo = [
       {
         name: "Synthetic Loot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
+        whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
         twitter: "sdasdaw",
         discord: "sdasdaw",
         opensea: "sdasdaw",
-        
+
       },
       {
         name: "mloot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo:['trade', 'distil'],
+        whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -159,6 +131,110 @@ export const whatToDo = [
         discord: "sdasdaw",
         opensea: "sdasdaw",
       },
+    ],
+  },
+];
+
+export const marketPlaces = [
+  {
+    name: "Distil with your Loot cards",
+    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    project: [
+      {
+        name: "loot",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+      },
+      {
+        name: "Synthetic Loot",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+
+      },
+      {
+        name: "mloot",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+      },
+    ],
+  },
+];
+
+export const resources = [
+  {
+    name: "Discovery Tools",
+    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    project: [
+      {
+        name: "Bibliotheca",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+      },
+      {
+        name: "Loot Watcher",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+
+      }
+    ],
+  },
+  {
+    name: "Developer Tools",
+    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    project: [
+      {
+        name: "Bibliotheca",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+      },
+      {
+        name: "Loot Watcher",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+
+      }
     ],
   },
 ];

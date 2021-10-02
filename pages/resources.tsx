@@ -1,72 +1,34 @@
 // Imports
-import {
-  derivativesList,
-  guildsList,
-  marketsList,
-  resourceList,
-  communityList
-} from "@utils/lists"; // Lists
+import Image from 'next/image'
+import Link from "next/link"; // Local routing
 import Layout from "@components/Layout"; // Layout wrapper
-import styles from "@styles/pages/Resources.module.scss"; // Page styles
-
+import { CardRow } from "@components/Row"; // Layout wrapper
+import { defaultBags } from "@utils/constants"; // Bags to render
+import styles from "@styles/pages/Home.module.scss"; // Styles
+import { resources } from "../utils/newLists"
 // Types
 import type { ReactElement } from "react";
-
-const resources = [
-  {
-    title: "Communities",
-    description: "Spaces run by the community for Loot enthusiasts to share news and build together:",
-    list: communityList,
-  },
-  {
-    title: "Developer Tooling",
-    description: "Aggregated resources built by the Loot community:",
-    list: resourceList,
-  },
-  {
-    title: "Guilds",
-    description: "Guild divided by items and attributes:",
-    list: guildsList,
-  },
-  {
-    title: "Market Trackers",
-    description: "Tools to keep track of Loot by attributes:",
-    list: marketsList,
-  },
-  {
-    title: "Derivative Projects",
-    description: "Projects that remix or build on top of Loot. Because Loot is decentralized, there are *no* 'official' derivatives, tokens, or DAOs. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
-    list: derivativesList,
-  },
-];
 
 export default function Resources(): ReactElement {
   return (
     <Layout>
-      {resources.map(({ title, description, list }, i) => {
-        return (
-          <div key={i} className={styles.resources}>
-            <h2>{title}</h2>
-            <p>{description}</p>
-
-            <ul>
-              {list.map(({ name, description, url }, i) => {
-                // For each resource, render link and description
-                return (
-                  <li key={i}>
-                    <p>
-                      <a href={url} target="_blank" rel="noopener noreferrer">
-                        {name}
-                      </a>{" "}
-                      — {description}
-                    </p>
-                  </li>
-                );
-              })}
-            </ul>
+      <div className="bg-black py-20">
+        <div className="container mx-auto mt-8">
+          <div className="flex justify-around -mt-40">
+            <div className="bg-gray-800 px-20 py-8 rounded text-center">
+              <span className="uppercase text-xl font-semibold">Develop, Build & Discover</span>
+              <h1 className="text-center mt-4">Resources</h1>
+            </div>
           </div>
-        );
-      })}
+          {resources.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+        </div>
+      </div>
     </Layout>
-  );
+
+
+  )
 }

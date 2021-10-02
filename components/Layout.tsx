@@ -12,13 +12,50 @@ export default function Layout({
 }: {
   children: ReactElement | ReactElement[];
 }) {
+  const quicklinks: Record<string, string>[] = [
+    {
+      name: "Chapters",
+      url: "/"
+    },
+    {
+      name: "Communities",
+      url: "/communities",
+    },
+    {
+      name: "Marketplaces",
+      url: "/marketplaces"
+    },
+    {
+      name: "Resources",
+      url: "/resources",
+    },
+  ];
+  const router = useRouter();
   return (
     <div>
       {/* Meta */}
       <Head />
       {/* Top header */}
       <Header />
+      <div className="container mx-auto px-4 text-center py-40 justify-around flex flex-wrap">
+        <div className="sm:w-1/2">
+          <h1>Loot</h1>
+          <p className="text-2xl">Loot is randomized adventurer gear generated and stored on chain.
+          Stats, images, and other functionality are intentionally omitted for others to interpret.
+Feel free to use Loot in any way you want.</p>
+        </div>
+        <div className="flex w-full justify-around mt-8">
+          <div className="flex text-2xl uppercase tracking-widest">
+            {quicklinks.map(({ name, url }, i) => {
+              return (<Link key={i} href={url}>
+                <a className={router.pathname == url ? "bg-gray-800 p-4 mx-4 rounded-xl " : " p-4 mx-4 hover:bg-gray-800 rounded-xl"} >{name}</a>
+              </Link>)
+            })}
 
+          </div>
+        </div>
+
+      </div>
       {/* Page content */}
       <div className={styles.content}>{children}</div>
       {/* Bottom footer */}
