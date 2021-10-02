@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import {Card} from "@components/Card";
+import { Card } from "@components/Card";
 interface CardDetails {
     name: String;
     description: String;
@@ -15,19 +15,21 @@ interface Project {
     contract: String;
 }
 
-export function CardRow(props: CardDetails){
+export function CardRow(props: CardDetails) {
     return (
-        <div className="my-8">
-          <h2>{props.name}</h2>
-          <p className="text-2xl mb-4">{props.description}</p>
-          <div className="flex sm:space-x-4 flex-wrap">
-            {props.project.map(({name, description, whatToDo, roadMap, website, contract}, i) => {                      
-             return (
-                 <Card key={i} name={name} description={description} whatToDo={whatToDo} roadMap={roadMap} website={website} contract={contract}/>
-                )
-            })}
-           </div>
+        <div className="my-20">
+            <div className="text-center">
+                <h2>{props.name}</h2>
+                <p className="text-2xl mb-4">{props.description}</p>
+            </div>
+
+            <div className="flex sm:space-x-4 flex-wrap">
+                {props.project.map(({ name, description, whatToDo, roadMap, website, contract }, i) => {
+                    return (
+                        <Card key={i} name={name} description={description} whatToDo={whatToDo} roadMap={roadMap} website={website} contract={contract} />
+                    )
+                })}
+            </div>
         </div>
-      );
-  }
-  
+    );
+}

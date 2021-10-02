@@ -112,7 +112,7 @@ function Header() {
                     className={
                       pathname === path
                         ? // Active class if pathname matches current path
-                          styles.header__links_active
+                        styles.header__links_active
                         : undefined
                     }
                   >
