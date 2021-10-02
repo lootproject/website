@@ -41,7 +41,7 @@ export const whatToGet = [
   },
   {
     name: "Bag Add-ons",
-    description: "All Loot items",
+    description: "Claim, Mint or Distill Items",
     project: [
       {
         name: "Realms",
@@ -55,7 +55,7 @@ export const whatToGet = [
         opensea: "sdasdaw",
       },
       {
-        name: "Ability Score",
+        name: "Genesis Adventurers",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: 'trade',
         roadMap: "Minting",
@@ -67,18 +67,7 @@ export const whatToGet = [
 
       },
       {
-        name: "Hymms",
-        description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: 'trade',
-        roadMap: "Minting",
-        website: "loot.com",
-        contract: "sdasdaw",
-        twitter: "sdasdaw",
-        discord: "sdasdaw",
-        opensea: "sdasdaw",
-      },
-      {
-        name: "Quests",
+        name: "Loot Mart",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: 'trade',
         roadMap: "Minting",
@@ -94,11 +83,11 @@ export const whatToGet = [
 
 export const whatToDo = [
   {
-    name: "Distil with your Loot cards",
-    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    name: "Resurrect or Build",
+    description: "The fun begins.",
     project: [
       {
-        name: "loot",
+        name: "Resurect a Genesis Adventurer",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: 'trade',
         roadMap: "Minting",
@@ -109,7 +98,7 @@ export const whatToDo = [
         opensea: "sdasdaw",
       },
       {
-        name: "Synthetic Loot",
+        name: "Stake a Realm and Earn resources",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: 'trade',
         roadMap: "Minting",
@@ -121,7 +110,7 @@ export const whatToDo = [
 
       },
       {
-        name: "mloot",
+        name: "Upgrade your adventurer with Loot Mart",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: 'trade',
         roadMap: "Minting",

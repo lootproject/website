@@ -30,8 +30,8 @@ export function Card(props: any) {
         <h5 className="uppercase mt-8 text-gray-400">Where is it going</h5>
         <p className="text-xl">{props.description}</p>
         <div className="flex mt-5 space-x-4">
-          <button className="border-gray-600 rounded border px-2 py-1">Website</button>
-          <button className="border-gray-600 rounded border px-2 py-1">Contract</button>
+          <button className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700">Website</button>
+          <button className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700">Contract</button>
         </div>
 
       </div>
