@@ -1,8 +1,11 @@
 // Imports
+import Image from 'next/image'
 import Link from "next/link"; // Local routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { defaultBags } from "@utils/constants"; // Bags to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
+import {whatToGet} from "../utils/newLists"
+import discord from "../img/discord.svg"
 
 // Types
 import type { ReactElement } from "react";
@@ -66,9 +69,46 @@ export default function Home(): ReactElement {
             way you want.
           </p>
         </div>
+        <div className="container mx-auto">
+          <h1>What to get</h1>
+        {whatToGet.map(({ name, description, project }, i) => {
+              return (
+                <div className="my-8" key={i}>
+                  <h2>{name}</h2>
+                  <p className="sm:text-3xl mb-4">{description}</p>
+                  <div className="flex sm:space-x-4 flex-wrap">
+                    {project.map(({name, description, whatToDo, roadMap, website, contract}, i) => {                      
+                     return (
+                     <div key={i} className="bg-black rounded-xl sm:p-8 sm:w-1/4 shadow-xl">
+                       <div className="flex text-white justify-between">
+                        <h2>{name}</h2>
+                        <Image className="fill-current w-8 h-8" src={discord} alt="Picture of the author" />
+                       </div>
+                          
+                          <h5 className="uppercase mt-8 text-gray-600 ">About</h5>
+                          <p className="text-xl">{description}</p>
+                          <h5 className="uppercase mt-8 text-gray-600">What to do</h5>
+                          <div className="py-2 w-full border-white border rounded-xl px-4 my-4">
+                            {whatToDo}
+                          </div>
+                          <h5 className="uppercase mt-8 text-gray-600">Where is it going</h5>
+                          <p className="text-xl">{description}</p>
+                          <div className="flex mt-5 space-x-4">
+                            <button className="border-white rounded border px-2 py-1">Website</button>
+                            <button className="border-white rounded border px-2 py-1">Contract</button>
+                          </div>
+                          
+                        </div>)
+                    })}
+                   </div>
+                </div>
+              );
+            })}
+
+        </div>
 
         {/* Rendering sample loot bags */}
-        <div className={styles.home__feature}>
+        {/* <div className={styles.home__feature}>
           <span>Example Bags:</span>
           {getRandomThreeBags().map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
@@ -91,7 +131,7 @@ export default function Home(): ReactElement {
               </div>
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
