@@ -1,10 +1,10 @@
 export const whatToGet = [
   {
-    name: "Loot",
+    name: "Loot Bags",
     description: "8000 Bags were discoverd which unleashed the creativity of thousands",
     project: [
       {
-        name: "loot",
+        name: "Loot",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",

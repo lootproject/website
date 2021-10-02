@@ -71,7 +71,7 @@ function Head(): ReactElement {
       />
       {/* eslint-disable-next-line @next/next/no-page-custom-font */}
       <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Inconsolata:wght@300&display=swap"
         rel="stylesheet"
       />
     </HTMLHead>

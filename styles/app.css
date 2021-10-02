@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
     @apply text-2xl sm:text-3xl md:text-6xl mb-4;
     }
     h2 {
-    @apply text-2xl sm:text-2xl md:text-3xl mb-2;
+    @apply text-2xl sm:text-2xl md:text-4xl mb-2;
     }
     h3 {
     @apply text-lg sm:text-xl md:text-2xl mb-2;
