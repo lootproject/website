@@ -17,9 +17,9 @@ export function Card(props: any) {
 
         </div>
 
-        <h5 className="uppercase mt-8 text-gray-600 ">About</h5>
+        <h5 className="uppercase mt-8 text-gray-400 ">About</h5>
         <p className="text-xl">{props.description}</p>
-        <h5 className="uppercase mt-8 text-gray-600">What you Get</h5>
+        <h5 className="uppercase mt-8 text-gray-400">What you Get</h5>
         <div className="flex">
           <div className="py-2 border-gray-600 border rounded px-4 my-4">
 
@@ -27,7 +27,7 @@ export function Card(props: any) {
           </div>
         </div>
 
-        <h5 className="uppercase mt-8 text-gray-600">Where is it going</h5>
+        <h5 className="uppercase mt-8 text-gray-400">Where is it going</h5>
         <p className="text-xl">{props.description}</p>
         <div className="flex mt-5 space-x-4">
           <button className="border-gray-600 rounded border px-2 py-1">Website</button>

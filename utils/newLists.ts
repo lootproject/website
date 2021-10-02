@@ -6,7 +6,7 @@ export const whatToGet = [
       {
         name: "Loot (for Adventurers)",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -17,7 +17,7 @@ export const whatToGet = [
       {
         name: "Synthetic Loot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -29,7 +29,7 @@ export const whatToGet = [
       {
         name: "mloot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -46,7 +46,7 @@ export const whatToGet = [
       {
         name: "Realms",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -57,7 +57,7 @@ export const whatToGet = [
       {
         name: "Ability Score",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -69,7 +69,7 @@ export const whatToGet = [
       {
         name: "Hymms",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -80,7 +80,7 @@ export const whatToGet = [
       {
         name: "Quests",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -100,7 +100,7 @@ export const whatToDo = [
       {
         name: "loot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -111,7 +111,7 @@ export const whatToDo = [
       {
         name: "Synthetic Loot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -123,7 +123,7 @@ export const whatToDo = [
       {
         name: "mloot",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -143,7 +143,7 @@ export const marketPlaces = [
       {
         name: "Loot Mart",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -154,7 +154,7 @@ export const marketPlaces = [
       {
         name: "Loot Exchange",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -166,7 +166,7 @@ export const marketPlaces = [
       {
         name: "Open Sea",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -177,7 +177,7 @@ export const marketPlaces = [
       {
         name: "NFTx",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -197,7 +197,7 @@ export const resources = [
       {
         name: "Bibliotheca",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -208,7 +208,7 @@ export const resources = [
       {
         name: "Loot Watcher",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
@@ -226,7 +226,7 @@ export const resources = [
       {
         name: "Loot Rarity",
         description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
+        whatToDo: 'trade',
         roadMap: "Minting",
         website: "loot.com",
         contract: "sdasdaw",
