@@ -4,7 +4,7 @@ import Twitter from "../img/twitter.svg"
 import { Link } from "@components/Link";
 export function Card(props: any) {
   return (
-    <div className="w-full md:w-1/4 sm:w-1/2 ">
+    <div className={props.name === 'Loot (for Adventurers)' ? "w-full md:w-1/2" : "w-full md:w-1/4 sm:w-1/2"}>
       <div className="bg-gray-900 rounded-xl p-5 sm:p-8 shadow-xl my-3 transform hover:-translate-y-2 hover:border-white border border-black duration-150 mx-3">
         <div className="flex text-white justify-between">
           <h2 className="mr-auto">{props.name}</h2>

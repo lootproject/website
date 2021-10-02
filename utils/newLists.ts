@@ -4,7 +4,7 @@ export const whatToGet = [
     description: "8000 Bags were discoverd which unleashed the creativity of thousands",
     project: [
       {
-        name: "Loot",
+        name: "Loot (for Adventurers)",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
@@ -137,11 +137,11 @@ export const whatToDo = [
 
 export const marketPlaces = [
   {
-    name: "Distil with your Loot cards",
-    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    name: "",
+    description: "",
     project: [
       {
-        name: "loot",
+        name: "Loot Mart",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
@@ -152,7 +152,7 @@ export const marketPlaces = [
         opensea: "sdasdaw",
       },
       {
-        name: "Synthetic Loot",
+        name: "Loot Exchange",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
@@ -164,7 +164,18 @@ export const marketPlaces = [
 
       },
       {
-        name: "mloot",
+        name: "Open Sea",
+        description: "For all things Loot and derivatives (note: high traffic)",
+        whatToDo: ['trade', 'distil'],
+        roadMap: "Minting",
+        website: "loot.com",
+        contract: "sdasdaw",
+        twitter: "sdasdaw",
+        discord: "sdasdaw",
+        opensea: "sdasdaw",
+      },
+      {
+        name: "NFTx",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
@@ -213,7 +224,7 @@ export const resources = [
     description: "8000 Bags were discoverd which unleashed the creativity of thousands",
     project: [
       {
-        name: "Bibliotheca",
+        name: "Loot Rarity",
         description: "For all things Loot and derivatives (note: high traffic)",
         whatToDo: ['trade', 'distil'],
         roadMap: "Minting",
@@ -222,18 +233,6 @@ export const resources = [
         twitter: "sdasdaw",
         discord: "sdasdaw",
         opensea: "sdasdaw",
-      },
-      {
-        name: "Loot Watcher",
-        description: "For all things Loot and derivatives (note: high traffic)",
-        whatToDo: ['trade', 'distil'],
-        roadMap: "Minting",
-        website: "loot.com",
-        contract: "sdasdaw",
-        twitter: "sdasdaw",
-        discord: "sdasdaw",
-        opensea: "sdasdaw",
-
       }
     ],
   },
