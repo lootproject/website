@@ -80,7 +80,7 @@ export default function Home(): ReactElement {
                     {project.map(({name, description, whatToDo, roadMap, website, contract}, i) => {                      
                      return (
                        <div key={i} className="px-2 w-full md:w-1/4 sm:w-1/2">
-                        <div  className="bg-black rounded-xl p-5 sm:p-8  shadow-xl my-3  mx-3 sm:mx-0">
+                        <div  className="bg-black rounded-xl p-5 sm:p-8  shadow-xl my-3  mx-3 sm:mx-0 transform hover:-translate-y-1 cursor-pointer transition duration-150 hover:bg-gray-1000">
                           <div className="flex text-white justify-between">
                             <h2 className="mr-auto">{name}</h2>
                             <a className="self-center " href="">
@@ -110,8 +110,7 @@ export default function Home(): ReactElement {
                               </div>
                               
                             </div>
-                       </div>
-)
+                       </div>)
                     })}
                    </div>
                 </div>
@@ -119,7 +118,7 @@ export default function Home(): ReactElement {
             })}
 
         </div>
-        <div className="bg-gray-800 py-20">
+        <div className="bg-black py-20">
 
         
         <div className="container mx-auto mt-8">
@@ -131,7 +130,7 @@ export default function Home(): ReactElement {
                   <div className="flex sm:space-x-4 flex-wrap">
                     {project.map(({name, description, whatToDo, roadMap, website, contract}, i) => {                      
                      return (
-                     <div key={i} className="bg-black rounded-xl p-5 sm:p-8 w-full md:w-1/4 sm:w-1/2 shadow-xl my-3 mx-3 sm:mx-0">
+                     <div key={i} className="bg-gray-900 rounded-xl p-5 sm:p-8 w-full md:w-1/4 sm:w-1/2 shadow-xl my-3 mx-3 sm:mx-0">
                        <div className="flex text-white justify-between">
                         <h2 className="mr-auto">{name}</h2>
                         <a className="self-center " href="">
@@ -168,31 +167,6 @@ export default function Home(): ReactElement {
             })}
         </div>
         </div>
-        {/* Rendering sample loot bags */}
-        {/* <div className={styles.home__feature}>
-          <span>Example Bags:</span>
-          {getRandomThreeBags().map(({ id, attributes }, i) => (
-            // For each loot bag, render item and link to OpenSea
-            <a
-              href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={i}
-              className={styles.home__bag}
-            >
-              <div className={styles.home__bag_attributes}>
-                <span>#{id}</span>
-                <ul>
-                  {attributes.map((attribute, i) => (
-                    <li key={i}>
-                      <span>{attribute}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </a>
-          ))}
-        </div> */}
       </div>
     </Layout>
   );

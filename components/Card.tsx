@@ -1,7 +1,6 @@
 import type { ReactElement } from "react";
 
-
-export function CardRow(props: QueryParams){
+export function CardRow(props: any){
     return (
         <div className="my-8">
           <h2>{props.name}</h2>
