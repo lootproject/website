@@ -10,7 +10,7 @@ export function Card(props: Project) {
         <div className="flex text-white justify-between">
           <h2 className="mr-auto">{props.name}</h2>
           {props?.discord &&
-            <a className="self-center ">
+            <a target="_blank" className="self-center " href={props.discord.url as string}>
               <Discord className="fill-current w-8 h-8 mx-2" />
             </a>
 
@@ -28,7 +28,7 @@ export function Card(props: Project) {
         <div className="flex flex-wrap">
           {props.whatToDo.map(({ content, url }, i) => {
             return (
-              <a href={url as string} key={i} className="hover:bg-gray-800 py-2 border-gray-600 border rounded px-4 mr-3 mb-2">
+              <a target="_blank" href={url as string} key={i} className="hover:bg-gray-800 py-2 border-gray-600 border rounded px-4 mr-3 mb-2">
                 {content}
               </a>
             )
@@ -46,10 +46,10 @@ export function Card(props: Project) {
 
         <div className="flex mt-5 space-x-4 text-center">
           {props.website &&
-            <a href={props.website.url as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Website</a>
+            <a target="_blank" href={props.website.url as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Website</a>
           }
           {props.contract &&
-            <a href={'https://etherscan.io/' + props.contract.content as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Contract</a>
+            <a target="_blank" href={'https://etherscan.io/address/' + props.contract.content as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Contract</a>
           }
         </div>
       </div>
