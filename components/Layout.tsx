@@ -30,6 +30,20 @@ export default function Layout({
       url: "/resources",
     },
   ];
+  const subLinks: Record<string, string>[] = [
+    {
+      name: "Loot.exchange",
+      url: "https://www.loot.exchange/",
+    },
+    {
+      name: "Opensea",
+      url: "https://opensea.io/collection/lootproject"
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/lootproject",
+    },
+  ];
   const router = useRouter();
   return (
     <div>
@@ -37,18 +51,29 @@ export default function Layout({
       <Head />
       {/* Top header */}
       <Header />
-      <div className="container mx-auto px-4 text-center py-40 justify-around flex flex-wrap">
+      <div className="container mx-auto px-4 text-center py-20 sm:py-40 justify-around flex flex-wrap">
         <div className="sm:w-1/2">
           <h1>Loot</h1>
-          <p className="text-2xl">Loot is randomized adventurer gear generated and stored on chain.
+          <div>
+            <nav className="my-8">
+              {subLinks.map(({ name, url }, i) => {
+                return (<Link key={i} href={url}>
+                  <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl " : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl"} >{name}</a>
+                </Link>)
+              })}
+            </nav>
+          </div>
+          <p className="sm:text-2xl">Loot is randomized adventurer gear generated and stored on chain.
+
           Stats, images, and other functionality are intentionally omitted for others to interpret.
-Feel free to use Loot in any way you want.</p>
+
+        Feel free to use Loot in any way you want.</p>
         </div>
         <div className="flex w-full justify-around mt-8">
-          <div className="flex text-2xl uppercase tracking-widest">
+          <div className="flex sm:text-2xl uppercase tracking-widest flex-wrap justify-between">
             {quicklinks.map(({ name, url }, i) => {
               return (<Link key={i} href={url}>
-                <a className={router.pathname == url ? "bg-gray-800 p-4 mx-4 rounded-xl " : " p-4 mx-4 hover:bg-gray-800 rounded-xl"} >{name}</a>
+                <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl " : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl"} >{name}</a>
               </Link>)
             })}
 
@@ -125,7 +150,8 @@ function Header() {
   // All links
   const links = [
     { name: "FAQ", path: "/faq" },
-    { name: "Resources", path: "/resources" },
+    { name: "Discord", path: "https://discord.gg/23gbrJ6pje" },
+    { name: "Forum", path: "https://loot-talk.com/" },
   ];
 
   return (

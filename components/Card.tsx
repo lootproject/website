@@ -1,41 +1,58 @@
 
 import Discord from "../img/discord.svg"
 import Twitter from "../img/twitter.svg"
-import { Link } from "@components/Link";
-export function Card(props: any) {
+import { Project } from "../types/interface"
+import Link from "next/link"; // Routing
+export function Card(props: Project) {
   return (
     <div className={props.name === 'Loot (for Adventurers)' ? "w-full md:w-1/2" : "w-full md:w-1/4 sm:w-1/2"}>
       <div className="bg-gray-900 rounded-xl p-5 sm:p-8 shadow-xl my-3 transform hover:-translate-y-2 hover:border-white border border-black duration-150 mx-3">
         <div className="flex text-white justify-between">
           <h2 className="mr-auto">{props.name}</h2>
-          <a className="self-center " href="">
-            <Discord className="fill-current w-8 h-8 mx-2" />
-          </a>
-          <a className="self-center" href="">
-            <Twitter className="fill-current w-6 h-6 mx-2" />
-          </a>
+          {props?.discord &&
+            <a className="self-center ">
+              <Discord className="fill-current w-8 h-8 mx-2" />
+            </a>
 
+          }
+          {props.twitter &&
+            <a href={props.twitter.url as string} className="self-center" target="_blank">
+              <Twitter className="fill-current w-6 h-6 mx-2" />
+            </a>
+          }
         </div>
 
         <h5 className="uppercase mt-8 text-gray-400 ">About</h5>
         <p className="text-xl">{props.description}</p>
-        <h5 className="uppercase mt-8 text-gray-400">What you Get</h5>
-        <div className="flex">
-          <div className="py-2 border-gray-600 border rounded px-4 my-4">
+        <h5 className="uppercase mt-8 text-gray-400 mb-2">What to do</h5>
+        <div className="flex flex-wrap">
+          {props.whatToDo.map(({ content, url }, i) => {
+            return (
+              <a href={url as string} key={i} className="hover:bg-gray-800 py-2 border-gray-600 border rounded px-4 mr-3 mb-2">
+                {content}
+              </a>
+            )
+          })}
 
-            {props.whatToDo}
+        </div>
+
+        {props.roadMap &&
+          <div>
+            <h5 className="uppercase mt-8 text-gray-400">Where is it going</h5>
+            <p className="text-xl">{props.description}</p>
           </div>
-        </div>
 
-        <h5 className="uppercase mt-8 text-gray-400">Where is it going</h5>
-        <p className="text-xl">{props.description}</p>
-        <div className="flex mt-5 space-x-4">
-          <button className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700">Website</button>
-          <button className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700">Contract</button>
-        </div>
+        }
 
+        <div className="flex mt-5 space-x-4 text-center">
+          {props.website &&
+            <a href={props.website.url as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Website</a>
+          }
+          {props.contract &&
+            <a href={'https://etherscan.io/' + props.contract.content as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Contract</a>
+          }
+        </div>
       </div>
-    </div>
-
+    </div >
   );
 }

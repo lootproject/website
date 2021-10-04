@@ -6,7 +6,7 @@ import { CardRow } from "@components/Row"; // Layout wrapper
 import { defaultBags } from "@utils/constants"; // Bags to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
 import { whatToGet, whatToDo } from "../utils/newLists"
-
+import { Project } from "../types/interface"
 
 // Types
 import type { ReactElement } from "react";
@@ -16,17 +16,15 @@ export default function Home(): ReactElement {
 
   return (
     <Layout>
-      <div className="bg-black py-20">
+      <div className="bg-black py-10 pb-40">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around -mt-40">
-            <div className="bg-gray-800 px-20 py-8 rounded text-center">
-              <span className="uppercase text-xl font-semibold">The Quest begins here</span>
+            <div className="bg-gray-900 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-800">
+              <span className="uppercase sm:text-xl ">The Quest begins here</span>
               <h1 className="text-center mt-4">Chapter 1: Finding the Bags</h1>
-              <p className="text-2xl">8000 Bags were discovered which unleashed the creativity of thousands. </p>
+              <p className="sm:text-2xl">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
             </div>
           </div>
-
-
           {whatToGet.map(({ name, description, project }, i) => {
             return (
               <CardRow key={i} name={name} description={description} project={project} />
@@ -34,11 +32,11 @@ export default function Home(): ReactElement {
           })}
         </div>
       </div>
-      <div className="bg-gray-600 py-20">
+      <div className="bg-gray-700 py-20">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around -mt-40">
-            <div className="bg-gray-800 px-20 py-8 rounded text-center">
-              <span className="uppercase text-2xl font-semibold">Chapter 2</span>
+            <div className="bg-gray-800 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-700">
+              <span className="uppercase text-2xl">Chapter 2</span>
               <h1 className="text-center mt-4">The Adventures Begin</h1>
               <p className="text-2xl">8000 Bags were discovered which unleashed the creativity of thousands. </p>
             </div>

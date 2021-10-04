@@ -7,10 +7,18 @@ interface CardDetails {
 interface Project {
     name: String;
     description: String;
-    whatToDo: String;
-    roadMap: String;
-    website: String;
-    contract: String;
+    whatToDo: Array<Content>;
+    roadMap?: Content;
+    website?: Content;
+    contract?: Content;
+    twitter?: Content;
+    discord?: Content;
+    opensea?: Content;
+}
+
+interface Content {
+    content?: String,
+    url?: String
 }
 
 export type {
