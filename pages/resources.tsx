@@ -1,16 +1,11 @@
 // Imports
-import Image from 'next/image'
-import Link from "next/link"; // Local routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row"; // Layout wrapper
-import { defaultBags } from "@utils/constants"; // Bags to render
-import styles from "@styles/pages/Home.module.scss"; // Styles
 import { resources } from "../utils/newLists"
 import {
   derivativesList,
   guildsList,
   marketsList,
-  resourceList,
   communityList
 } from "@utils/lists"; // Lists
 // Types
@@ -22,11 +17,6 @@ export default function Resources(): ReactElement {
       title: "Communities",
       description: "Spaces run by the community for Loot enthusiasts to share news and build together:",
       list: communityList,
-    },
-    {
-      title: "Developer Tooling",
-      description: "Aggregated resources built by the Loot community:",
-      list: resourceList,
     },
     {
       title: "Guilds",

@@ -8,11 +8,20 @@ import { build } from "../utils/newLists"
 import Discord from "../img/discord.svg"
 // Types
 import type { ReactElement } from "react";
-
+import {
+    resourceList,
+} from "@utils/lists";
 export default function Build(): ReactElement {
+    const resourcesIndex = [
+        {
+            title: "Developer Tooling",
+            description: "Aggregated resources built by the Loot community:",
+            list: resourceList,
+        },
+    ];
     return (
         <Layout>
-            <div className="bg-black py-20">
+            {/* <div className="bg-black py-20">
                 <div className="container mx-auto mt-8">
                     <div className="flex justify-around">
                         <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl ">
@@ -32,6 +41,33 @@ export default function Build(): ReactElement {
                         );
                     })}
                 </div>
+            </div> */}
+            <div className="container mx-auto my-10 flex justify-around">
+                <div className="sm:w-1/2 p-3">        {resourcesIndex.map(({ title, description, list }, i) => {
+                    return (
+                        <div className="my-10" key={i} >
+                            <h2>{title}</h2>
+                            <p className="text-2xl mb-6">{description}</p>
+
+                            <ul className="text-lg">
+                                {list.map(({ name, description, url }, i) => {
+                                    // For each resource, render link and description
+                                    return (
+                                        <li key={i}>
+                                            <p className="my-3 text-xl">
+                                                <a className="font-semibold hover:underline" href={url} target="_blank" rel="noopener noreferrer">
+                                                    {name}
+                                                </a>
+                         — {description}
+                                            </p>
+                                        </li>
+                                    );
+                                })}
+                            </ul>
+                        </div>
+                    );
+                })}</div>
+
             </div>
         </Layout >
 
