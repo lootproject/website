@@ -418,19 +418,12 @@ export const marketPlaces = [
 export const resources = [
   {
     name: "Discovery Tools",
-    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    description: "",
     project: [
       project_data["Loot Watcher"],
       project_data["Bibliotheca"],
     ],
-  },
-  {
-    name: "Developer Tools",
-    description: "",
-    project: [
-      project_data["Loot Rarity"],
-    ],
-  },
+  }
 ];
 
 export const build = [
