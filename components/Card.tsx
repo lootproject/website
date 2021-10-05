@@ -9,19 +9,21 @@ export function Card(props: Project) {
       <div className="bg-gray-900 rounded-xl p-5 sm:p-8 shadow-xl my-3 transform hover:-translate-y-2 hover:border-white border border-black duration-150 mx-3 h-full flex flex-col">
         <div className="flex text-white justify-between">
           <h2 className="mr-auto">{props.name}</h2>
+
+        </div>
+        <div className="flex">
           {props?.discord &&
             <a target="_blank" className="self-center " href={props.discord.url as string}>
-              <Discord className="fill-current w-8 h-8 mx-2" />
+              <Discord className="fill-current w-6 h-6 mx-2" />
             </a>
 
           }
           {props.twitter &&
             <a href={props.twitter.url as string} className="self-center" target="_blank">
-              <Twitter className="fill-current w-6 h-6 mx-2" />
+              <Twitter className="fill-current w-4 h-4 mx-2" />
             </a>
           }
         </div>
-
         <h5 className="uppercase mt-8 text-gray-400 ">About</h5>
         <p className="text-xl">{props.description}</p>
         <h5 className="uppercase mt-8 text-gray-400 mb-2">What to do</h5>

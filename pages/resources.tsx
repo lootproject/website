@@ -14,8 +14,8 @@ export default function Resources(): ReactElement {
     <Layout>
       <div className="bg-black py-20">
         <div className="container mx-auto mt-8">
-          <div className="flex justify-around -mt-40">
-            <div className="bg-gray-900 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-800">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl ">
               <h1 className="text-center mt-4">Resources</h1>
             </div>
           </div>

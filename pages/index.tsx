@@ -16,10 +16,10 @@ export default function Home(): ReactElement {
 
   return (
     <Layout>
-      <div className="bg-black py-10 pb-40">
+      <div className="bg-black  sm:py-20 py-10 pb-40">
         <div className="container mx-auto mt-8">
-          <div className="flex justify-around -mt-40">
-            <div className="bg-gray-900 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-800">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl">
               <span className="uppercase sm:text-xl ">The Quest begins here</span>
               <h1 className="text-center mt-4">Chapter 1: Finding the Bags</h1>
               <p className="sm:text-2xl">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
@@ -34,8 +34,8 @@ export default function Home(): ReactElement {
       </div>
       <div className="bg-gray-700 py-20">
         <div className="container mx-auto mt-8">
-          <div className="flex justify-around -mt-40">
-            <div className="bg-gray-800 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-700">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
               <span className="uppercase text-2xl">Chapter 2</span>
               <h1 className="text-center mt-4">The Adventures Begin</h1>
               <p className="text-2xl">Who carried these Loot bags? Where did they come from? What can you do with these treasures? Your adventure begins now.</p>

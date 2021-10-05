@@ -51,7 +51,7 @@ export default function Layout({
       <Head />
       {/* Top header */}
       <Header />
-      <div className="container mx-auto px-4 text-center py-20 sm:py-40 justify-around flex flex-wrap">
+      <div className="container mx-auto px-4 text-center py-10 sm:pt-40 justify-around flex flex-wrap">
         <div className="sm:w-1/2">
           <h1>Loot</h1>
           <div>
@@ -69,11 +69,11 @@ export default function Layout({
 
         Feel free to use Loot in any way you want.</p>
         </div>
-        <div className="flex w-full justify-around mt-8">
-          <div className="flex sm:text-2xl uppercase tracking-widest flex-wrap justify-between">
+        <div className=" flex w-full justify-around mt-8 relative overflow-hidden ">
+          <div className="sticky top-0 bg-gray-800 p-2 rounded-2xl flex sm:text-2xl tracking-wide flex-wrap justify-between">
             {quicklinks.map(({ name, url }, i) => {
               return (<Link key={i} href={url}>
-                <a className={router.pathname == url ? "bg-gray-900 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-500" : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl border-gray-800 border"} >{name}</a>
+                <a className={(router.pathname == url ? "bg-gray-900" : "hover:bg-gray-900") + " py-1 px-4 sm:p-4 mx-1 rounded-xl transition-all duration-150"} >{name}</a>
               </Link>)
             })}
 
