@@ -18,12 +18,16 @@ export const project_data = {
     description: "Graphs Loot projects so you can see your progress in the LootVerse.",
     whatToDo: [
       {
-        content: "Trade on Open Sea",
-        url: "https://opensea.io/collection/lootproject"
+        content: "See Your Entire Adventurer",
+        url: "https://bibliothecaforloot.com/"
       },
       {
-        content: "Trade on Loot.exchange",
-        url: "https://www.loot.exchange/"
+        content: "Search for Genesis Mana",
+        url: "https://bibliothecaforloot.com/loot"
+      },
+      {
+        content: "Mint a Realm",
+        url: "https://bibliothecaforloot.com/realms/mint"
       }
     ],
     contract: {
@@ -110,20 +114,19 @@ export const project_data = {
   },
   "Loot Exchange": {
     name: "Loot Exchange",
-    description: "For all things Loot and derivatives (note: high traffic)",
+    description: "Trade Loot items. All commission goes to the Loot DAO.",
     whatToDo: [
       {
-        content: "Trade on Open Sea",
-        url: "https://opensea.io/collection/lootproject"
-      },
-      {
-        content: "Trade on Loot.exchange",
+        content: "Trade Loot",
         url: "https://www.loot.exchange/"
       }
     ],
     contract: {
       content: "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7", // TODO: this is loot"s contract
       url: "https://etherscan.io/"
+    },
+    website: {
+      url: "https://www.loot.exchange/"
     },
     twitter: {
       url: "https://twitter.com/LootExchange"
@@ -183,7 +186,7 @@ export const project_data = {
     description: "The easiest place to track the Loot ecosystem.",
     whatToDo: [
       {
-        content: "View Loot ecosystem",
+        content: "View Loot Ecosystem",
         url: "https://www.lootwatcher.com/"
       },
     ],
@@ -193,6 +196,10 @@ export const project_data = {
     discord: {
       url: "https://discord.gg/MedPJqybrX"
     },
+    website: {
+      url: "https://www.lootwatcher.com/"
+    },
+
   },
   "mloot": {
     name: "mloot",
@@ -226,6 +233,9 @@ export const project_data = {
         url: "https://nftx.io/"
       },
     ],
+    website: {
+      url: "https://nftx.io/"
+    },
     twitter: {
       url: "https://twitter.com/NFTX_"
     },
@@ -234,14 +244,15 @@ export const project_data = {
     },
     github: {
       url: "https://github.com/NFTX-project"
-    }
+    },
+
   },
   "Open Sea": {
     name: "Open Sea",
     description: "The world's first & largest NFT marketplace",
     whatToDo: [
       {
-        content: "Trade on Open Sea",
+        content: "Trade ",
         url: "https://opensea.io/collection/lootproject"
       },
     ],
@@ -251,9 +262,9 @@ export const project_data = {
     discord: {
       url: "https://discord.gg/opensea"
     },
-    opensea: {
+    website: {
       url: "https://opensea.io/collection/lootproject"
-    }
+    },
   },
   "Realms": {
     name: "Realms",
@@ -280,9 +291,6 @@ export const project_data = {
     },
     discord: {
       url: "https://discord.gg/hTYmwpvCDq"
-    },
-    opensea: {
-      url: "https://opensea.io/collection/lootrealms"
     }
   },
   "Stake a Realm": {
@@ -418,7 +426,25 @@ export const resources = [
   },
   {
     name: "Developer Tools",
-    description: "8000 Bags were discoverd which unleashed the creativity of thousands",
+    description: "",
+    project: [
+      project_data["Loot Rarity"],
+    ],
+  },
+];
+
+export const build = [
+  {
+    name: "Rarity Checkers",
+    description: "These are unaudited tools. Proceed at your own risk.",
+    project: [
+      project_data["Loot Watcher"],
+      project_data["Bibliotheca"],
+    ],
+  },
+  {
+    name: "Developer Tools",
+    description: "",
     project: [
       project_data["Loot Rarity"],
     ],

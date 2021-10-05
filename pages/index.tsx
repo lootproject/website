@@ -50,25 +50,26 @@ export default function Home(): ReactElement {
           })}
         </div>
       </div>
-      <div className="bg-white py-20">
+      <div className="bg-gray-100 py-20 text-black ">
         <div className="container mx-auto mt-8">
-          <div className="flex justify-around -mt-40">
-            <div className="bg-gray-800 px-20 py-8 rounded text-center">
-              <span className="uppercase text-2xl font-semibold">Chapter 3</span>
+          <div className="flex justify-around ">
+            <div className="px-20 py-8 rounded text-center">
+              <span className="uppercase text-2xl">Chapter 3</span>
               <h1 className="text-center mt-4">A Quest for Adventurers</h1>
               <p className="text-2xl italic">"O Adventurer, look at you…"</p>
             </div>
           </div>
-          <div className="text-black text-center text-2xl my-4 sm:w-2/3 mx-auto">
-            How did we let it come to this? Sitting on thrones of aging treasure, weaving tales of journeys past and beasts slain.
+          <div className="text-center text-2xl my-4 sm:w-2/3 mx-auto">
+            <p className="my-4">How did we let it come to this? Sitting on thrones of aging treasure, weaving tales of journeys past and beasts slain.</p>
 
-            A storm is brewing and it intends to swallow us whole. Can you feel it in the wind?
+            <p className="my-4">A storm is brewing and it intends to swallow us whole. Can you feel it in the wind?</p>
+            <p className="my-4">This world needs us once more. Will you join and fight for it? Or will you watch from afar, singing past travails and flipping for coin?</p>
 
-            This world needs us once more. Will you join and fight for it? Or will you watch from afar, singing past travails and flipping for coin?
+            <p className="my-4">            From the deepest depths, <br></br>
+            To the highest peaks, <br></br>
+            Forgotten friends and spoils reaped,</p>
 
-            From the deepest depths,
-            To the highest peaks,
-            Forgotten friends and spoils reaped,
+
           </div>
         </div>
       </div>

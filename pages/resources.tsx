@@ -60,23 +60,23 @@ export default function Resources(): ReactElement {
           })}
         </div>
       </div>
-      <div>
-        {resources.map(({ title, description, list }, i) => {
+      <div className="container mx-auto my-10 flex justify-around">
+        <div className="sm:w-1/2 p-3">        {resourcesIndex.map(({ title, description, list }, i) => {
           return (
-            <div key={i} className={styles.resources}>
+            <div className="my-10" key={i} >
               <h2>{title}</h2>
-              <p>{description}</p>
+              <p className="text-2xl mb-6">{description}</p>
 
-              <ul>
+              <ul className="text-lg">
                 {list.map(({ name, description, url }, i) => {
                   // For each resource, render link and description
                   return (
                     <li key={i}>
-                      <p>
-                        <a href={url} target="_blank" rel="noopener noreferrer">
+                      <p className="my-3 text-xl">
+                        <a className="font-semibold hover:underline" href={url} target="_blank" rel="noopener noreferrer">
                           {name}
-                        </a>{" "}
-                        — {description}
+                        </a>
+                         — {description}
                       </p>
                     </li>
                   );
@@ -84,7 +84,8 @@ export default function Resources(): ReactElement {
               </ul>
             </div>
           );
-        })}
+        })}</div>
+
       </div>
 
     </Layout>
