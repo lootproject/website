@@ -15,8 +15,7 @@ export default function Resources(): ReactElement {
       <div className="bg-black py-20">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around -mt-40">
-            <div className="bg-gray-800 px-20 py-8 rounded text-center">
-              <span className="uppercase text-xl font-semibold">Develop, Build & Discover</span>
+            <div className="bg-gray-900 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-800">
               <h1 className="text-center mt-4">Resources</h1>
             </div>
           </div>

@@ -10,7 +10,7 @@ export function CardRow(props: CardDetails) {
                 <p className="sm:text-2xl mb-4">{props.description}</p>
             </div>
 
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-around">
                 {props.project.map(({ name, description, whatToDo, roadMap, website, contract, twitter, discord, opensea }, i) => {
                     return (
                         <Card key={i} name={name} description={description} whatToDo={whatToDo} roadMap={roadMap} website={website} contract={contract} twitter={twitter} discord={discord} opensea={opensea} />

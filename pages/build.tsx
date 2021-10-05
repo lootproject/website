@@ -8,16 +8,15 @@ import { marketPlaces } from "../utils/newLists"
 // Types
 import type { ReactElement } from "react";
 
-export default function MarketPlaces(): ReactElement {
+export default function Build(): ReactElement {
     return (
         <Layout>
             <div className="bg-black py-20">
                 <div className="container mx-auto mt-8">
                     <div className="flex justify-around -mt-40">
                         <div className="bg-gray-900 px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl border border-gray-800">
-                            <span className="uppercase text-xl">Buy & trade</span>
-                            <h1 className="text-center mt-4">Loot Marketplaces</h1>
-                            <p className="text-2xl">Find and buy Loot and other Loot items here</p>
+                            <span className="uppercase text-xl">Build</span>
+                            <h1 className="text-center mt-4">Developer tools for builders</h1>
                         </div>
                     </div>
 

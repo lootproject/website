@@ -18,12 +18,12 @@ export default function Layout({
       url: "/"
     },
     {
-      name: "Communities",
-      url: "/communities",
-    },
-    {
       name: "Marketplaces",
       url: "/marketplaces"
+    },
+    {
+      name: "Build w/ Loot",
+      url: "/build"
     },
     {
       name: "Resources",
@@ -58,7 +58,7 @@ export default function Layout({
             <nav className="my-8">
               {subLinks.map(({ name, url }, i) => {
                 return (<Link key={i} href={url}>
-                  <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl " : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl"} >{name}</a>
+                  <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-900" : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl "} >{name}</a>
                 </Link>)
               })}
             </nav>
@@ -73,7 +73,7 @@ export default function Layout({
           <div className="flex sm:text-2xl uppercase tracking-widest flex-wrap justify-between">
             {quicklinks.map(({ name, url }, i) => {
               return (<Link key={i} href={url}>
-                <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl " : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl"} >{name}</a>
+                <a className={router.pathname == url ? "bg-gray-900 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-500" : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl border-gray-800 border"} >{name}</a>
               </Link>)
             })}
 
@@ -151,7 +151,7 @@ function Header() {
   const links = [
     { name: "FAQ", path: "/faq" },
     { name: "Discord", path: "https://discord.gg/23gbrJ6pje" },
-    { name: "Forum", path: "https://loot-talk.com/" },
+    { name: "Loot Talk", path: "https://loot-talk.com/" },
   ];
 
   return (
