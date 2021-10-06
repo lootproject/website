@@ -3,7 +3,7 @@ import Link from "next/link"; // Routing
 import { useRouter } from "next/router"; // Routing
 import { default as HTMLHead } from "next/head"; // Meta
 import styles from "@styles/components/Layout.module.scss"; // Styles
-
+import React, { useEffect } from 'react';
 // Types
 import type { ReactElement } from "react";
 
@@ -12,6 +12,26 @@ export default function Layout({
 }: {
   children: ReactElement | ReactElement[];
 }) {
+  const [scrolled, setScrolled] = React.useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 460) {
+      setScrolled(true);
+    }
+    else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+  let navbarClasses = ['navbar'];
+  if (scrolled) {
+    navbarClasses.push('fixed top-10 ');
+  }
+
   const quicklinks: Record<string, string>[] = [
     {
       name: "Chapters",
@@ -70,7 +90,7 @@ export default function Layout({
         Feel free to use Loot in any way you want.</p>
         </div>
         <div className=" flex w-full justify-around mt-8 relative overflow-hidden ">
-          <div className="sticky top-0 bg-gray-800 p-2 rounded-2xl flex sm:text-2xl tracking-wide flex-wrap justify-between">
+          <div className={navbarClasses.join(" ") + "sticky top-0 bg-gray-800 p-2 rounded-2xl flex sm:text-2xl tracking-wide flex-wrap justify-between"}>
             {quicklinks.map(({ name, url }, i) => {
               return (<Link key={i} href={url}>
                 <a className={(router.pathname == url ? "bg-gray-900" : "hover:bg-gray-900") + " py-1 px-4 sm:p-4 mx-1 rounded-xl transition-all duration-150"} >{name}</a>

@@ -11,9 +11,9 @@ export function CardRow(props: CardDetails) {
             </div>
 
             <div className="flex flex-wrap justify-around">
-                {props.project.map(({ name, description, whatToDo, roadMap, website, contract, twitter, discord, opensea }, i) => {
+                {props.project.map(({ name, description, whatToDo, roadMap, website, contract, twitter, discord, opensea, neededProject, mintPrice }, i) => {
                     return (
-                        <Card key={i} name={name} description={description} whatToDo={whatToDo} roadMap={roadMap} website={website} contract={contract} twitter={twitter} discord={discord} opensea={opensea} />
+                        <Card key={i} name={name} description={description} whatToDo={whatToDo} roadMap={roadMap} website={website} contract={contract} twitter={twitter} discord={discord} opensea={opensea} neededProject={neededProject} mintPrice={mintPrice} />
                     )
                 })}
             </div>

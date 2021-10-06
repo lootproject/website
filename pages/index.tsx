@@ -1,12 +1,8 @@
 // Imports
-import Image from 'next/image'
-import Link from "next/link"; // Local routing
+
 import Layout from "@components/Layout"; // Layout wrapper
-import { CardRow } from "@components/Row"; // Layout wrapper
-import { defaultBags } from "@utils/constants"; // Bags to render
-import styles from "@styles/pages/Home.module.scss"; // Styles
+import { CardRow } from "@components/Row";
 import { whatToGet, whatToDo } from "../utils/newLists"
-import { Project } from "../types/interface"
 
 // Types
 import type { ReactElement } from "react";
@@ -16,11 +12,23 @@ export default function Home(): ReactElement {
 
   return (
     <Layout>
-      <div className="bg-black  sm:py-20 py-10 pb-40">
+      <div className="flex mx-auto sticky top-0 bg-black w-full justify-center text-xl space-x-6 py-4 z-10">
+        <div>
+          <a className="hover:text-gray-700" href="#chapter1">Chapter 1</a>
+        </div>
+        <div>
+          <a className="hover:text-gray-700" href="#chapter2">Chapter 2</a>
+        </div>
+        <div>
+          <a className="hover:text-gray-700" href="#chapter3">Chapter 3</a>
+        </div>
+
+      </div>
+      <div id="chapter1" className="bg-black  sm:py-20 py-10 pb-40">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl">
-              <span className="uppercase sm:text-xl ">The Quest begins here</span>
+              <span className="uppercase sm:text-2xl ">The Quest begins here</span>
               <h1 className="text-center mt-4">Chapter 1: Finding the Bags</h1>
               <p className="sm:text-2xl">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
             </div>
@@ -32,7 +40,7 @@ export default function Home(): ReactElement {
           })}
         </div>
       </div>
-      <div className="bg-gray-700 py-20">
+      <div id="chapter2" className="bg-gray-700 py-20">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
@@ -50,7 +58,7 @@ export default function Home(): ReactElement {
           })}
         </div>
       </div>
-      <div className="bg-gray-100 py-20 text-black ">
+      <div id="chapter3" className="bg-gray-100 py-20 text-black ">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around ">
             <div className="px-20 py-8 rounded text-center">

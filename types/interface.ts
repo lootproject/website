@@ -14,11 +14,19 @@ interface Project {
     twitter?: Content;
     discord?: Content;
     opensea?: Content;
+    github?: Content;
+    mintPrice?: Price;
+    image?: String;
+    neededProject?: Project;
 }
 
 interface Content {
     content?: String,
     url?: String
+}
+
+interface Price {
+    mint?: Number
 }
 
 export type {

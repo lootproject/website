@@ -2,7 +2,6 @@
 import Discord from "../img/discord.svg"
 import Twitter from "../img/twitter.svg"
 import { Project } from "../types/interface"
-import Link from "next/link"; // Routing
 export function Card(props: Project) {
   return (
     <div className={props.name === 'Loot (for Adventurers)' ? "w-full md:w-1/2" : "w-full md:w-1/4 sm:w-1/2 mb-10"}>
@@ -11,7 +10,40 @@ export function Card(props: Project) {
           <h2 className="mr-auto">{props.name}</h2>
 
         </div>
-        <div className="flex">
+
+        <p className="text-xl">{props.description}</p>
+
+        <h5 className="uppercase mt-8 text-gray-400 mb-2">What to do</h5>
+        <div className="flex flex-wrap">
+          {props.whatToDo.map(({ content, url }, i) => {
+            return (
+              <a target="_blank" href={url as string} key={i} className="bg-gray-800 hover:bg-gray-600 py-2 border-gray-600 border rounded px-4 mr-3 mb-2">
+                {content}
+              </a>
+            )
+          })}
+
+        </div>
+        {props.neededProject &&
+          <div className="my-2">
+            <span className="border border-gray-700 p-2 rounded">Required:  {props.neededProject.name}</span>
+          </div>
+        }
+        {props.mintPrice &&
+          <div className="my-2">
+            <span className="border-gray-700 border p-2 rounded">Cost: {props.mintPrice.mint}ETH + gas </span>
+          </div>
+        }
+
+
+        {props.roadMap &&
+          <div>
+            <h5 className="uppercase mt-8 text-gray-400">Where is it going</h5>
+            <p className="text-xl">{props.roadMap}</p>
+          </div>
+
+        }
+        <div className="flex mt-auto py-2">
           {props?.discord &&
             <a target="_blank" className="self-center " href={props.discord.url as string}>
               <Discord className="fill-current w-6 h-6 mx-2" />
@@ -24,34 +56,12 @@ export function Card(props: Project) {
             </a>
           }
         </div>
-        <h5 className="uppercase mt-8 text-gray-400 ">About</h5>
-        <p className="text-xl">{props.description}</p>
-        <h5 className="uppercase mt-8 text-gray-400 mb-2">What to do</h5>
-        <div className="flex flex-wrap">
-          {props.whatToDo.map(({ content, url }, i) => {
-            return (
-              <a target="_blank" href={url as string} key={i} className="hover:bg-gray-800 py-2 border-gray-600 border rounded px-4 mr-3 mb-2">
-                {content}
-              </a>
-            )
-          })}
-
-        </div>
-
-        {props.roadMap &&
-          <div>
-            <h5 className="uppercase mt-8 text-gray-400">Where is it going</h5>
-            <p className="text-xl">{props.description}</p>
-          </div>
-
-        }
-
-        <div className="flex mt-5 space-x-4 text-center mt-auto">
+        <div className="flex space-x-4 text-center">
           {props.website &&
-            <a target="_blank" href={props.website.url as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Website</a>
+            <a target="_blank" href={props.website.url as string} className="border-gray-600 rounded border px-2 py-1 w-full  hover:bg-gray-800 uppercase">Website</a>
           }
           {props.contract &&
-            <a target="_blank" href={'https://etherscan.io/address/' + props.contract.content as string} className="border-gray-600 rounded border px-2 py-1 w-full bg-gray-700 hover:bg-gray-800 uppercase">Contract</a>
+            <a target="_blank" href={'https://etherscan.io/address/' + props.contract.content as string} className="border-gray-600 rounded border px-2 py-1 w-full  hover:bg-gray-800 uppercase">Contract</a>
           }
         </div>
       </div>
