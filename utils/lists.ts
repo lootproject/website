@@ -626,4 +626,9 @@ export const derivativesList: Record<string, string>[] = [
     description: "The first anti-metaverse built on Ethereum",
     url: "https://upsidedownloot.com/",
   },
+  {
+name: "VootLoot",
+description: "VootLoot - Treasure Adventure is randomized adventurer gear generated and stored on Blockchain.",
+url: "https://opensea.io/collection/vootlloot",
+},
 ];
