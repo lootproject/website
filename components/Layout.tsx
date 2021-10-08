@@ -6,6 +6,7 @@ import styles from "@styles/components/Layout.module.scss"; // Styles
 import React, { useEffect } from 'react';
 // Types
 import type { ReactElement } from "react";
+import { useWalletContext } from "hooks/useWalletContext";
 
 export default function Layout({
   children,
@@ -167,6 +168,10 @@ function Head(): ReactElement {
 function Header() {
   // Collect current path for active links
   const { pathname } = useRouter();
+
+  const { connectWallet, isConnected, disconnectWallet, displayName } =
+    useWalletContext();
+
   // All links
   const links = [
     { name: "FAQ", path: "/faq" },
@@ -205,6 +210,24 @@ function Header() {
               </li>
             );
           })}
+          <li>
+            {isConnected && (
+              <span>
+                {displayName} {" "}
+                <a
+                  className={[styles.header__links_active, 'cursor-pointer'].join(' ')}
+                  onClick={disconnectWallet}
+                >
+                  [ disconnect ]
+                </a>
+              </span>
+            )}
+            {!isConnected && (
+              <button className={[styles.header__button, 'cursor-pointer'].join(' ')} onClick={connectWallet}>
+                Connect
+              </button>
+            )}
+          </li>
         </ul>
       </div>
     </div>
