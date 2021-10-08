@@ -24,7 +24,8 @@ const loot: Project = {
     },
     opensea: {
         url: "https://opensea.io/collection/lootproject"
-    }
+    },
+    image: 'https://genesisproject.xyz/img/genesisadventurer/1.svg'
 }
 const adventureGold: Project = {
     name: "Adventure Gold $AGLD",
