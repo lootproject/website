@@ -553,7 +553,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Quests for Loot",
-    description: "Loot Adventurers, we need to slay Gary the Dragon! On-chain MUD to slay a world monster.",
+    description: "Loot Adventurers, we need to slay Gary the Dragon!",
     url: "https://questsforloot.com/",
   },
   {
