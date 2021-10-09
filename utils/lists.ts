@@ -287,6 +287,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://cryptoodles.com",
   },
   {
+    name: "Explorers",
+    description: "8,000 unique explorers generated from the OG loot bags, geared up and ready for their next expedition.",
+    url: "https://twitter.com/LootExplorers",
+  },
+  {
     name: "Deck of Many Things",
     description: "A Loot inspired 22 card Deck of Many Things",
     url: "https://etherscan.io/address/0xb515bE4b1A1EF51b26bf268E96DB8FfFcE6b0Ff4#readContract",
