@@ -552,6 +552,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x4de9d18Fd8390c12465bA3C6cc8032992fD7655d",
   },
   {
+    name: "Quests for Loot",
+    description: "Loot Adventurers, we need to slay Gary the Dragon!",
+    url: "https://questsforloot.com/",
+  },
+  {
     name: "Quests with Loot",
     description: "Randomized, on-chain solvable Quests for owners of Loot. By Tideweigh.",
     url: "https://opensea.io/collection/quests-with-loot",
