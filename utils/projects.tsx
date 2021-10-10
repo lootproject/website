@@ -1,3 +1,4 @@
+import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
 const loot: Project = {
   name: "Loot (for Adventurers)",
@@ -348,7 +349,7 @@ const sLoot: Project = {
   whatToDo: [
     {
       content: "View your sLoot",
-      url: "https://loot.stephancill.co.za/#/"
+      component: <SyntheticLoot />
     }
   ],
   contract: {
