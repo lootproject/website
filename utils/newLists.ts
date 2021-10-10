@@ -19,7 +19,7 @@ import {
 
 export const whatToGet = [
   {
-    name: "Loot Bags",
+    name: "",
     description: "",
     project: [
       loot,
@@ -27,6 +27,9 @@ export const whatToGet = [
       mLoot,
     ],
   },
+];
+
+export const getAfterLoot = [
   {
     name: "Mint, Claim or Trade additional items",
     description: "",
@@ -34,6 +37,16 @@ export const whatToGet = [
       adventureGold,
       realms,
       genesisMana,
+      lootMart,
+    ],
+  },
+];
+
+export const getYourCharacter = [
+  {
+    name: "Get your Character",
+    description: "",
+    project: [
       lootMart,
       lootCharacter,
     ],

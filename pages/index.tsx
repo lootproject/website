@@ -2,8 +2,8 @@
 
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row";
-import { whatToGet, whatToDo } from "../utils/newLists"
-
+import { whatToGet, whatToDo, getAfterLoot, getYourCharacter } from "../utils/newLists"
+import Path from "../img/path.svg";
 // Types
 import type { ReactElement } from "react";
 
@@ -13,6 +13,9 @@ export default function Home(): ReactElement {
   return (
     <Layout>
       <div className="flex mx-auto sticky top-0 bg-black w-full justify-center text-xl space-x-6 py-4 z-10">
+        <div>
+          <a className="hover:text-gray-700" href="#chapter1">Start here</a>
+        </div>
         <div>
           <a className="hover:text-gray-700" href="#chapter1">Chapter 1</a>
         </div>
@@ -29,11 +32,27 @@ export default function Home(): ReactElement {
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl">
               <span className="uppercase sm:text-2xl ">The Quest begins here</span>
-              <h1 className="text-center mt-4">Chapter 1: Finding the Bags</h1>
+              <h1 className="text-center mt-4 capitalize">Chapter 1: Get a Loot Bag</h1>
               <p className="sm:text-2xl">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
             </div>
           </div>
           {whatToGet.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+          <div className=" w-1/2 mx-auto">
+            <Path className="mx-2" />
+          </div>
+          {getAfterLoot.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+          <div className=" w-1/2 mx-auto">
+            <Path className="mx-2" />
+          </div>
+          {getYourCharacter.map(({ name, description, project }, i) => {
             return (
               <CardRow key={i} name={name} description={description} project={project} />
             );

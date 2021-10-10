@@ -25,10 +25,11 @@ const loot: Project = {
   opensea: {
     url: "https://opensea.io/collection/lootproject"
   },
-  image: "https://storage.opensea.io/files/2399c9be55fa88c38397fe746b75b938.svg"
+  image: "/lootheader.svg"
 };
 const adventureGold: Project = {
   name: "Adventure Gold $AGLD",
+  heading: "Get Adventure Gold $AGLD",
   description: "The reserve Gold of the Lootverse.",
   whatToDo: [
     {
@@ -39,11 +40,13 @@ const adventureGold: Project = {
   contract: {
     content: "0x32353a6c91143bfd6c7d363b546e62a9a2489a20",
     url: "https://etherscan.io/"
-  }
+  },
+  image: "https://images.pexels.com/photos/47047/gold-ingots-golden-treasure-47047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 };
 
 const bibliotheca: Project = {
   name: "Bibliotheca",
+  heading: "Explore your entire Adventurer",
   description:
     "Graphs Loot projects so you can see your progress in the LootVerse.",
   whatToDo: [
@@ -76,7 +79,8 @@ const bibliotheca: Project = {
 };
 
 const genesisMana: Project = {
-  name: "Distil Mana from a Lootbag",
+  name: "Genesis Project",
+  heading: "Distil mana with your Loot bag.",
   description: "Use your Lootbag and distil the Orders items.",
   whatToDo: [
     {
@@ -179,6 +183,7 @@ const lootMart: Project = {
   discord: {
     url: "https://discord.gg/w8txv8bvWd" // TODO: not yet public
   },
+  image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
   neededProject: loot
 };
 const lootRarity: Project = {
@@ -242,7 +247,7 @@ const mLoot: Project = {
   mintPrice: {
     mint: 0
   },
-  image: "https://storage.opensea.io/files/37a1f024f925e27c29e5f8bcf2c85c7a.svg"
+  image: "/mlootheader.svg"
 };
 
 const NFTx: Project = {
@@ -290,7 +295,8 @@ const openSea: Project = {
 };
 
 const realms: Project = {
-  name: "Explore a Realm",
+  name: "Realms",
+  heading: "Explore a realm",
   description: "Procedurally generated Realms for Adventurers to explore.",
   whatToDo: [
     {
@@ -313,9 +319,6 @@ const realms: Project = {
   },
   discord: {
     url: "https://discord.gg/hTYmwpvCDq"
-  },
-  mintPrice: {
-    mint: 0.1
   },
   image: "https://storage.opensea.io/files/2468d5c3fc290400d053a68e149c9d1c.svg"
 };
@@ -361,7 +364,7 @@ const sLoot: Project = {
   opensea: {
     url: "https://opensea.io/collection/lootproject"
   },
-  image: "https://storage.opensea.io/files/77a1d1f1287da1cc78c041361ab899e0.svg"
+  image: "/syntheticheader.svg"
 };
 
 const genesisWarrior: Project = {

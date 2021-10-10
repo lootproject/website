@@ -21,7 +21,7 @@ export function CardRow(props: CardDetails): ReactElement {
         <p className="sm:text-2xl mb-4">{props.description}</p>
       </div>
 
-      <div className="flex flex-wrap justify-around">
+      <div className="flex flex-wrap justify-center">
         {props.project.map((project, i) => {
           return (
             <Card

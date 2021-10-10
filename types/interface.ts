@@ -6,6 +6,7 @@ interface CardDetails {
 
 interface Project {
     name: String;
+    heading?: String;
     description: String;
     whatToDo: Array<Content>;
     roadMap?: Content;
@@ -18,6 +19,7 @@ interface Project {
     mintPrice?: Price;
     image?: String;
     neededProject?: Project;
+    logo?: String;
 }
 
 interface Content {
