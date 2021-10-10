@@ -517,6 +517,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x5a1e941e5a1c5e631ebdcc4303e83159169d6e0d#writeContract",
   },
   {
+    name: "NPCs: Genesis Edition",
+    description: "NPCs are random onchain characters with stories to tell for Loot & xLoot Adventurers",
+    url: "https://etherscan.io/address/0xB0C8E9982b879Bb955181aaeD158f1cDc4D10D05#writeContract",
+  },
+  {
     name: "OpenPalette",
     description: "A randomized color palette generated on the ethereum blockchain.",
     url: "https://www.openpalette.io/",
