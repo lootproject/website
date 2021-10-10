@@ -96,7 +96,8 @@ export function Card(props: CardProps) {
           <div className="flex gap-5 rounded">
             <div className={isSelected ? "w-1/3" : ""}>
               <div className="flex flex-wrap gap-x-3">
-                {project.whatToDo.map(({ content, url }, i) => {
+                {project.whatToDo.map(({ content, url, component }, i) => {
+                  if (component) return component;
                   return (
                     <a
                       target="_blank"
