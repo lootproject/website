@@ -322,11 +322,6 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://www.adventurerencounters.com/",
   },
   {
-    name: "Explorers",
-    description: "8,000 unique explorers generated from the OG loot bags",
-    url: "https://twitter.com/LootExplorers",
-  },
-  {
     name: "Floot & Familiars (for Adventurers)",
     description: "Collective to buy and fractionalize floot Loots",
     url: "https://loot-talk.com/t/floot-collective-to-buy-and-fractionalize-floor-loots/1507",
