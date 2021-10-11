@@ -7,7 +7,7 @@ const SyntheticLoot = () => {
   const syntheticLootSVG = useSyntheticLoot();
   console.log({ syntheticLootSVG });
   return (
-    <div className="synthetic-loot">
+    <div className="synthetic-loot w-full">
       {!account ? (
         <button
           className="bg-gray-800 hover:bg-gray-600 py-2 border-gray-600 border rounded px-4 my-1"
@@ -16,7 +16,10 @@ const SyntheticLoot = () => {
           Connect Wallet to View Your sLoot
         </button>
       ) : syntheticLootSVG ? (
-        <svg dangerouslySetInnerHTML={{ __html: syntheticLootSVG }} />
+        <div className="w-80">
+          <svg className="w-80" dangerouslySetInnerHTML={{ __html: syntheticLootSVG }} />
+        </div>
+
       ) : null}
     </div>
   );

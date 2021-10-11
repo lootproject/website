@@ -72,7 +72,7 @@ export default function Layout({
       <Head />
       {/* Top header */}
       <Header />
-      <div className="container mx-auto px-4 text-center py-10 sm:pt-40 justify-around flex flex-wrap">
+      {/* <div className="container mx-auto px-4 text-center py-10 sm:pt-40 justify-around flex flex-wrap">
         <div className="sm:w-1/2">
           <h1>Loot</h1>
           <div>
@@ -89,8 +89,8 @@ export default function Layout({
           Stats, images, and other functionality are intentionally omitted for others to interpret.
 
         Feel free to use Loot in any way you want.</p>
-        </div>
-        <div className=" flex w-full justify-around mt-8 relative overflow-hidden ">
+        </div> */}
+      {/* <div className=" flex w-full justify-around mt-8 relative overflow-hidden ">
           <div className={navbarClasses.join(" ") + "sticky top-0 bg-gray-800 p-2 rounded-2xl flex sm:text-2xl tracking-wide flex-wrap justify-between"}>
             {quicklinks.map(({ name, url }, i) => {
               return (<Link key={i} href={url}>
@@ -99,9 +99,9 @@ export default function Layout({
             })}
 
           </div>
-        </div>
+        </div> */}
 
-      </div>
+      {/* </div> */}
       {/* Page content */}
       <div className={styles.content}>{children}</div>
       {/* Bottom footer */}
@@ -174,34 +174,51 @@ function Header() {
 
   // All links
   const links = [
+    {
+      name: "Chapters",
+      path: "/"
+    },
+    {
+      name: "Marketplaces",
+      path: "/marketplaces"
+    },
+    {
+      name: "Build",
+      path: "/build"
+    },
+    {
+      name: "Resources",
+      path: "/resources",
+    },
     { name: "FAQ", path: "/faq" },
-    { name: "Discord", path: "https://discord.gg/23gbrJ6pje" },
-    { name: "Loot Talk", path: "https://loot-talk.com/" },
+    // { name: "Discord", path: "https://discord.gg/23gbrJ6pje" },
+    { name: "Forum", path: "https://loot-talk.com/" },
   ];
 
   return (
-    <div className={styles.header}>
+    <div className="w-full flex justify-between py-2 bg-black px-4">
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a><h2>Loot</h2></a>
+
         </Link>
       </div>
 
       {/* Navigation */}
-      <div className={styles.header__links}>
-        <ul>
+      <div className="self-center">
+        <ul className="flex space-x-8">
           {links.map(({ name, path }, i) => {
             // For each link, render link
             return (
-              <li key={i}>
+              <li className="self-center text-xl" key={i}>
                 <Link href={path}>
                   <a
                     className={
                       pathname === path
                         ? // Active class if pathname matches current path
-                        styles.header__links_active
-                        : undefined
+                        "bg-gray-900 px-4 py-2 rounded"
+                        : undefined + "bg-gray-900 px-4 py-2 rounded"
                     }
                   >
                     {name}
@@ -210,7 +227,12 @@ function Header() {
               </li>
             );
           })}
-          <li>
+
+        </ul>
+      </div>
+      <div className="self-center">
+        <ul className="flex space-x-4 mr-auto">
+          <li className="bg-gray-700 px-4 py-1 rounded  ml-auto">
             {isConnected && (
               <span>
                 {displayName} {" "}
@@ -224,7 +246,7 @@ function Header() {
             )}
             {!isConnected && (
               <button className={[styles.header__button, 'cursor-pointer'].join(' ')} onClick={connectWallet}>
-                Connect
+                Connect to Lootverse
               </button>
             )}
           </li>

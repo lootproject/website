@@ -1,5 +1,6 @@
 // Imports
-
+import Link from "next/link"; // Routing
+import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row";
 import { whatToGet, whatToDo, getAfterLoot, getYourCharacter } from "../utils/newLists"
@@ -8,14 +9,47 @@ import Path from "../img/path.svg";
 import type { ReactElement } from "react";
 
 export default function Home(): ReactElement {
-
-
+  const router = useRouter();
+  const subLinks: Record<string, string>[] = [
+    {
+      name: "Loot.exchange",
+      url: "https://www.loot.exchange/",
+    },
+    {
+      name: "Opensea",
+      url: "https://opensea.io/collection/lootproject"
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/lootproject",
+    },
+  ];
   return (
     <Layout>
-      <div className="flex mx-auto sticky top-0 bg-black w-full justify-center text-xl space-x-6 py-4 z-10">
-        <div>
-          <a className="hover:text-gray-700" href="#chapter1">Start here</a>
+      <div className="mx-auto px-4 text-center py-10 sm:py-20 justify-around flex flex-wrap hero-img bg-opacity-10">
+        <div className="sm:w-1/2">
+          <div className="px-4">
+            <h1>Loot</h1>
+            <div>
+              <nav className="my-8">
+                {subLinks.map(({ name, url }, i) => {
+                  return (<Link key={i} href={url}>
+                    <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-900" : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl "} >{name}</a>
+                  </Link>)
+                })}
+              </nav>
+            </div>
+            <p className="sm:text-2xl">Loot is randomized adventurer gear generated and stored on chain.
+
+            Stats, images, and other functionality are intentionally omitted for others to interpret.
+
+        Feel free to use Loot in any way you want.</p>
+          </div>
+
         </div>
+
+      </div>
+      <div className="flex flex-wrap mx-auto sticky top-0 bg-gray-1000 w-full justify-center text-xl space-x-8 py-4 z-10 text-2xl">
         <div>
           <a className="hover:text-gray-700" href="#chapter1">Chapter 1</a>
         </div>
