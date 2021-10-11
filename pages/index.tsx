@@ -31,7 +31,7 @@ export default function Home(): ReactElement {
           <div className="px-4">
             <h1>Loot</h1>
             <div>
-              <nav className="my-8">
+              <nav className="my-8 flex flex-wrap justify-center">
                 {subLinks.map(({ name, url }, i) => {
                   return (<Link key={i} href={url}>
                     <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-900" : "px-4  sm:p-4 mx-4 py-1 hover:bg-gray-800 rounded-xl"} >{name}</a>
@@ -49,7 +49,7 @@ export default function Home(): ReactElement {
         </div>
 
       </div>
-      <div className="flex flex-wrap mx-auto sticky top-0 bg-gray-1000 w-full justify-center text-xl space-x-8 py-4 z-10 text-2xl">
+      <div className="flex flex-wrap mx-auto sticky top-0 bg-gray-1000 w-full justify-center text-xl space-x-8 py-4 z-10 sm:text-2xl">
         <div>
           <a className="hover:text-gray-700" href="#chapter1">Chapter 1</a>
         </div>

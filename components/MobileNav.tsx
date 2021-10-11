@@ -49,6 +49,7 @@ export function MobileNav(props: NavProps) {
                                 <li className="self-center text-xl" key={i}>
                                     <Link href={path}>
                                         <a
+                                            onClick={onClick}
                                         >
                                             {name}
                                         </a>
