@@ -2,16 +2,17 @@ import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
 const loot: Project = {
   name: "Loot (for Adventurers)",
-  description: "For all things Loot and derivatives (note: high traffic)",
+  description: "The original 8,000 OG Loot bags. ",
   whatToDo: [
-    {
-      content: "Trade on Open Sea",
-      url: "https://opensea.io/collection/lootproject"
-    },
     {
       content: "Trade on Loot.exchange",
       url: "https://www.loot.exchange/"
+    },
+    {
+      content: "Trade on Open Sea",
+      url: "https://opensea.io/collection/lootproject"
     }
+
   ],
   contract: {
     content: "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
@@ -28,10 +29,67 @@ const loot: Project = {
   },
   image: "/lootheader.svg"
 };
+
+const mLoot: Project = {
+  name: "mloot",
+  description:
+    "1.5 million More Loot bags, with 250,000 more available per year. They are free to claim.",
+  whatToDo: [
+    {
+      content: "Mint an mLoot Bag",
+      url: "https://etherscan.io/address/0x1dfe7ca09e99d10835bf73044a23b73fc20623df#writeContract"
+    }
+  ],
+  contract: {
+    content: "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF",
+    url: "https://etherscan.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/dhof/status/1434180216444923923?lang=en"
+  },
+  discord: {
+    url: "https://discord.com/invite/23gbrJ6pje"
+  },
+  opensea: {
+    url: "https://opensea.io/collection/more-loot"
+  },
+  image: "/mlootheader.svg"
+};
+
+const sLoot: Project = {
+  name: "Synthetic Loot",
+  description:
+    "Loot bags for everyone, tied to your Ethereum address. There are 2^256 sLoot bags.",
+  whatToDo: [
+    {
+      content: "View your sLoot",
+      url: 'https://loot.stephancill.co.za/#/'
+    },
+    // {
+    //   content: "View your sLoot",
+    //   component: <SyntheticLoot />
+    // }
+  ],
+  contract: {
+    content: "0x869ad3dfb0f9acb9094ba85228008981be6dbdde",
+    url: "https://etherscan.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/lootproject"
+  },
+  discord: {
+    url: "https://discord.com/invite/23gbrJ6pje"
+  },
+  opensea: {
+    url: "https://opensea.io/collection/lootproject"
+  },
+  image: "/syntheticheader.svg"
+};
+
 const adventureGold: Project = {
   name: "Adventure Gold $AGLD",
   heading: "Get Adventure Gold $AGLD",
-  description: "The reserve Gold of the Lootverse.",
+  description: "An open-source in-game currency for the Lootverse.",
   whatToDo: [
     {
       content: "Trade on Uniswap",
@@ -43,6 +101,31 @@ const adventureGold: Project = {
     url: "https://etherscan.io/"
   },
   image: "https://images.pexels.com/photos/47047/gold-ingots-golden-treasure-47047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+};
+
+const realms: Project = {
+  name: "Realms",
+  heading: "Settle a Realm",
+  description: "8000 Procedurally generated Realms for Adventurers to explore. 16 orders rule 500 Realms each. Prepare for the wars to come.",
+  whatToDo: [
+    {
+      content: "Trade",
+      url: "https://opensea.io/collection/lootrealms"
+    }
+  ],
+  website: {
+    url: "https://bibliothecaforloot.com/realms"
+  },
+  contract: {
+    content: "0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d"
+  },
+  twitter: {
+    url: "https://twitter.com/LootRealms"
+  },
+  discord: {
+    url: "https://discord.gg/hTYmwpvCDq"
+  },
+  image: "https://storage.opensea.io/files/2468d5c3fc290400d053a68e149c9d1c.svg"
 };
 
 const bibliotheca: Project = {
@@ -82,10 +165,10 @@ const bibliotheca: Project = {
 const genesisMana: Project = {
   name: "Genesis Project",
   heading: "Distil mana with your Loot bag.",
-  description: "Use your Lootbag and distil the Orders items.",
+  description: "Genesis Mana act like Mint Passes to summon Genesis Adventurers. Collect a perfect set of 8 items, one of each inventory type and all of the same Order, and you (or a team) will be able to travel through time to resurrect a Genesis Adventurer and receive its “Genesis Loot” bag. ",
   whatToDo: [
     {
-      content: "Distil",
+      content: "Distill Genesis Mana",
       url: "https://genesisproject.notion.site/Genesis-Adventurer-cc41f0c184ab481aafb0e1056a48727e"
     },
     {
@@ -109,9 +192,11 @@ const genesisMana: Project = {
     mint: 0
   }
 };
+
 const lootCharacter: Project = {
   name: "Loot Character",
-  description: "Generate your Loot Character.",
+  heading: "Mint a Loot Character",
+  description: "Loot Characters is the first collection designed to visualize the Loot Adventurer Gear. Associative NFT, forever tied to the Loot bag from which it was minted.",
   whatToDo: [
     {
       content: "Generate",
@@ -127,6 +212,9 @@ const lootCharacter: Project = {
   },
   twitter: {
     url: "https://twitter.com/LootCharacter"
+  },
+  mintPrice: {
+    mint: 0.2
   },
   neededProject: loot,
   image:
@@ -159,11 +247,11 @@ const lootExchange: Project = {
   }
 };
 const lootMart: Project = {
-  name: "Upgrade your Warrior with LootMart",
-  description: "Distil items from your Lootbags and upgrade your Adventurer.",
+  name: "Unbundle Your Bag",
+  description: "Unbundle your Loot Bags into individual Lootmart items that you can trade and use to upgrade your Adventurer in the Loot universe.",
   whatToDo: [
     {
-      content: "Distil",
+      content: "Unbundle",
       url: "https://www.lootmart.xyz/"
     },
     {
@@ -222,34 +310,7 @@ const lootWatcher: Project = {
     url: "https://www.lootwatcher.com/"
   }
 };
-const mLoot: Project = {
-  name: "mloot",
-  description:
-    "mLoot is more loot. 1.5 million loot bags with 250,000 more per year. They are free to claim.",
-  whatToDo: [
-    {
-      content: "Trade on Open Sea",
-      url: "https://opensea.io/collection/more-loot"
-    }
-  ],
-  contract: {
-    content: "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/dhof/status/1434180216444923923?lang=en"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/more-loot"
-  },
-  mintPrice: {
-    mint: 0
-  },
-  image: "/mlootheader.svg"
-};
+
 
 const NFTx: Project = {
   name: "NFTx",
@@ -295,34 +356,6 @@ const openSea: Project = {
   }
 };
 
-const realms: Project = {
-  name: "Realms",
-  heading: "Explore a realm",
-  description: "Procedurally generated Realms for Adventurers to explore.",
-  whatToDo: [
-    {
-      content: "Mint Realms",
-      url: "https://bibliothecaforloot.com/realms/mint"
-    },
-    {
-      content: "Buy or Trade",
-      url: "https://opensea.io/collection/lootrealms"
-    }
-  ],
-  website: {
-    url: "https://bibliothecaforloot.com/realms"
-  },
-  contract: {
-    content: "0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d"
-  },
-  twitter: {
-    url: "https://twitter.com/LootRealms"
-  },
-  discord: {
-    url: "https://discord.gg/hTYmwpvCDq"
-  },
-  image: "https://storage.opensea.io/files/2468d5c3fc290400d053a68e149c9d1c.svg"
-};
 const stakeARealm: Project = {
   name: "Stake a Realm",
   description:
@@ -342,68 +375,95 @@ const stakeARealm: Project = {
   neededProject: realms
 };
 
-const sLoot: Project = {
-  name: "Synthetic Loot",
-  description:
-    "There are 2^160 potential different sLoot bags. View them in the browser.",
-  whatToDo: [
-    {
-      content: "View your sLoot",
-      component: <SyntheticLoot />
-    }
-  ],
-  contract: {
-    content: "0x869ad3dfb0f9acb9094ba85228008981be6dbdde",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/lootproject"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/lootproject"
-  },
-  image: "/syntheticheader.svg"
-};
 
-const genesisWarrior: Project = {
-  name: "The Genesis Project",
-  description: "Distill your Loot bags into Genesis mana.",
+
+const genesisAdventurer: Project = {
+  name: "Genesis Loot",
+  description: "The 2,540 bags of Genesis Loot were carried by the original 'Genesis Adventurers.' Through teamwork and collaboration, players resurrect Genesis Adventurers to protect and champion their ancestral Orders.",
   whatToDo: [
     {
-      content: "Distill Mana",
-      url: "https://twitter.com/genesisloot/status/1436084847827570689?s=21"
+      content: "Resurrect a Genesis Adventurer",
+      url: "https://genesisproject.notion.site/"
     },
     {
       content: "Trade on OS",
-      url: "https://opensea.io/collection/genesis-mana"
+      url: "https://opensea.io/collection/genesisadventurer"
     },
-    {
-      content: "Trade on NFTx",
-      url: "https://nftx.io/vault/0x2d77f5b3efa51821ad6483adaf38ea4cb1824cc5/buy/"
-    }
   ],
   website: {
     url: "https://genesisproject.xyz/"
   },
   contract: {
-    content: "0x2d77f5b3efa51821ad6483adaf38ea4cb1824cc5"
-    // TODO: actual genesisMana: 0xf4B6040A4b1B30f1d1691699a8F3BF957b03e463
+    content: "0x8db687aceb92c66f013e1d614137238cc698fedb"
   },
   twitter: {
-    url: "https://twitter.com/GenesisLoot"
+    url: "https://twitter.com/genesisloot"
   },
   discord: {
-    url: "https://discord.gg/w8txv8bvWd"
+    url: "https://discord.gg/YUYyPSuwfU"
   },
+  opensea: {
+    url: "https://opensea.io/collection/genesisadventurer"
+  },
+  github: {
+    url: "https://github.com/genesisproject4loot/genesisadventurer"
+  },
+  image: "/lootheader.svg",
   neededProject: genesisMana,
   mintPrice: {
     mint: 0.25
   }
 };
-
+const lootMartAssemble: Project = {
+  name: "Equip a Warrior (Coming Soon)",
+  description: "Re-bundle your items into bags in order to equip your warrior.",
+  whatToDo: [
+    {
+      content: "Equip Your Warrior",
+      url: "https://www.lootmart.xyz/"
+    },
+  ],
+  website: {
+    url: "https://www.lootmart.xyz/"
+  },
+  contract: {
+    content: "0x71355f4a94f46ee32eb443ad2bde2dec0470f949",
+    url: "https://etherscan.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/lootmart_xyz"
+  },
+  discord: {
+    url: "https://discord.gg/w8txv8bvWd" // TODO: not yet public
+  },
+  image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
+  neededProject: loot
+};
+const lootSwag: Project = {
+  name: "Equip a Warrior (Coming Soon)",
+  description: "Re-bundle your items into bags in order to equip your warrior.",
+  whatToDo: [
+    {
+      content: "Equip Your Warrior",
+      url: "https://lootswag.io"
+    },
+  ],
+  website: {
+    url: "https://lootswag.io"
+  },
+  contract: {
+    content: "0x71355f4a94f46ee32eb443ad2bde2dec0470f949",
+    url: "https://etherscan.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/LootSwag"
+  },
+  discord: {
+    url: "https://discord.gg/QEs6BArR" // TODO: not yet public
+  },
+  image: "",
+  neededProject: loot
+};
 export {
   loot,
   adventureGold,
@@ -420,5 +480,6 @@ export {
   realms,
   stakeARealm,
   sLoot,
-  genesisWarrior
+  genesisAdventurer,
+  lootMartAssemble
 };

@@ -2,6 +2,7 @@ import { MouseEventHandler } from "react";
 import Discord from "../img/discord.svg";
 import Twitter from "../img/twitter.svg";
 import Globe from "../img/globe.svg";
+import Github from "../img/github.svg";
 import { Project } from "../types/interface";
 
 type CardProps = {
@@ -11,10 +12,14 @@ type CardProps = {
 };
 
 export function Card(props: CardProps) {
-  const { selected: isSelected, project, onClick } = props;
+  const { selected: isSelected, project } = props;
+
+  const loot = "w-full sm:w-1/2 md:w-1/2 mb-10 "
+
+  const all = "w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 mb-10 "
   return (
     <div
-      className={project.name == "Loot (for Adventurers)" ? "w-full sm:w-1/2 h-full" : "h-full" + "w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 mb-10 "}
+      className={project.name == "Loot (for Adventurers)" ? loot : all}
     >
       <div className="bg-gray-900 rounded-xl shadow-xl my-3 transform hover:-translate-y-2 hover:border-gray-600 border-2 border-black duration-150 mx-3 h-full flex flex-col">
         {project.image && (
@@ -37,33 +42,30 @@ export function Card(props: CardProps) {
 
           <p className="text-xl text-gray-200 mb-6 mt-2">{project.description}</p>
           {project.mintPrice && (
-            <div className="my-1">
-              <h5 className="uppercase mt-4 font-body text-gray-400">Cost</h5>
-              <span className="rounded">
+            <div className="my-3">
+              {/* <h5 className="uppercase mt-4 font-body text-gray-400">Cost</h5> */}
+              <span className="text-xl">
                 Cost: {project.mintPrice.mint}ETH + gas
               </span>
             </div>
           )}
 
-          {project.neededProject && (
-            <div className="my-3">
-              <h5 className="uppercase mt-4 font-body  text-gray-400">Required Holding</h5>
-              <span className="rounded">
-                {project.neededProject.name}
-              </span>
-            </div>
-          )}
-
-          <div className="my-3">
-            <h5 className="uppercase mt-4 font-body  text-gray-400">Project Name</h5>
+          {/* <div className="my-3">
             <div className="flex justify-between">
               <span className="self-center text-xl">
-                {project.name}
+                Project: {project.name}
               </span>
-
             </div>
+          </div> */}
 
-          </div>
+          {/* {project.neededProject && (
+            <div className="my-3">
+              <span className="text-xl">
+                Required: {project.neededProject.name}
+              </span>
+            </div>
+          )} */}
+
 
 
           <div className="flex gap-5 rounded py-5 mt-auto">
@@ -76,7 +78,7 @@ export function Card(props: CardProps) {
                       target="_blank"
                       href={url as string}
                       key={i}
-                      className="bg-gray-700 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg font-semibold text-gray-200"
+                      className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg font-semibold text-gray-200 border border-gray-700"
                     >
                       {content}
                     </a>
@@ -102,6 +104,15 @@ export function Card(props: CardProps) {
               </a>
             )}
             <div className="flex ml-auto">
+              {project.github && (
+                <a
+                  target="_blank"
+                  href={project.github.url as string}
+                  className="self-center "
+                >
+                  <Github className="w-5 h-5 mx-2 hover:text-gray-200 text-gray-400 " />
+                </a>
+              )}
               {project.website && (
                 <a
                   target="_blank"

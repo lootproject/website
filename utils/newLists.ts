@@ -14,24 +14,35 @@ import {
   realms,
   stakeARealm,
   sLoot,
-  genesisWarrior
+  genesisAdventurer,
+  lootMartAssemble
 } from "./projects"
+
+export const onlyLoot = [
+  {
+    name: "",
+    description: "",
+    project: [
+      loot,
+    ],
+  },
+];
 
 export const whatToGet = [
   {
     name: "",
     description: "",
     project: [
-      loot,
       sLoot,
       mLoot,
+      genesisAdventurer
     ],
   },
 ];
 
 export const getAfterLoot = [
   {
-    name: "Mint, Claim or Trade additional items",
+    name: "",
     description: "",
     project: [
       adventureGold,
@@ -58,8 +69,7 @@ export const whatToDo = [
     name: "",
     description: "",
     project: [
-      lootMart,
-      genesisWarrior,
+      lootMartAssemble,
       stakeARealm,
     ],
   },
