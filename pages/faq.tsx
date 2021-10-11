@@ -10,7 +10,7 @@ import type { ReactElement } from "react";
 export default function FAQ(): ReactElement {
   return (
     <Layout>
-      <div className={styles.faq}>
+      <div className="container mx-auto py-20 px-4">
         <h2>Frequently Asked Questions</h2>
 
         {/* What is loot ? */}

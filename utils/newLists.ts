@@ -55,7 +55,7 @@ export const getAfterLoot = [
 
 export const getYourCharacter = [
   {
-    name: "Get your Character",
+    name: "",
     description: "",
     project: [
       lootMart,
@@ -90,7 +90,7 @@ export const marketPlaces = [
 
 export const resources = [
   {
-    name: "Discovery Tools",
+    name: "",
     description: "",
     project: [
       lootWatcher,

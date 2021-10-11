@@ -8,7 +8,7 @@ interface Project {
   name: String;
   heading?: String;
   description: String;
-  whatToDo: Array<Content>;
+  whatToDo?: Array<Content>;
   roadMap?: Content;
   website?: Content;
   contract?: Content;

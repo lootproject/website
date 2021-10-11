@@ -130,7 +130,6 @@ const realms: Project = {
 
 const bibliotheca: Project = {
   name: "Bibliotheca",
-  heading: "Explore your entire Adventurer",
   description:
     "Graphs Loot projects so you can see your progress in the LootVerse.",
   whatToDo: [
@@ -141,10 +140,6 @@ const bibliotheca: Project = {
     {
       content: "Search for Genesis Mana",
       url: "https://bibliothecaforloot.com/loot"
-    },
-    {
-      content: "Mint a Realm",
-      url: "https://bibliothecaforloot.com/realms/mint"
     }
   ],
   contract: {
@@ -244,7 +239,8 @@ const lootExchange: Project = {
   },
   opensea: {
     url: "https://opensea.io/collection/lootproject"
-  }
+  },
+  image: "/exchangeLogo2.svg"
 };
 const lootMart: Project = {
   name: "Unbundle Your Bag",
@@ -333,7 +329,8 @@ const NFTx: Project = {
   },
   github: {
     url: "https://github.com/NFTX-project"
-  }
+  },
+  image: "https://www.coywolf.news/wp-content/uploads/2021/05/nft.webp"
 };
 
 const openSea: Project = {
@@ -353,7 +350,8 @@ const openSea: Project = {
   },
   website: {
     url: "https://opensea.io/collection/lootproject"
-  }
+  },
+  image: "/Logomark-White.png"
 };
 
 const stakeARealm: Project = {
@@ -372,7 +370,11 @@ const stakeARealm: Project = {
   discord: {
     url: "https://discord.gg/hTYmwpvCDq"
   },
-  neededProject: realms
+  neededProject: realms,
+  image: "https://storage.opensea.io/files/2468d5c3fc290400d053a68e149c9d1c.svg",
+  contract: {
+    content: "0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d"
+  },
 };
 
 
@@ -439,31 +441,7 @@ const lootMartAssemble: Project = {
   image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
   neededProject: loot
 };
-const lootSwag: Project = {
-  name: "Equip a Warrior (Coming Soon)",
-  description: "Re-bundle your items into bags in order to equip your warrior.",
-  whatToDo: [
-    {
-      content: "Equip Your Warrior",
-      url: "https://lootswag.io"
-    },
-  ],
-  website: {
-    url: "https://lootswag.io"
-  },
-  contract: {
-    content: "0x71355f4a94f46ee32eb443ad2bde2dec0470f949",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/LootSwag"
-  },
-  discord: {
-    url: "https://discord.gg/QEs6BArR" // TODO: not yet public
-  },
-  image: "",
-  neededProject: loot
-};
+
 export {
   loot,
   adventureGold,

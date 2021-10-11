@@ -21,7 +21,7 @@ export function Card(props: CardProps) {
     <div
       className={project.name == "Loot (for Adventurers)" ? loot : all}
     >
-      <div className="bg-gray-900 rounded-xl shadow-xl my-3 transform hover:-translate-y-2 hover:border-gray-600 border-2 border-black duration-150 mx-3 h-full flex flex-col">
+      <div className="bg-gray-1000 rounded-xl shadow-sm  my-3 transform hover:-translate-y-2 hover:border-gray-600  duration-150 mx-3 h-full flex flex-col">
         {project.image && (
           <img
             src={project.image as string}
