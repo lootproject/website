@@ -67,27 +67,29 @@ export function Card(props: CardProps) {
           )} */}
 
 
+          {project.whatToDo && (
+            <div className="flex gap-5 rounded py-5 mt-auto">
+              <div className={isSelected ? "w-1/3" : ""}>
+                <div className="flex flex-wrap gap-x-3">
+                  {project.whatToDo.map(({ content, url, component }, i) => {
+                    // if (component) return component;
+                    return (
+                      <a
+                        target="_blank"
+                        href={url as string}
+                        key={i}
+                        className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg font-semibold text-gray-200 border border-gray-700"
+                      >
+                        {content}
+                      </a>
+                    );
+                  })}
 
-          <div className="flex gap-5 rounded py-5 mt-auto">
-            <div className={isSelected ? "w-1/3" : ""}>
-              <div className="flex flex-wrap gap-x-3">
-                {project.whatToDo.map(({ content, url, component }, i) => {
-                  // if (component) return component;
-                  return (
-                    <a
-                      target="_blank"
-                      href={url as string}
-                      key={i}
-                      className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg font-semibold text-gray-200 border border-gray-700"
-                    >
-                      {content}
-                    </a>
-                  );
-                })}
-
+                </div>
               </div>
             </div>
-          </div>
+          )}
+
 
           <div className="flex text-center pt-4">
 
