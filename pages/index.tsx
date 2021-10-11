@@ -34,7 +34,7 @@ export default function Home(): ReactElement {
               <nav className="my-8">
                 {subLinks.map(({ name, url }, i) => {
                   return (<Link key={i} href={url}>
-                    <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-900" : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl "} >{name}</a>
+                    <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-900" : "px-4  sm:p-4 mx-4 py-1 hover:bg-gray-800 rounded-xl"} >{name}</a>
                   </Link>)
                 })}
               </nav>

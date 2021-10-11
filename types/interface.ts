@@ -32,7 +32,13 @@ interface Price {
   mint?: Number
 }
 
+interface Link {
+  name: String,
+  path: String
+}
+
 export type {
   CardDetails,
-  Project
+  Project,
+  Link
 }

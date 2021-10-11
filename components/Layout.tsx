@@ -3,106 +3,33 @@ import Link from "next/link"; // Routing
 import { useRouter } from "next/router"; // Routing
 import { default as HTMLHead } from "next/head"; // Meta
 import styles from "@styles/components/Layout.module.scss"; // Styles
-import React, { useEffect } from 'react';
-// Types
-import type { ReactElement } from "react";
+import React, { ReactElement, useState } from 'react';
 import { useWalletContext } from "hooks/useWalletContext";
+import { MobileNav } from "./MobileNav"
+import { MouseEventHandler } from "react";
+import Menu from "../img/menu.svg";
+type NavProps = {
+  onClick?: MouseEventHandler;
+  hidden: boolean;
+};
 
 export default function Layout({
   children,
 }: {
   children: ReactElement | ReactElement[];
 }) {
-  const [scrolled, setScrolled] = React.useState(false);
 
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 460) {
-      setScrolled(true);
-    }
-    else {
-      setScrolled(false);
-    }
-  }
+  const [hidden, setHidden] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-  })
-  let navbarClasses = ['navbar'];
-  if (scrolled) {
-    navbarClasses.push('fixed top-10 ');
-  }
-
-  const quicklinks: Record<string, string>[] = [
-    {
-      name: "Chapters",
-      url: "/"
-    },
-    {
-      name: "Marketplaces",
-      url: "/marketplaces"
-    },
-    {
-      name: "Build w/ Loot",
-      url: "/build"
-    },
-    {
-      name: "Resources",
-      url: "/resources",
-    },
-  ];
-  const subLinks: Record<string, string>[] = [
-    {
-      name: "Loot.exchange",
-      url: "https://www.loot.exchange/",
-    },
-    {
-      name: "Opensea",
-      url: "https://opensea.io/collection/lootproject"
-    },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/lootproject",
-    },
-  ];
-  const router = useRouter();
   return (
     <div>
       {/* Meta */}
       <Head />
       {/* Top header */}
-      <Header />
-      {/* <div className="container mx-auto px-4 text-center py-10 sm:pt-40 justify-around flex flex-wrap">
-        <div className="sm:w-1/2">
-          <h1>Loot</h1>
-          <div>
-            <nav className="my-8">
-              {subLinks.map(({ name, url }, i) => {
-                return (<Link key={i} href={url}>
-                  <a className={router.pathname == url ? "bg-gray-800 py-1 px-4 sm:p-4 mx-4 rounded-xl border border-gray-900" : " px-4  sm:p-4 mx-4 py-1   hover:bg-gray-800 rounded-xl "} >{name}</a>
-                </Link>)
-              })}
-            </nav>
-          </div>
-          <p className="sm:text-2xl">Loot is randomized adventurer gear generated and stored on chain.
-
-          Stats, images, and other functionality are intentionally omitted for others to interpret.
-
-        Feel free to use Loot in any way you want.</p>
-        </div> */}
-      {/* <div className=" flex w-full justify-around mt-8 relative overflow-hidden ">
-          <div className={navbarClasses.join(" ") + "sticky top-0 bg-gray-800 p-2 rounded-2xl flex sm:text-2xl tracking-wide flex-wrap justify-between"}>
-            {quicklinks.map(({ name, url }, i) => {
-              return (<Link key={i} href={url}>
-                <a className={(router.pathname == url ? "bg-gray-900" : "hover:bg-gray-900") + " py-1 px-4 sm:p-4 mx-1 rounded-xl transition-all duration-150"} >{name}</a>
-              </Link>)
-            })}
-
-          </div>
-        </div> */}
-
-      {/* </div> */}
+      <Header hidden={hidden} onClick={() => setHidden(hidden => !hidden)} />
+      <MobileNav hidden={hidden} onClick={() => setHidden(hidden => !hidden)} />
       {/* Page content */}
+
       <div className={styles.content}>{children}</div>
       {/* Bottom footer */}
       <Footer />
@@ -165,12 +92,12 @@ function Head(): ReactElement {
  * Header
  * @returns {ReactElement} Header
  */
-function Header() {
+function Header(props: NavProps) {
   // Collect current path for active links
   const { pathname } = useRouter();
-
   const { connectWallet, isConnected, disconnectWallet, displayName } =
     useWalletContext();
+  const { hidden, onClick } = props;
 
   // All links
   const links = [
@@ -191,7 +118,6 @@ function Header() {
       path: "/resources",
     },
     { name: "FAQ", path: "/faq" },
-    // { name: "Discord", path: "https://discord.gg/23gbrJ6pje" },
     { name: "Forum", path: "https://loot-talk.com/" },
   ];
 
@@ -201,12 +127,11 @@ function Header() {
       <div className={styles.header__logo}>
         <Link href="/">
           <a><h2>Loot</h2></a>
-
         </Link>
       </div>
 
       {/* Navigation */}
-      <div className="self-center">
+      <div className="self-center hidden sm:block">
         <ul className="flex space-x-8">
           {links.map(({ name, path }, i) => {
             // For each link, render link
@@ -230,7 +155,10 @@ function Header() {
 
         </ul>
       </div>
-      <div className="self-center">
+      <div className="self-center block sm:hidden">
+        <button onClick={onClick} ><Menu /></button>
+      </div>
+      <div className="self-center hidden sm:block">
         <ul className="flex space-x-4 mr-auto">
           <li className="bg-gray-700 px-4 py-1 rounded  ml-auto">
             {isConnected && (
@@ -253,6 +181,7 @@ function Header() {
         </ul>
       </div>
     </div>
+
   );
 }
 
