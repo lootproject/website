@@ -24,7 +24,7 @@ export function Header(props: NavProps) {
     // All links
 
     return (
-        <div className="w-full flex justify-between py-2 bg-black px-4">
+        <div className="w-full flex justify-between py-2 bg-black px-4 bg-opacity-90">
             {/* Main logo */}
             <div className={styles.header__logo}>
                 <Link href="/">
@@ -67,7 +67,7 @@ export function Header(props: NavProps) {
                             <span>
                                 {displayName} {" "}
                                 <a
-                                    className={[styles.header__links_active, 'cursor-pointer'].join(' ')}
+                                    className={[styles.header__links_active, 'cursor-pointer  font-body'].join(' ')}
                                     onClick={disconnectWallet}
                                 >
                                     [ disconnect ]
@@ -75,7 +75,7 @@ export function Header(props: NavProps) {
                             </span>
                         )}
                         {!isConnected && (
-                            <button className={[styles.header__button, 'cursor-pointer'].join(' ')} onClick={connectWallet}>
+                            <button className={[styles.header__button, 'cursor-pointer  font-body'].join(' ')} onClick={connectWallet}>
                                 Connect to Lootverse
                             </button>
                         )}
