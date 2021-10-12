@@ -15,7 +15,10 @@ import {
   stakeARealm,
   sLoot,
   genesisAdventurer,
-  lootMartAssemble
+  lootMartAssemble,
+  LootExplorers,
+  hyperLoot,
+  lootSwag,
 } from "./projects"
 
 export const onlyLoot = [
@@ -58,8 +61,10 @@ export const getYourCharacter = [
     name: "",
     description: "",
     project: [
-      lootMart,
       lootCharacter,
+      LootExplorers,
+      hyperLoot,
+      lootSwag,
     ],
   },
 ];

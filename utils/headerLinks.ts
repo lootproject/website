@@ -1,17 +1,6 @@
 import { Links } from "../types/interface";
 export const headerLinks: Array<Links> = [
-    {
-        name: "Chapters",
-        path: "/"
-    },
-    {
-        name: "Marketplaces",
-        path: "/marketplaces"
-    },
-    {
-        name: "All Projects",
-        path: "https://www.lootwatcher.com/"
-    },
+
     {
         name: "Build",
         path: "/build"

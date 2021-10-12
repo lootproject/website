@@ -21,16 +21,19 @@ export function Card(props: CardProps) {
     <div
       className={project.name == "Loot (for Adventurers)" ? loot : all}
     >
-      <div className="bg-gray-1000 rounded-xl shadow-sm  my-3 transform hover:-translate-y-2 hover:border-gray-600  duration-150 mx-3 h-full flex flex-col">
+      <div className="bg-gray-900 rounded-3xl shadow-sm  my-3 transform hover:-translate-y-2 hover:border-gray-600  duration-150 mx-3 h-full flex flex-col">
         {project.image && (
-          <img
-            src={project.image as string}
-            className=
-            "transition delay-300 duration-700 rounded-t-xl object-cover object-bottom max-h-56"
+          <div className="sm:h-96">
+            <img
+              src={project.image as string}
+              className=
+              "transition delay-300 duration-700 rounded-t-3xl object-cover object-bottom sm:h-96 w-full"
 
-          />
+            />
+          </div>
+
         )}
-        <div className="p-6 flex flex-col h-full">
+        <div className="p-4 sm:p-8 flex flex-col h-full">
           <div className="text-white justify-between text-2xl sm:text-3xl font-display">
             {project.heading ? (
               <div className="my-1">
@@ -69,23 +72,20 @@ export function Card(props: CardProps) {
 
           {project.whatToDo && (
             <div className="flex gap-5 rounded py-5 mt-auto">
-              <div className={isSelected ? "w-1/3" : ""}>
-                <div className="flex flex-wrap gap-x-3">
-                  {project.whatToDo.map(({ content, url, component }, i) => {
-                    // if (component) return component;
-                    return (
-                      <a
-                        target="_blank"
-                        href={url as string}
-                        key={i}
-                        className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg font-semibold text-gray-200 border border-gray-700"
-                      >
-                        {content}
-                      </a>
-                    );
-                  })}
-
-                </div>
+              <div className="flex flex-wrap w-full">
+                {project.whatToDo.map(({ content, url, component }, i) => {
+                  // if (component) return component;
+                  return (
+                    <a
+                      target="_blank"
+                      href={url as string}
+                      key={i}
+                      className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"
+                    >
+                      {content}
+                    </a>
+                  );
+                })}
               </div>
             </div>
           )}

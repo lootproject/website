@@ -159,8 +159,8 @@ const bibliotheca: Project = {
 
 const genesisMana: Project = {
   name: "Genesis Project",
-  heading: "Distil mana with your Loot bag.",
-  description: "Genesis Mana act like Mint Passes to summon Genesis Adventurers. Collect a perfect set of 8 items, one of each inventory type and all of the same Order, and you (or a team) will be able to travel through time to resurrect a Genesis Adventurer and receive its “Genesis Loot” bag. ",
+  heading: "Distill Genesis Mana with your Loot bag.",
+  description: "All bags with items 'of' Orders have free Genesis Mana inside them. Collect a perfect set of 8 Genesis Mana in order to resurrect a Genesis Adventurer and receive its “Genesis Loot” bag. ",
   whatToDo: [
     {
       content: "Distill Genesis Mana",
@@ -410,7 +410,7 @@ const genesisAdventurer: Project = {
   github: {
     url: "https://github.com/genesisproject4loot/genesisadventurer"
   },
-  image: "/lootheader.svg",
+  image: "/genesis.svg",
   neededProject: genesisMana,
   mintPrice: {
     mint: 0.25
@@ -441,7 +441,64 @@ const lootMartAssemble: Project = {
   image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
   neededProject: loot
 };
+const lootSwag: Project = {
+  name: "Get a Loot Swag Avatar",
+  description: "Customize loot avatars through skins.",
+  whatToDo: [
+    {
+      content: "Customize Your Avatar",
+      url: "https://lootswag.io/"
+    },
+  ],
+  website: {
+    url: "https://lootswag.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/LootSwag"
+  },
+  discord: {
+    url: "https://discord.gg/QEs6BArR" // TODO: not yet public
+  },
+  image: "/lootswag.png",
+  neededProject: loot
+};
 
+const hyperLoot: Project = {
+  name: "Visualize Your Adventurer",
+  description: "Unique visualizations of adventurers, using a deep asset library.",
+  whatToDo: [
+    {
+      content: "Coming Soon",
+      url: "https://twitter.com/hyperloot_"
+    },
+  ],
+  twitter: {
+    url: "https://twitter.com/hyperloot_"
+  },
+  discord: {
+    url: "https://discord.gg/MAqUNNVVcT" // TODO: not yet public
+  },
+  image: "/hyperloot.jpeg",
+  neededProject: loot
+};
+const LootExplorers: Project = {
+  name: "Mint a Loot Explorer",
+  description: "Explorer characters with their own distinct classes, equipped with loot which are generated based off the first 8000 genesis bags of loot.",
+  whatToDo: [
+    {
+      content: "Coming Soon",
+      url: "https://twitter.com/LootExplorers"
+    },
+  ],
+  twitter: {
+    url: "https://twitter.com/LootExplorers"
+  },
+  discord: {
+    url: "https://discord.gg/tkKrY8kYJ4" // TODO: not yet public
+  },
+  image: "/lootExplorers.jpeg",
+  neededProject: loot
+};
 export {
   loot,
   adventureGold,
@@ -459,5 +516,8 @@ export {
   stakeARealm,
   sLoot,
   genesisAdventurer,
-  lootMartAssemble
+  lootMartAssemble,
+  LootExplorers,
+  hyperLoot,
+  lootSwag,
 };
