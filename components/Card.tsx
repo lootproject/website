@@ -3,6 +3,7 @@ import Discord from "../img/discord.svg";
 import Twitter from "../img/twitter.svg";
 import Globe from "../img/globe.svg";
 import Github from "../img/github.svg";
+import Eth from "../img/mainnet.svg";
 import { Project } from "../types/interface";
 
 type CardProps = {
@@ -43,12 +44,12 @@ export function Card(props: CardProps) {
 
           </div>
 
-          <p className="text-xl text-gray-200 mb-6 mt-2">{project.description}</p>
+          <p className="text-xl text-gray-400 mb-6 mt-2">{project.description}</p>
           {project.mintPrice && (
             <div className="my-3">
               {/* <h5 className="uppercase mt-4 font-body text-gray-400">Cost</h5> */}
-              <span className="text-xl">
-                Cost: {project.mintPrice.mint}ETH + gas
+              <span className="text-xl flex">
+                Cost: {project.mintPrice.mint} <Eth className="w-6" /> + gas
               </span>
             </div>
           )}

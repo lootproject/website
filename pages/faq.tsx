@@ -10,11 +10,11 @@ import type { ReactElement } from "react";
 export default function FAQ(): ReactElement {
   return (
     <Layout>
-      <div className="container mx-auto py-20 px-4">
+      <div className="container mx-auto py-20 px-4 sm:w-1/2">
         <h2>Frequently Asked Questions</h2>
 
         {/* What is loot ? */}
-        <div className={styles.faq__item}>
+        <div className="my-8">
           <h3>What is Loot?</h3>
           <p>
             Loot is a collection of 8,000 unique bags of adventurer gear,
@@ -39,7 +39,7 @@ export default function FAQ(): ReactElement {
         </div>
 
         {/* Why is loot special? */}
-        <div className={styles.faq__item}>
+        <div className="my-8">
           <h3>Why is loot special?</h3>
           <p>
             Loot is unique—the first project of its kind. With no company, art,
@@ -62,7 +62,7 @@ export default function FAQ(): ReactElement {
         </div>
 
         {/* Can I build with loot? */}
-        <div className={styles.faq__item}>
+        <div className="my-8">
           <h3>Can I build with Loot?</h3>
           <p>
             Yes, you are free to use Loot in any way you want. For inspiration,
@@ -75,7 +75,7 @@ export default function FAQ(): ReactElement {
         </div>
 
         {/* Am I priced out of loot? */}
-        <div className={styles.faq__item}>
+        <div className="my-8">
           <h3>Am I priced out of loot?</h3>
           <p>
             Not at all. Through{" "}
@@ -93,7 +93,7 @@ export default function FAQ(): ReactElement {
         </div>
 
         {/* How do I value loot bags? */}
-        <div className={styles.faq__item}>
+        <div className="my-8">
           <h3>How do I value Loot bags?</h3>
           <p>
             They say that value is always in the eye of the beholder. Loot is no

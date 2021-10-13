@@ -36,29 +36,29 @@ export default function Home(): ReactElement {
           <div className="sm:px-4">
             <h1>Loot</h1>
 
-            <p className="text-xl sm:text-2xl">Loot is randomized adventurer gear generated and stored on chain. Stats, images, and other functionality are intentionally omitted for others to interpret. Feel free to use Loot in any way you want.</p>
+            <p className="text-xl sm:text-2xl text-gray-300">Loot is randomized adventurer gear generated and stored on chain. Stats, images, and other functionality are intentionally omitted for others to interpret. Feel free to use Loot in any way you want.</p>
             <div>
               <div className="flex py-8 w-full justify-center space-x-6">
                 <a
                   href="https://www.loot.exchange/"
-                  className="self-center p-3 border rounded"
+                  className="self-center p-3 border border-gray-800 rounded-xl bg-black hover:bg-gray-600"
                   target="_blank"
                 >
                   <ExchangeIcon className="fill-current hover:text-gray-200 text-gray-400 w-6 h-6 mx-2" />
                 </a>
                 <a
                   href="https://opensea.io/collection/lootproject"
-                  className="self-center p-3 border rounded"
+                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
-                  <Opensea className="fill-current hover:text-gray-200 text-gray-400 w-6 h-6 mx-2" />
+                  <Opensea className=" hover:text-gray-200  w-6 h-6 mx-2" />
                 </a>
                 <a
                   href="https://twitter.com/lootproject"
-                  className="self-center p-3 border rounded"
+                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
-                  <Twitter className="fill-current hover:text-gray-200 text-gray-400 w-6 h-6 mx-2" />
+                  <Twitter className="fill-current  text-white w-6 h-6 mx-2" />
                 </a>
               </div>
             </div>
@@ -67,25 +67,25 @@ export default function Home(): ReactElement {
       </div>
       <div className="flex flex-wrap mx-auto sticky top-0 bg-black w-full justify-center text-sm space-x-6 sm:space-x-10 py-4 z-10 sm:text-2xl font-display">
         <div>
-          <a className="hover:text-gray-600" href="#start">Start Here</a>
+          <a className="hover:text-gray-600" href="#start">Get Loot</a>
         </div>
         <div>
-          <a className="hover:text-gray-600" href="#chapter1">1. Gear Up</a>
+          <a className="hover:text-gray-600" href="#chapter1">Gear Up</a>
         </div>
         <div>
-          <a className="hover:text-gray-600" href="#chapter2">2. Character</a>
+          <a className="hover:text-gray-600" href="#chapter2">Character</a>
         </div>
         <div>
-          <a className="hover:text-gray-600" href="#chapter3">3. A Quest</a>
+          <a className="hover:text-gray-600" href="#chapter3">A Quest</a>
         </div>
       </div>
       <div id="start" className="bg-black  sm:py-20 py-10 pb-40 ">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
-              <span className="uppercase sm:text-2xl ">The Quest begins here</span>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">The Quest begins here</span>
               <h1 className="text-center mt-4 capitalize">Start here: Get a Loot Bag</h1>
-              <p className="text-xl sm:text-2xl">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
+              <p className="text-xl sm:text-2xl text-gray-400">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
             </div>
           </div>
           {onlyLoot.map(({ name, description, project }, i) => {
@@ -104,9 +104,9 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
-              <span className="uppercase sm:text-2xl ">Chapter 1</span>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 1</span>
               <h1 className="text-center mt-4 capitalize">Gear up</h1>
-              <p className="sm:text-2xl">Mint, Claim or Trade additional items</p>
+              <p className="sm:text-2xl text-gray-400">Mint, Claim or Trade additional items</p>
             </div>
           </div>
 
@@ -121,9 +121,9 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
-              <span className="uppercase sm:text-2xl">Chapter 2</span>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 2</span>
               <h1 className="text-center mt-4">Get Your Character</h1>
-              <p className="sm:text-2xl">Who carried these Loot bags? Where did they come from? What are their stories?</p>
+              <p className="sm:text-2xl text-gray-400">Who carried these Loot bags? Where did they come from? What are their stories?</p>
             </div>
           </div>
 
@@ -157,7 +157,7 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around ">
             <div className="px-20 py-8 rounded text-center">
-              <span className="uppercase sm:text-2xl">Chapter 3</span>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 3</span>
               <img src="/look-at-us.png" alt="" />
             </div>
           </div>
