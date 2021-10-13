@@ -1,5 +1,6 @@
 // Imports
 import Link from "next/link"; // Local routing
+import { useState,useEffect } from "react"; // Needed hooks
 import Layout from "@components/Layout"; // Layout wrapper
 import { defaultBags } from "@utils/constants"; // Bags to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
@@ -7,7 +8,19 @@ import styles from "@styles/pages/Home.module.scss"; // Styles
 // Types
 import type { ReactElement } from "react";
 
+//Interface to hold resulting array type of getRandomThreeBags function
+interface IRandombagsArray {
+    id: number;
+    attributes: string[];
+}
+
 export default function Home(): ReactElement {
+  const [randomBags,setRandomBags] = useState<IRandombagsArray[]>([]);
+
+  useEffect(()=>{
+    //setting three random bags from the sample loots list
+    setRandomBags(getRandomThreeBags());
+  },[])
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
@@ -70,7 +83,7 @@ export default function Home(): ReactElement {
         {/* Rendering sample loot bags */}
         <div className={styles.home__feature}>
           <span>Example Bags:</span>
-          {getRandomThreeBags().map(({ id, attributes }, i) => (
+          {randomBags.map(({ id, attributes }, i) => (
             // For each loot bag, render item and link to OpenSea
             <a
               href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
