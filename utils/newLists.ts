@@ -111,21 +111,14 @@ export const resources = [
     project: [
       lootWatcher,
       bibliotheca,
+      inventory,
+      lootBooklet
     ],
   }
 ];
 
 export const build = [
-  // {
-  //   name: "Data & Info",
-  //   description: "",
-  //   project: [
-  //     lootWatcher,
-  //     bibliotheca,
-  //     inventory,
-  //     lootBooklet
-  //   ],
-  // },
+
 
   {
     name: "Developer Tools",

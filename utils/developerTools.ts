@@ -107,7 +107,7 @@ const lootBooklet: Project = {
     description: "Bookmarklet to add rarity colors to OpenSea by @bpierre",
     whatToDo: [
         {
-            content: "Listen",
+            content: "Add to Browser",
             url: "https://loot-rarity-for-opensea.bpier.re/"
         },
     ],
