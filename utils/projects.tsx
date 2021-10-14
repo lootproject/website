@@ -142,15 +142,11 @@ const bibliotheca: Project = {
       url: "https://bibliothecaforloot.com/loot"
     }
   ],
-  contract: {
-    content: "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7", // TODO: this is loot"s contract
-    url: "https://etherscan.io/"
-  },
   twitter: {
     url: "https://twitter.com/lootgraph"
   },
   discord: {
-    url: "https://discord.com/invite/23gbrJ6pje" // TODO: loot discord
+    url: "https://discord.gg/MNJ4T8w5JY"
   },
   opensea: {
     url: "https://opensea.io/collection/lootproject"
@@ -164,7 +160,7 @@ const genesisMana: Project = {
   whatToDo: [
     {
       content: "Distill Genesis Mana",
-      url: "https://genesisproject.notion.site/Genesis-Adventurer-cc41f0c184ab481aafb0e1056a48727e"
+      url: "https://genesisproject.notion.site/Genesis-Mana-a11c2f7bffbd4fa0a28d0519b19d26dc"
     },
     {
       content: "Trade",
@@ -271,22 +267,7 @@ const lootMart: Project = {
   image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
   neededProject: loot
 };
-const lootRarity: Project = {
-  name: "Loot Rarity",
-  description: "For all things Loot and derivatives (note: high traffic)",
-  whatToDo: [
-    {
-      content: "Check loot item rarities",
-      url: "https://loot-rarity.bpier.re/"
-    }
-  ],
-  twitter: {
-    url: "https://twitter.com/lootproject"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  }
-};
+
 const lootWatcher: Project = {
   name: "Loot Watcher",
   description: "The easiest place to track the Loot ecosystem.",
@@ -507,7 +488,6 @@ export {
   lootCharacter,
   lootExchange,
   lootMart,
-  lootRarity,
   lootWatcher,
   mLoot,
   NFTx,

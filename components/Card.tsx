@@ -34,8 +34,8 @@ export function Card(props: CardProps) {
           </div>
 
         )}
-        <div className="p-4 sm:p-8 flex flex-col h-full">
-          <div className="text-white justify-between text-2xl sm:text-3xl font-display">
+        <div className="p-6 sm:p-8 flex flex-col h-full">
+          <div className="text-white justify-between text-3xl sm:text-3xl font-display">
             {project.heading ? (
               <div className="my-1">
                 <span className="mr-auto">{project.heading}</span>

@@ -6,7 +6,7 @@ import {
   lootCharacter,
   lootExchange,
   lootMart,
-  lootRarity,
+
   lootWatcher,
   mLoot,
   NFTx,
@@ -21,6 +21,17 @@ import {
   lootSwag,
 } from "./projects"
 
+import {
+  inventory,
+  lootSubgraph,
+  lootRarity,
+  lootSdk,
+  lootComponents,
+  lootJs,
+  pixelGenerator,
+  lootSound,
+  lootBooklet
+} from "./developerTools"
 export const onlyLoot = [
   {
     name: "",
@@ -105,19 +116,34 @@ export const resources = [
 ];
 
 export const build = [
-  {
-    name: "Rarity Checkers",
-    description: "These are unaudited tools. Proceed at your own risk.",
-    project: [
-      lootWatcher,
-      bibliotheca,
-    ],
-  },
+  // {
+  //   name: "Data & Info",
+  //   description: "",
+  //   project: [
+  //     lootWatcher,
+  //     bibliotheca,
+  //     inventory,
+  //     lootBooklet
+  //   ],
+  // },
+
   {
     name: "Developer Tools",
     description: "",
     project: [
-      lootRarity
+      lootSubgraph,
+      lootRarity,
+      lootSdk,
+      lootComponents,
+      lootJs
+    ],
+  },
+  {
+    name: "Visulizations & Sounds",
+    description: "",
+    project: [
+      pixelGenerator,
+      lootSound
     ],
   },
 ];
