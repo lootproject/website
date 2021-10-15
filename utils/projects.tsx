@@ -288,7 +288,6 @@ const lootWatcher: Project = {
   }
 };
 
-
 const NFTx: Project = {
   name: "NFTx",
   description:
@@ -357,8 +356,6 @@ const stakeARealm: Project = {
     content: "0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d"
   },
 };
-
-
 
 const genesisAdventurer: Project = {
   name: "Genesis Loot",
@@ -480,6 +477,48 @@ const LootExplorers: Project = {
   image: "/lootExplorers.jpeg",
   neededProject: loot
 };
+const lootAlliance: Project = {
+  name: "Loot Alliance",
+  description: "Dedicated to organising the Lootverse.",
+
+  discord: {
+    url: "https://discord.gg/sF2pGMpps6" // TODO: not yet public
+  },
+};
+const divineDao: Project = {
+  name: "Divine DAO",
+  description: "A DAO for @LootProject",
+  whatToDo: [
+    {
+      content: "Explore",
+      url: "https://www.divinedao.com/"
+    },
+  ],
+  twitter: {
+    url: "https://twitter.com/divine_dao"
+  },
+  discord: {
+    url: "https://discord.gg/V6aafxs92j" // TODO: not yet public
+  },
+
+};
+const fLoot: Project = {
+  name: "fLoot",
+  description: "Loot derivative project including $FLOOT tokens and Familiars NFTs.",
+  whatToDo: [
+    {
+      content: "Trade",
+      url: "https://opensea.io/collection/loot-familiars"
+    },
+  ],
+  twitter: {
+    url: "https://twitter.com/FlootFamiliars"
+  },
+  discord: {
+    url: "https://discord.gg/AzHm6AYFRv" // TODO: not yet public
+  },
+};
+
 export {
   loot,
   adventureGold,
@@ -500,4 +539,7 @@ export {
   LootExplorers,
   hyperLoot,
   lootSwag,
+  lootAlliance,
+  divineDao,
+  fLoot
 };

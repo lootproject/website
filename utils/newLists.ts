@@ -6,7 +6,6 @@ import {
   lootCharacter,
   lootExchange,
   lootMart,
-
   lootWatcher,
   mLoot,
   NFTx,
@@ -19,6 +18,9 @@ import {
   LootExplorers,
   hyperLoot,
   lootSwag,
+  lootAlliance,
+  divineDao,
+  fLoot
 } from "./projects"
 
 import {
@@ -32,6 +34,14 @@ import {
   lootSound,
   lootBooklet
 } from "./developerTools"
+
+import {
+  nProject,
+  treasure,
+  dopeWars,
+  adventureCards
+} from "./inspiredByLoot"
+
 export const onlyLoot = [
   {
     name: "",
@@ -106,13 +116,30 @@ export const marketPlaces = [
 
 export const resources = [
   {
-    name: "",
+    name: "Explore Projects Across the Lootverse",
     description: "",
     project: [
       lootWatcher,
-      bibliotheca,
-      inventory,
-      lootBooklet
+      bibliotheca
+    ],
+  },
+  {
+    name: "Community Engagement Projects",
+    description: "",
+    project: [
+      lootAlliance,
+      divineDao,
+      fLoot
+    ],
+  },
+  {
+    name: "Inspired By Loot",
+    description: "",
+    project: [
+      nProject,
+      treasure,
+      dopeWars,
+      adventureCards
     ],
   }
 ];
@@ -129,12 +156,15 @@ export const build = [
       lootSdk,
       lootComponents,
       lootJs
+
     ],
   },
   {
     name: "Visulizations & Sounds",
     description: "",
     project: [
+      inventory,
+      lootBooklet,
       pixelGenerator,
       lootSound
     ],

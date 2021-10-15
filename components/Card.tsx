@@ -72,7 +72,7 @@ export function Card(props: CardProps) {
 
 
           {project.whatToDo && (
-            <div className="flex gap-5 rounded py-5 mt-auto">
+            <div className="flex gap-5 rounded pt-5 mt-auto">
               <div className="flex flex-wrap w-full">
                 {project.whatToDo.map(({ content, url, component }, i) => {
                   // if (component) return component;
