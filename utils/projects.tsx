@@ -168,7 +168,7 @@ const genesisMana: Project = {
     }
   ],
   contract: {
-    content: "0x8db687aceb92c66f013e1d614137238cc698fedb"
+    content: "0xf4b6040a4b1b30f1d1691699a8f3bf957b03e463"
   },
   twitter: {
     url: "https://twitter.com/GenesisLoot"
@@ -479,26 +479,25 @@ const LootExplorers: Project = {
 };
 const lootAlliance: Project = {
   name: "Loot Alliance",
-  description: "Dedicated to organising the Lootverse.",
-
+  description: "A collective of builders, designers, and geeks working together as representatives of the wider Lootverse community to shepherd the ongoing Loot website, in order to create a strong foundation for players and builders.",
   discord: {
     url: "https://discord.gg/sF2pGMpps6" // TODO: not yet public
   },
 };
 const divineDao: Project = {
   name: "Divine DAO",
-  description: "A DAO for @LootProject",
+  description: "A lore-driven DAO dedicated to communal world-building around Loot.",
   whatToDo: [
     {
-      content: "Explore",
-      url: "https://www.divinedao.com/"
+      content: "Learn more",
+      url: "https://divinedao.medium.com/introducing-the-divine-city-460596889bfc"
     },
   ],
   twitter: {
     url: "https://twitter.com/divine_dao"
   },
   discord: {
-    url: "https://discord.gg/V6aafxs92j" // TODO: not yet public
+    url: "https://discord.gg/ucG9gD5hcq" // TODO: not yet public
   },
 
 };
