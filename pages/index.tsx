@@ -11,6 +11,7 @@ import Discord from "../img/discord.svg";
 // Types
 import type { ReactElement } from "react";
 
+
 export default function Home(): ReactElement {
   return (
     <Layout>
