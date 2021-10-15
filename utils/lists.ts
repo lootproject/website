@@ -322,6 +322,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://www.adventurerencounters.com/",
   },
   {
+    name: "Explorers",
+    description: "8,000 unique explorers generated from the OG loot bags",
+    url: "https://twitter.com/LootExplorers",
+  },
+  {
     name: "Floot & Familiars (for Adventurers)",
     description: "Collective to buy and fractionalize floot Loots",
     url: "https://loot-talk.com/t/floot-collective-to-buy-and-fractionalize-floor-loots/1507",
@@ -550,6 +555,11 @@ export const derivativesList: Record<string, string>[] = [
     name: "Quests",
     description: "Randomized quest packs for bags",
     url: "https://etherscan.io/address/0x4de9d18Fd8390c12465bA3C6cc8032992fD7655d",
+  },
+  {
+    name: "Quests for Loot",
+    description: "Loot Adventurers, we need to slay Gary the Dragon!",
+    url: "https://questsforloot.com/",
   },
   {
     name: "Quests with Loot",
