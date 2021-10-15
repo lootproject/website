@@ -443,7 +443,7 @@ const lootSwag: Project = {
 
 const hyperLoot: Project = {
   name: "Visualize Your Adventurer",
-  description: "Unique visualizations of adventurers, using a deep asset library.",
+  description: "HyperLoot is a collection of unique characters generated based on the items from your Loot and MLoot bags. Each HyperLoot grants an access to the Hyperverse.",
   whatToDo: [
     {
       content: "Coming Soon",
@@ -456,8 +456,11 @@ const hyperLoot: Project = {
   discord: {
     url: "https://discord.gg/MAqUNNVVcT" // TODO: not yet public
   },
-  image: "/hyperloot.jpeg",
-  neededProject: loot
+  image: "/hyper.jpg",
+  neededProject: loot,
+  website: {
+    url: "https://hyperlootproject.com/"
+  }
 };
 const LootExplorers: Project = {
   name: "Mint a Loot Explorer",

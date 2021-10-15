@@ -41,6 +41,9 @@ export default function Resources(): ReactElement {
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 shadow-xl ">
               <h1 className="text-center mt-4">Resources</h1>
+              <div className="flex justify-around py-4">
+                <a target="_blank" className="text-2xl flex bg-gray-900 rounded p-4 hover:bg-gray-700" href="https://airtable.com/shrn5mCzrtzH67Ztf">Submit a Project</a>
+              </div>
             </div>
           </div>
           {resources.map(({ name, description, project }, i) => {

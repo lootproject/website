@@ -7,28 +7,11 @@ import { whatToGet, whatToDo, getAfterLoot, getYourCharacter, onlyLoot } from ".
 import Opensea from "../img/opensea.svg"
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
+import Discord from "../img/discord.svg";
 // Types
 import type { ReactElement } from "react";
 
 export default function Home(): ReactElement {
-  const router = useRouter();
-  const subLinks: Record<string, string>[] = [
-    {
-      name: "Loot.exchange",
-      url: "https://www.loot.exchange/",
-      image: "/opensea.svg"
-    },
-    {
-      name: "Opensea",
-      url: "https://opensea.io/collection/lootproject",
-      image: "/opensea.svg"
-    },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/lootproject",
-      image: "/opensea.svg"
-    },
-  ];
   return (
     <Layout>
       <div className="mx-auto px-2 sm:px-4 text-center py-10 sm:py-20 justify-around flex flex-wrap hero-img bg-opacity-10">
@@ -59,6 +42,13 @@ export default function Home(): ReactElement {
                   target="_blank"
                 >
                   <Twitter className="fill-current  text-white w-6 h-6 mx-2" />
+                </a>
+                <a
+                  href="https://discord.gg/KuYyKXam9G"
+                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
+                  target="_blank"
+                >
+                  <Discord className="fill-current  text-white w-6 h-6 mx-2" />
                 </a>
               </div>
             </div>
