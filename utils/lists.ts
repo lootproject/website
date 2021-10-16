@@ -462,6 +462,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/lootrock-for-adventurers",
   },
   {
+    name: "LootPeaks",
+    description: "8849 randomly generated colorful on-chain SVGs on Polygon Mainnet",
+    url: "https://lootpeaks.com",
+  },
+  {
     name: "Loot Personalities v0.1",
     description: "Provide a backstory for your adventurer",
     url: "https://etherscan.io/address/0x3b1bb53b1a42ff61b7399fc196469a742cd3e98d#code",
