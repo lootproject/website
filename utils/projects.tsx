@@ -378,7 +378,7 @@ const genesisAdventurer: Project = {
   }
 };
 const lootMartAssemble: Project = {
-  name: "Equip a Warrior (coming Sson)",
+  name: "Equip a Warrior (coming soon)",
   description: "Re-bundle your items into bags in order to equip your warrior.",
   whatToDo: [
     {
