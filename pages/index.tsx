@@ -154,6 +154,14 @@ export default function Home(): ReactElement {
           </div>
           <div className="text-center sm:text-2xl my-4 sm:w-2/3 mx-auto px-4 ">
             <p className="my-4">Your journey continues soon.</p>
+            <br />
+            <a
+              target="_blank"
+              href="https://a.quest"
+              className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"
+            >
+              Coming soon
+            </a>
           </div>
         </div>
       </div>
