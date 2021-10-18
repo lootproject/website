@@ -9,7 +9,7 @@ const loot: Project = {
       url: "https://www.loot.exchange/"
     },
     {
-      content: "Trade on Open Sea",
+      content: "Trade on OpenSea",
       url: "https://opensea.io/collection/lootproject"
     }
 
@@ -31,9 +31,9 @@ const loot: Project = {
 };
 
 const mLoot: Project = {
-  name: "mloot",
+  name: "More Loot",
   description:
-    "1.5 million More Loot bags, with 250,000 more available per year. They are free to claim.",
+    "1.5 million bags of More Loot (or \"mLoot\"), with ~250,000 more available per year. They are free to claim.",
   whatToDo: [
     {
       content: "Mint an mLoot Bag",
@@ -59,7 +59,7 @@ const mLoot: Project = {
 const sLoot: Project = {
   name: "Synthetic Loot",
   description:
-    "Loot bags for everyone, tied to your Ethereum address. There are 2^256 sLoot bags.",
+    "Loot bags for everyone, free and tied to your Ethereum address. There are 2^256 Synthloot bags.",
   whatToDo: [
     {
       content: "View your sLoot",
@@ -84,23 +84,6 @@ const sLoot: Project = {
     url: "https://opensea.io/collection/lootproject"
   },
   image: "/syntheticheader.svg"
-};
-
-const adventureGold: Project = {
-  name: "Adventure Gold $AGLD",
-  heading: "Get Adventure Gold $AGLD",
-  description: "An open-source in-game currency for the Lootverse.",
-  whatToDo: [
-    {
-      content: "Trade on Uniswap",
-      url: "https://uniswap.org/"
-    }
-  ],
-  contract: {
-    content: "0x32353a6c91143bfd6c7d363b546e62a9a2489a20",
-    url: "https://etherscan.io/"
-  },
-  image: "https://images.pexels.com/photos/47047/gold-ingots-golden-treasure-47047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 };
 
 const realms: Project = {
@@ -314,7 +297,7 @@ const NFTx: Project = {
 };
 
 const openSea: Project = {
-  name: "Open Sea",
+  name: "OpenSea",
   description: "The world's first & largest NFT marketplace",
   whatToDo: [
     {
@@ -340,7 +323,7 @@ const stakeARealm: Project = {
     "Stake your Realm & Generate resources to trade and battle with.",
   whatToDo: [
     {
-      content: "Stake (Coming Soon)",
+      content: "Stake (coming soon)",
       url: "https://bibliothecaforloot.com/roadmap"
     }
   ],
@@ -395,7 +378,7 @@ const genesisAdventurer: Project = {
   }
 };
 const lootMartAssemble: Project = {
-  name: "Equip a Warrior (Coming Soon)",
+  name: "Equip a Warrior (coming Sson)",
   description: "Re-bundle your items into bags in order to equip your warrior.",
   whatToDo: [
     {
@@ -443,10 +426,10 @@ const lootSwag: Project = {
 
 const hyperLoot: Project = {
   name: "Visualize Your Adventurer",
-  description: "HyperLoot is a collection of unique characters generated based on the items from your Loot and MLoot bags. Each HyperLoot grants an access to the Hyperverse.",
+  description: "HyperLoot is a collection of unique characters generated based on the items from your Loot and mLoot bags. Each HyperLoot grants an access to the Hyperverse.",
   whatToDo: [
     {
-      content: "Coming Soon",
+      content: "Coming soon",
       url: "https://twitter.com/hyperloot_"
     },
   ],
@@ -467,7 +450,7 @@ const LootExplorers: Project = {
   description: "Explorer characters with their own distinct classes, equipped with loot which are generated based off the first 8000 genesis bags of loot.",
   whatToDo: [
     {
-      content: "Coming Soon",
+      content: "Coming soon",
       url: "https://twitter.com/LootExplorers"
     },
   ],
@@ -523,7 +506,6 @@ const fLoot: Project = {
 
 export {
   loot,
-  adventureGold,
   bibliotheca,
   genesisMana,
   lootCharacter,

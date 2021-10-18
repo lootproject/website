@@ -1,6 +1,5 @@
 import {
   loot,
-  adventureGold,
   bibliotheca,
   genesisMana,
   lootCharacter,
@@ -69,7 +68,6 @@ export const getAfterLoot = [
     name: "",
     description: "",
     project: [
-      adventureGold,
       realms,
       genesisMana,
       lootMart,

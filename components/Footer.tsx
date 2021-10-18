@@ -5,16 +5,16 @@ export function Footer(): ReactElement {
     return (
         <div className={styles.footer}>
             <p>
-                This website is{" "}
+                This website is community maintained and{" "}
                 <a
                     href="https://github.com/lootproject/website"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    open-source
-          </a>
-          .
-        </p>
+                    open source
+                </a>
+                .
+            </p>
         </div>
     );
 }
