@@ -67,7 +67,7 @@ export default function Home(): ReactElement {
           <a className="hover:text-gray-600" href="#chapter2">Character</a>
         </div>
         <div>
-          <a className="hover:text-gray-600" href="#chapter3">A Quest</a>
+          <a className="hover:text-gray-600" href="#chapter3">Quests</a>
         </div>
       </div>
       <div id="start" className="bg-black  sm:py-20 py-10 pb-40 ">
@@ -97,7 +97,7 @@ export default function Home(): ReactElement {
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
               <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 1</span>
               <h1 className="text-center mt-4 capitalize">Gear up</h1>
-              <p className="sm:text-2xl text-gray-400">Mint, Claim or Trade additional items</p>
+              <p className="sm:text-2xl text-gray-400">Mint, claim, or trade additional items</p>
             </div>
           </div>
 
@@ -149,29 +149,11 @@ export default function Home(): ReactElement {
           <div className="flex justify-around ">
             <div className="px-20 py-8 rounded text-center">
               <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 3</span>
-              <img src="/look-at-us.png" alt="" />
+              <h1 className="text-center mt-4">Go on Quests</h1>
             </div>
           </div>
           <div className="text-center sm:text-2xl my-4 sm:w-2/3 mx-auto px-4 ">
-            <p className="my-4">How did we let it come to this? Sitting on thrones of aging treasure, weaving tales of journeys past and beasts slain.</p>
-
-            <p className="my-4">A storm is brewing and it intends to swallow us whole. Can you feel it in the wind?</p>
-            <p className="my-4">This world needs us once more. Will you join and fight for it? Or will you watch from afar, singing past travails and flipping for coin?</p>
-
-            <p className="my-4">From the deepest depths, <br></br>
-            To the highest peaks, <br></br>
-            Forgotten friends and spoils reaped,</p>
-
-            <p>A Quest for Adventurers</p>
-            <hr className="my-10" />
-            <p>
-              This is a decentralized game of grand cooperation, puzzle solving, and difficult decisions. It unfolds in several phases, involving four key objectives and a final raid. Along the way, players will earn trophies and make new friends in the form of NFTs.</p>
-            <p>
-              Quest objectives utilize Loot and More Loot, as well as other pieces in the Lootverse and greater cryptoverse. Even those without NFTs can participate, using Synthetic Loot and other mechanisms.</p>
-            <p>
-              More details soon. No need to act until then.</p>
-
-
+            <p className="my-4">Your journey continues soon.</p>
           </div>
         </div>
       </div>

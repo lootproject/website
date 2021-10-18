@@ -58,7 +58,7 @@ export default function Resources(): ReactElement {
           return (
             <div className="my-10" key={i} >
               <h2>{title}</h2>
-              <p className="text-2xl mb-6">{description}</p>
+              <p className="text-2xl text-gray-400 mb-6">{description}</p>
 
               <ul className="text-lg">
                 {list.map(({ name, description, url }, i) => {
@@ -69,7 +69,7 @@ export default function Resources(): ReactElement {
                         <a className="font-semibold hover:underline" href={url} target="_blank" rel="noopener noreferrer">
                           {name}
                         </a>
-                         — {description}
+                        {" "} <span className="text-gray-400">&mdash; {description}</span>
                       </p>
                     </li>
                   );

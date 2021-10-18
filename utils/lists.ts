@@ -223,7 +223,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Adventure Gold",
-    description: "Loot DAO governance and gold token",
+    description: "Gold token building block for developers",
     url: "https://etherscan.io/address/0x32353a6c91143bfd6c7d363b546e62a9a2489a20#writeContract",
   },
   {
@@ -236,7 +236,7 @@ export const derivativesList: Record<string, string>[] = [
     description: "Adventurers with distinct but flexible aspects for inspiring stories",
     url: "https://opensea.io/collection/adventurersproject",
   },
-   {
+  {
     name: "Art (for Loot)",
     description: "NFT Art collection inspired by the Loot project",
     url: "https://opensea.io/collection/suprematism-regenesis",
@@ -345,7 +345,7 @@ export const derivativesList: Record<string, string>[] = [
     name: "Genesis Project",
     description: "A game to resurrect the 2,540 \"Genesis Adventurers\" hiding in the Loot contract",
     url: "https://genesisproject.xyz",
-  },  
+  },
   {
     name: "Holy War Loots",
     description: "The Holy War",

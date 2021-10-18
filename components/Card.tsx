@@ -49,7 +49,8 @@ export function Card(props: CardProps) {
             <div className="my-3">
               {/* <h5 className="uppercase mt-4 font-body text-gray-400">Cost</h5> */}
               <span className="text-xl flex">
-                Cost: {project.mintPrice.mint} <Eth className="w-6" /> + gas
+                {project.mintPrice!.mint! > 0 && <>Cost: {project.mintPrice.mint} <Eth className="w-6 h-6" /> + gas</>}
+                {project.mintPrice!.mint! == 0 && <>Cost: Gas</>}
               </span>
             </div>
           )}
