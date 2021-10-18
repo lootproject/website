@@ -1,109 +1,178 @@
 // Imports
-import Link from "next/link"; // Local routing
-import { useState,useEffect } from "react"; // Needed hooks
+import Link from "next/link"; // Routing
+import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
-import { defaultBags } from "@utils/constants"; // Bags to render
-import styles from "@styles/pages/Home.module.scss"; // Styles
-
+import { CardRow } from "@components/Row";
+import { whatToGet, whatToDo, getAfterLoot, getYourCharacter, onlyLoot } from "../utils/newLists"
+import Opensea from "../img/opensea.svg"
+import Twitter from "../img/twitter.svg";
+import ExchangeIcon from "../img/exchangeIcon2.svg";
+import Discord from "../img/discord.svg";
 // Types
 import type { ReactElement } from "react";
 
-//Interface to hold resulting array type of getRandomThreeBags function
-interface IRandombagsArray {
-    id: number;
-    attributes: string[];
-}
 
 export default function Home(): ReactElement {
-  const [randomBags,setRandomBags] = useState<IRandombagsArray[]>([]);
-
-  useEffect(()=>{
-    //setting three random bags from the sample loots list
-    setRandomBags(getRandomThreeBags());
-  },[])
-  // Quicklinks to render
-  const quicklinks: Record<string, string>[] = [
-    { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/lootproject",
-    },
-    {
-      name: "Contract",
-      url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
-    },
-  ];
-
-  /**
-   * Selects 3 random bags from defaultBags
-   * @returns {Record<string, string>[]} randomized bags
-   */
-  const getRandomThreeBags = () => {
-    const shuffled = defaultBags.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
-  };
-
   return (
     <Layout>
-      <div>
-        <div className={styles.home__cta}>
-          {/* CTA title */}
-          <h1>Loot</h1>
+      <div className="mx-auto px-2 sm:px-4 text-center py-10 sm:py-20 justify-around flex flex-wrap hero-img bg-opacity-10">
+        <div className="w-full sm:w-1/2">
+          <div className="sm:px-4">
+            <h1>Loot</h1>
 
-          {/* Quicklinks */}
-          <ul>
-            {quicklinks.map(({ name, url }, i) => {
-              return (
-                <li key={i}>
-                  {url.startsWith("/") ? (
-                    // If link to local page use Link
-                    <Link href={url}>
-                      <a>{name}</a>
-                    </Link>
-                  ) : (
-                    // Else, redirect in new tab
-                    <a href={url} target="_blank" rel="noopener noreferrer">
-                      {name}
-                    </a>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-
-          {/* CTA Description */}
-          <p>
-            Loot is randomized adventurer gear generated and stored on chain.
-            <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
-            way you want.
-          </p>
-        </div>
-
-        {/* Rendering sample loot bags */}
-        <div className={styles.home__feature}>
-          <span>Example Bags:</span>
-          {randomBags.map(({ id, attributes }, i) => (
-            // For each loot bag, render item and link to OpenSea
-            <a
-              href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={i}
-              className={styles.home__bag}
-            >
-              <div className={styles.home__bag_attributes}>
-                <span>#{id}</span>
-                <ul>
-                  {attributes.map((attribute, i) => (
-                    <li key={i}>
-                      <span>{attribute}</span>
-                    </li>
-                  ))}
-                </ul>
+            <p className="text-xl sm:text-2xl text-gray-300">Loot is randomized adventurer gear generated and stored on chain. Stats, images, and other functionality are intentionally omitted for others to interpret. Feel free to use Loot in any way you want.</p>
+            <div>
+              <div className="flex py-8 w-full justify-center space-x-6">
+                <a
+                  href="https://www.loot.exchange/"
+                  className="self-center p-3 border border-gray-800 rounded-xl bg-black hover:bg-gray-600"
+                  target="_blank"
+                >
+                  <ExchangeIcon className="fill-current hover:text-gray-200 text-gray-400 w-6 h-6 mx-2" />
+                </a>
+                <a
+                  href="https://opensea.io/collection/lootproject"
+                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
+                  target="_blank"
+                >
+                  <Opensea className=" hover:text-gray-200  w-6 h-6 mx-2" />
+                </a>
+                <a
+                  href="https://twitter.com/lootproject"
+                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
+                  target="_blank"
+                >
+                  <Twitter className="fill-current  text-white w-6 h-6 mx-2" />
+                </a>
+                <a
+                  href="https://discord.gg/KuYyKXam9G"
+                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
+                  target="_blank"
+                >
+                  <Discord className="fill-current  text-white w-6 h-6 mx-2" />
+                </a>
               </div>
-            </a>
-          ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-wrap mx-auto sticky top-0 bg-black w-full justify-center text-sm space-x-6 sm:space-x-10 py-4 z-10 sm:text-2xl font-display">
+        <div>
+          <a className="hover:text-gray-600" href="#start">Get Loot</a>
+        </div>
+        <div>
+          <a className="hover:text-gray-600" href="#chapter1">Gear Up</a>
+        </div>
+        <div>
+          <a className="hover:text-gray-600" href="#chapter2">Character</a>
+        </div>
+        <div>
+          <a className="hover:text-gray-600" href="#chapter3">A Quest</a>
+        </div>
+      </div>
+      <div id="start" className="bg-black  sm:py-20 py-10 pb-40 ">
+        <div className="container mx-auto mt-8">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">The Quest begins here</span>
+              <h1 className="text-center mt-4 capitalize">Start here: Get a Loot Bag</h1>
+              <p className="text-xl sm:text-2xl text-gray-400">8,000 Bags full of Loot, discovered by Adventurers. Where did they come from? What stories do they hold? Collect a bag, learn its story, and begin your adventure. </p>
+            </div>
+          </div>
+          {onlyLoot.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+          {whatToGet.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+        </div>
+      </div>
+      <div id="chapter1" className=" sm:py-20 py-10 pb-40  bg-gray-800">
+        <div className="container mx-auto mt-8">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 1</span>
+              <h1 className="text-center mt-4 capitalize">Gear up</h1>
+              <p className="sm:text-2xl text-gray-400">Mint, Claim or Trade additional items</p>
+            </div>
+          </div>
+
+          {getAfterLoot.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+        </div>
+      </div>
+      <div id="chapter2" className=" bg-gray-700 py-20">
+        <div className="container mx-auto mt-8">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 2</span>
+              <h1 className="text-center mt-4">Get Your Character</h1>
+              <p className="sm:text-2xl text-gray-400">Who carried these Loot bags? Where did they come from? What are their stories?</p>
+            </div>
+          </div>
+
+
+          {getYourCharacter.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+        </div>
+      </div>
+      {/* <div id="chapter2" className="bg-gradient-to-b from-gray-700 to-gray-600 py-20">
+        <div className="container mx-auto mt-8">
+          <div className="flex justify-around">
+            <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
+              <span className="uppercase sm:text-2xl">Chapter 3</span>
+              <h1 className="text-center mt-4">Fun & Games</h1>
+              <p className="sm:text-2xl">Who carried these Loot bags? Where did they come from? What can you do with these treasures? Your adventure begins now.</p>
+            </div>
+          </div>
+
+
+          {whatToDo.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+        </div>
+      </div> */}
+      <div id="chapter3" className="bg-white  py-20 text-black ">
+        <div className="container mx-auto mt-8">
+          <div className="flex justify-around ">
+            <div className="px-20 py-8 rounded text-center">
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Chapter 3</span>
+              <img src="/look-at-us.png" alt="" />
+            </div>
+          </div>
+          <div className="text-center sm:text-2xl my-4 sm:w-2/3 mx-auto px-4 ">
+            <p className="my-4">How did we let it come to this? Sitting on thrones of aging treasure, weaving tales of journeys past and beasts slain.</p>
+
+            <p className="my-4">A storm is brewing and it intends to swallow us whole. Can you feel it in the wind?</p>
+            <p className="my-4">This world needs us once more. Will you join and fight for it? Or will you watch from afar, singing past travails and flipping for coin?</p>
+
+            <p className="my-4">From the deepest depths, <br></br>
+            To the highest peaks, <br></br>
+            Forgotten friends and spoils reaped,</p>
+
+            <p>A Quest for Adventurers</p>
+            <hr className="my-10" />
+            <p>
+              This is a decentralized game of grand cooperation, puzzle solving, and difficult decisions. It unfolds in several phases, involving four key objectives and a final raid. Along the way, players will earn trophies and make new friends in the form of NFTs.</p>
+            <p>
+              Quest objectives utilize Loot and More Loot, as well as other pieces in the Lootverse and greater cryptoverse. Even those without NFTs can participate, using Synthetic Loot and other mechanisms.</p>
+            <p>
+              More details soon. No need to act until then.</p>
+
+
+          </div>
         </div>
       </div>
     </Layout>

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+}
+h1{
+    @apply text-3xl sm:text-4xl md:text-6xl mb-4;
+}
+h2 {
+    @apply text-2xl sm:text-2xl md:text-4xl mb-2;
+}
+h3 {
+    @apply text-lg sm:text-xl md:text-2xl mb-2;
+}
+h4 {
+    @apply text-xl;
+}
+    
+button {
+    @apply font-display;
+}
+
+body {
+    @apply font-body text-white; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.hero-img {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('/community.png');
+    
+}    
