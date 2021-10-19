@@ -1,6 +1,8 @@
 import {
   loot,
   bibliotheca,
+  cryptoodleHero,
+  cryptoodleLoot,
   genesisMana,
   lootCharacter,
   lootExchange,
@@ -38,7 +40,8 @@ import {
   nProject,
   treasure,
   dopeWars,
-  adventureCards
+  adventureCards,
+  cryptoodleResources
 } from "./inspiredByLoot"
 
 export const onlyLoot = [
@@ -58,7 +61,8 @@ export const whatToGet = [
     project: [
       sLoot,
       mLoot,
-      genesisAdventurer
+      genesisAdventurer,
+      cryptoodleLoot
     ],
   },
 ];
@@ -84,6 +88,7 @@ export const getYourCharacter = [
       LootExplorers,
       hyperLoot,
       lootSwag,
+      cryptoodleHero
     ],
   },
 ];
@@ -137,7 +142,8 @@ export const resources = [
       nProject,
       treasure,
       dopeWars,
-      adventureCards
+      adventureCards,
+      cryptoodleResources
     ],
   }
 ];
