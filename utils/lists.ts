@@ -307,9 +307,9 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
   },
   {
-    name: "Dungeons (for Adventures)",
-    description: "On-chain generative Rogue style Dungeons for Loot",
-    url: "https://twitter.com/dungeon_project",
+    name: "Dungeons NFT",
+    description: "On-chain Rogue Dungeons for Adventurers.  Game coming soon",
+    url: "https://dungeonsnft.io/",
   },
   {
     name: "Emoji Loot",
