@@ -45,7 +45,7 @@ const adventureCards: Project = {
     description: "Loot bag, owner, and transfer subgraph by @shahruz",
     whatToDo: [
         {
-            content: "trade",
+            content: "Trade",
             url: "https://opensea.io/collection/adventure-cards"
         },
     ],
