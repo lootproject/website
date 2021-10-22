@@ -463,7 +463,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "LootPeaks",
-    description: "8849 randomly generated colorful on-chain SVGs on Polygon Mainnet",
+    description: "Randomly generated Peaks on Polygon",
     url: "https://lootpeaks.com",
   },
   {
