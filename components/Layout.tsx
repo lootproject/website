@@ -4,7 +4,6 @@ import { Header } from "./Header"
 import { Head } from "./Head"
 import { Footer } from "./Footer"
 import { headerLinks } from "../utils/headerLinks"
-import TagManager from 'react-gtm-module'
 export default function Layout({
   children,
 }: {
