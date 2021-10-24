@@ -45,6 +45,14 @@ export function Head(): ReactElement {
                 href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Inconsolata:wght@300&display=swap"
                 rel="stylesheet"
             />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-2NMMWQ34GS%22%3E" />
+            <script>
+                window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-2NMMWQ34GS');
+            </script>
         </HTMLHead>
     );
 }
