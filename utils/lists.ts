@@ -628,7 +628,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
 name: "VootLoot",
-description: "VootLoot - Treasure Adventure is randomized adventurer gear generated and stored on Blockchain.",
+description: "VootLoot is randomized gear generated and stored on Blockchain.",
 url: "https://opensea.io/collection/vootlloot",
 },
 ];
