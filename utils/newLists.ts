@@ -70,7 +70,6 @@ export const getAfterLoot = [
     description: "",
     project: [
       realms,
-      dungeons,
       genesisMana,
       lootMart,
     ],
