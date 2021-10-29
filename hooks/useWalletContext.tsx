@@ -43,7 +43,6 @@ const WalletContext = createContext<{
   account: String;
   displayName: String;
   balance: Number;
-  dao: Number;
 }>(defaultWalletContext);
 
 interface WalletProviderProps {
@@ -67,7 +66,6 @@ function useWallet() {
   const [account, setAccount] = useState<string>("");
   const [displayName, setDisplayName] = useState("");
   const [balance, setBalance] = useState(0);
-  const [dao, setDao] = useState(0);
 
   async function connectWallet() {
     const web3Modal = new Web3Modal(WEB3_MODAL_CONFIG);
@@ -131,23 +129,6 @@ function useWallet() {
     }
   }
 
-  async function fetchTreasury(newModal: Web3Modal) {
-
-    const rawProvider = await newModal.connect();
-    const provider = new ethers.providers.Web3Provider(rawProvider);
-    let dao;
-    const treasuryMainnetAddress =
-      '0x869ad3dfb0f9acb9094ba85228008981be6dbdde';
-
-    try {
-      dao = await provider.getBalance(treasuryMainnetAddress);
-      setDao(
-        parseFloat(parseFloat(ethers.utils.formatUnits(dao)).toFixed(4))
-      );
-    } catch (e) {
-      console.log(e)
-    }
-  }
 
   function disconnectWallet() {
     modal?.clearCachedProvider();
@@ -168,11 +149,12 @@ function useWallet() {
 
         const isMetaMaskUnlocked = await isMetaMaskAndUnlocked(web3Modal);
         if (isMetaMaskUnlocked) {
-          fetchTreasury(web3Modal);
+
           setModal(web3Modal);
           login(web3Modal);
         }
       }
+
     }
     if (!isServer) tryAutoLogin();
   }, [isServer]);
@@ -185,8 +167,7 @@ function useWallet() {
     isConnected,
     account,
     displayName,
-    balance,
-    dao
+    balance
   };
 }
 

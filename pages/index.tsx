@@ -1,18 +1,17 @@
 // Imports
-import Link from "next/link"; // Routing
-import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row";
-import { whatToGet, whatToDo, getAfterLoot, getYourCharacter, onlyLoot } from "../utils/newLists"
+import { whatToGet, getAfterLoot, getYourCharacter, onlyLoot } from "../utils/newLists"
 import Opensea from "../img/opensea.svg"
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
 import Discord from "../img/discord.svg";
 // Types
 import type { ReactElement } from "react";
-
-
+import useTreasury from "hooks/useTreasury";
+import Eth from "../img/mainnet.svg";
 export default function Home(): ReactElement {
+  const { dao } = useTreasury();
   return (
     <Layout>
       <div className="mx-auto px-2 sm:px-4 text-center py-10 sm:py-20 justify-around flex flex-wrap hero-img bg-opacity-10">
@@ -51,6 +50,15 @@ export default function Home(): ReactElement {
                 >
                   <Discord className="fill-current  text-white w-6 h-6 mx-2" />
                 </a>
+              </div>
+              <div className="flex text-2xl">
+                <div className=" mx-auto flex bg-black px-4 py-4 rounded-xl flex-wrap">
+                  <h4 className="w-full mb-3 text-gray-400">Treasury</h4>
+                  <div className="text-center flex justify-around mx-auto text-3xl">
+                    <Eth className="w-6 h-6 self-center" />
+                    {dao}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

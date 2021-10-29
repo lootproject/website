@@ -8,6 +8,7 @@ import { MouseEventHandler } from "react";
 import Menu from "../img/menu.svg";
 import { Links } from "../types/interface";
 
+
 type NavProps = {
     onClick?: MouseEventHandler;
     hidden: boolean;
@@ -17,19 +18,19 @@ type NavProps = {
 export function Header(props: NavProps) {
     // Collect current path for active links
     const { pathname } = useRouter();
-    const { connectWallet, isConnected, disconnectWallet, displayName, dao } =
+    const { connectWallet, isConnected, disconnectWallet, displayName } =
         useWalletContext();
     const { onClick } = props;
-
-    // All links
 
     return (
         <div className="w-full flex justify-between py-2 bg-black px-4 bg-opacity-90">
             {/* Main logo */}
-            <div className={styles.header__logo}>
+            <div className="text-3xl flex">
                 <Link href="/">
-                    <a><h2>Loot {dao}</h2></a>
+                    <a><h2>Loot </h2></a>
                 </Link>
+
+
             </div>
 
             {/* Navigation */}
