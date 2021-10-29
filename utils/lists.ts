@@ -257,6 +257,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://loot-craft.com/battle",
   },
   {
+    name: "BlocWars Loot",
+    description: "A set of visual arts of all Loot using the character design of Onimaru.",
+    url: "https://blocwars.io/",
+  },
+  {
     name: "Cangjie(倉頡)",
     description: "The first Chinese characters Loot project with Yinyang, Wuxing and Zhouyi ☯",
     url: "https://cangjie.art",
@@ -542,10 +547,16 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://lootplanets.net/",
   },
   {
+    name: "Places",
+    description: "Places is an experiment to establish geographic locations as non-fungible tokens.",
+    url: "https://opensea.io/collection/placesdao",
+  },
+  {
     name: "Playlists",
     description: "Randomized Top 20 hits from 2010s to 1960s",
     url: "https://playlists-for-adventurers.carrd.co/",
   },
+
   {
     name: "Poorly Drawn Loot",
     description: "Experimental, poorly drawn bags",

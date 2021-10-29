@@ -17,7 +17,7 @@ type NavProps = {
 export function Header(props: NavProps) {
     // Collect current path for active links
     const { pathname } = useRouter();
-    const { connectWallet, isConnected, disconnectWallet, displayName } =
+    const { connectWallet, isConnected, disconnectWallet, displayName, dao } =
         useWalletContext();
     const { onClick } = props;
 
@@ -28,7 +28,7 @@ export function Header(props: NavProps) {
             {/* Main logo */}
             <div className={styles.header__logo}>
                 <Link href="/">
-                    <a><h2>Loot</h2></a>
+                    <a><h2>Loot {dao}</h2></a>
                 </Link>
             </div>
 
