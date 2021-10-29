@@ -10,6 +10,7 @@ import {
   NFTx,
   openSea,
   realms,
+  dungeons,
   stakeARealm,
   sLoot,
   genesisAdventurer,
@@ -69,6 +70,7 @@ export const getAfterLoot = [
     description: "",
     project: [
       realms,
+      dungeons,
       genesisMana,
       lootMart,
     ],
