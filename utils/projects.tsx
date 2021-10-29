@@ -169,6 +169,69 @@ const bibliotheca: Project = {
   }
 };
 
+const cryptoodleLoot: Project = {
+  name: "Cryptoodle Loot",
+  description:
+    "10,000 utility based Loot Bags that are being used by Toodles to create a technically advanced civilization.",
+  whatToDo: [
+    {
+      content: "Claim a Bag",
+      url: "https://docs.cryptoodles.com/toodl-nfts/redeeming-loot-bag-nfts"
+    },
+    {
+      content: "OpenSea Collection",
+      url: "https://opensea.io/collection/toodle-loot-bag"
+    }
+  ],
+  website: {
+    url: "https://cryptoodles.com"
+  },
+  twitter: {
+    url: "https://twitter.com/cryptoodles"
+  },
+  discord: {
+    url: "https://discord.com/invite/g9SnvzdFs2"
+  },
+  opensea: {
+    url: "https://opensea.io/collection/toodle-loot-bag"
+  },
+  contract: {
+    content: "0x2a16107ea0d28ae822168c8bb3ef5460b1924a78"
+  },
+  github: {
+    url: "https://github.com/cryptoodles"
+  },
+  image: "/cryptoodlesHome.png",
+  mintPrice: {
+    mint: 0.00
+  }
+};
+
+const cryptoodleHero: Project = {
+  name: "Cryptoodle Heroes",
+  description: "Train, farm, and develop a Cryptoodle Hero to mint for people to use.",
+  whatToDo: [
+    {
+      content: "Coming Soon",
+      url: "https://cryptoodles.medium.com"
+    }
+  ],
+  website: {
+    url: "https://cryptoodles.com"
+  },
+  twitter: {
+    url: "https://twitter.com/cryptoodles"
+  },
+  discord: {
+    url: "https://discord.com/invite/g9SnvzdFs2"
+  },
+  github: {
+    url: "https://github.com/cryptoodles"
+  },
+  image: "/cryptoodles.png",
+  neededProject: cryptoodleLoot
+};
+
 const genesisMana: Project = {
   name: "Genesis Project",
   heading: "Distill Genesis Mana with your Loot bag.",
@@ -540,6 +603,8 @@ const fLoot: Project = {
 export {
   loot,
   bibliotheca,
+  cryptoodleLoot,
+  cryptoodleHero,
   genesisMana,
   lootCharacter,
   lootExchange,
