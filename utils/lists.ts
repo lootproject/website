@@ -518,7 +518,7 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "NPCs: Genesis Edition",
-    description: "NPCs are random onchain characters with stories to tell for Loot & xLoot Adventurers",
+    description: "NPCs are random onchain characters with stories to tell",
     url: "https://etherscan.io/address/0xB0C8E9982b879Bb955181aaeD158f1cDc4D10D05#writeContract",
   },
   {
