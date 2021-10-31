@@ -13,6 +13,7 @@ const cryptoodleLoot: Project = {
             content: "Trade",
             url: "https://opensea.io/collection/toodle-loot-bag"
         }
+
     ],
     website: {
         url: "https://cryptoodles.com"

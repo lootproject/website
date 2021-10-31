@@ -60,7 +60,8 @@ export const whatToGet = [
     project: [
       sLoot,
       mLoot,
-      genesisAdventurer
+      genesisAdventurer,
+      cryptoodleLoot
     ],
   },
 ];
