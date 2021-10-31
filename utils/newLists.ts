@@ -39,7 +39,8 @@ import {
   nProject,
   treasure,
   dopeWars,
-  adventureCards
+  adventureCards,
+  cryptoodleLoot
 } from "./inspiredByLoot"
 
 export const onlyLoot = [
@@ -84,7 +85,7 @@ export const getYourCharacter = [
       lootCharacter,
       LootExplorers,
       hyperLoot,
-      lootSwag,
+      lootSwag
     ],
   },
 ];
@@ -138,7 +139,8 @@ export const resources = [
       nProject,
       treasure,
       dopeWars,
-      adventureCards
+      adventureCards,
+      cryptoodleLoot
     ],
   }
 ];
