@@ -307,9 +307,9 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0x76e3dea18e33e61de15a7d17d9ea23dc6118e10f#writeContract",
   },
   {
-    name: "Dungeons (for Adventures)",
-    description: "On-chain generative Rogue style Dungeons for Loot",
-    url: "https://twitter.com/dungeon_project",
+    name: "Dungeons NFT",
+    description: "On-chain Rogue Dungeons for Adventurers.  Game coming soon",
+    url: "https://dungeonsnft.io/",
   },
   {
     name: "Emoji Loot",
@@ -460,6 +460,11 @@ export const derivativesList: Record<string, string>[] = [
     name: "LootRock (for Adventurers)",
     description: "Inspired from EtherRock. Only 100 in existence.",
     url: "https://opensea.io/collection/lootrock-for-adventurers",
+  },
+  {
+    name: "LootPeaks",
+    description: "Randomly generated Peaks on Polygon",
+    url: "https://lootpeaks.com",
   },
   {
     name: "Loot Personalities v0.1",

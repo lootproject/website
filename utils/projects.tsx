@@ -111,6 +111,39 @@ const realms: Project = {
   image: "https://storage.opensea.io/files/2468d5c3fc290400d053a68e149c9d1c.svg"
 };
 
+const dungeons: Project = {
+  name: "Dungeons",
+  heading: "Explore Dungeons",
+  description: "12000 Procedurally generated Dungeons waiting for your Adventurer to explore.  Generated entirely on-chain.",
+  whatToDo: [
+    {
+      content: "Generate",
+      url: "https://dungeonsnft.io"
+    },
+    {
+      content: "Trade",
+      url: "https://opensea.io/collection/dungeonsnft"
+    }
+  ],
+  website: {
+    url: "https://dungeonsnft.io"
+  },
+  contract: {
+    content: "0x665d9259F18B29a4ca38e9A4768cEDee1429d116"
+  },
+  twitter: {
+    url: "https://twitter.com/dungeons_nft"
+  },
+  discord: {
+    url: "http://discord.gg/8CDEveXu4B"
+  },
+  image: "https://dungeonsnft.io/Sample1.jpg",
+  neededProject: loot,
+  mintPrice: {
+    mint: 0.0
+  }
+};
+
 const bibliotheca: Project = {
   name: "Bibliotheca",
   description:
@@ -581,6 +614,7 @@ export {
   NFTx,
   openSea,
   realms,
+  dungeons,
   stakeARealm,
   sLoot,
   genesisAdventurer,
