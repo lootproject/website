@@ -1,13 +1,18 @@
 import { Project } from "../types/interface";
 
-const cryptoodleResources: Project = {
-    name: "Cryptoodles",
-    description: "A project around a technically advanced Loot Bag used by Toodles to advance their blockchain based civilization.",
+const cryptoodleLoot: Project = {
+    name: "Toodle Loot Bag",
+    description:
+        "10,000 programmable Loot Bags engineered by Cryptoodles used to advance the technology of civilizations.",
     whatToDo: [
+        {
+            content: "Claim Free BAG",
+            url: "https://docs.cryptoodles.com/toodl-nfts/redeeming-loot-bag-nfts"
+        },
         {
             content: "Trade",
             url: "https://opensea.io/collection/toodle-loot-bag"
-        },
+        }
     ],
     website: {
         url: "https://cryptoodles.com"
@@ -84,7 +89,7 @@ const adventureCards: Project = {
     },
 };
 export {
-    cryptoodleResources,
+    cryptoodleLoot,
     nProject,
     treasure,
     dopeWars,

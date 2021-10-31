@@ -283,8 +283,8 @@ export const derivativesList: Record<string, string>[] = [
   },
   {
     name: "Cryptoodles Loot Bag",
-    description: "10,000 free claimable Loot Bags for SciFi based projects.",
-    url: "https://cryptoodles.com",
+    description: "10,000 programmable Loot Bags engineered by Cryptoodles to advance the technology of civilizations.",
+    url: "https://docs.cryptoodles.com/toodl-nfts/redeeming-loot-bag-nfts",
   },
   {
     name: "Deck of Many Things",
