@@ -1,4 +1,34 @@
 import { Project } from "../types/interface";
+
+const cryptoodleResources: Project = {
+    name: "Cryptoodles",
+    description: "A project around a technically advanced Loot Bag used by Toodles to advance their blockchain based civilization.",
+    whatToDo: [
+        {
+            content: "Trade",
+            url: "https://opensea.io/collection/toodle-loot-bag"
+        },
+    ],
+    website: {
+        url: "https://cryptoodles.com"
+    },
+    twitter: {
+        url: "https://twitter.com/cryptoodles"
+    },
+    discord: {
+        url: "https://discord.com/invite/g9SnvzdFs2"
+    },
+    opensea: {
+        url: "https://opensea.io/collection/toodle-loot-bag"
+    },
+    contract: {
+        content: "0x2a16107ea0d28ae822168c8bb3ef5460b1924a78"
+    },
+    github: {
+        url: "https://github.com/cryptoodles"
+    }
+};
+
 const nProject: Project = {
     name: "n Project",
     description: "Randomized generated numbers stored on chain. Feel free to use n in any way you want.",
@@ -54,6 +84,7 @@ const adventureCards: Project = {
     },
 };
 export {
+    cryptoodleResources,
     nProject,
     treasure,
     dopeWars,
