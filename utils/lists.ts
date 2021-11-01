@@ -654,6 +654,6 @@ export const derivativesList: Record<string, string>[] = [
   {
     name: "VootLoot",
     description: "VootLoot is advance gear stored on Blockchain.",
-    url: "https://etherscan.io/address/0x43f061c0925d7162c73573d64c277aa741aa571c",
+    url: "https://polygonscan.com/token/0x43f061c0925d7162c73573d64c277aa741aa571c",
   },
 ];
