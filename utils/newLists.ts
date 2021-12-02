@@ -40,7 +40,8 @@ import {
   treasure,
   dopeWars,
   adventureCards,
-  cryptoodleLoot
+  cryptoodleLoot,
+  bannersNft
 } from "./inspiredByLoot"
 
 export const onlyLoot = [
@@ -140,7 +141,8 @@ export const resources = [
       treasure,
       dopeWars,
       adventureCards,
-      cryptoodleLoot
+      cryptoodleLoot,
+      bannersNft
     ],
   }
 ];
