@@ -5,6 +5,7 @@ import {
   lootCharacter,
   lootExchange,
   lootMart,
+  lootRings,
   lootWatcher,
   mLoot,
   NFTx,
@@ -74,6 +75,7 @@ export const getAfterLoot = [
       realms,
       genesisMana,
       lootMart,
+      lootRings,
     ],
   },
 ];

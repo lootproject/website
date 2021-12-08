@@ -284,6 +284,29 @@ const lootMart: Project = {
   neededProject: loot
 };
 
+const lootRings: Project = {
+  name: "Rings (for Loot)",
+  description: "Rings (for Loot) is the first and largest 3D interpretation of an entire category in Loot. Adventurers, builders, and artists are encouraged to reference Rings (for Loot) to further expand on the imagination of Loot.",
+  whatToDo: [
+    {
+      content: "Mint",
+      url: "https://rings.market/"
+    }
+  ],
+  website: {
+    url: "https://rings.market/"
+  },
+  contract: {
+    content: "0x73c5013Fa9701425be4a436cA0CeC1C0898e6F14",
+    url: "https://etherscan.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/RingsforLoot"
+  },
+  image: "https://rings.market/images/rings-stacked.jpg",
+  neededProject: loot
+};
+
 const lootWatcher: Project = {
   name: "Loot Watcher",
   description: "The easiest place to track the Loot ecosystem.",
@@ -544,6 +567,7 @@ export {
   lootCharacter,
   lootExchange,
   lootMart,
+  lootRings,
   lootWatcher,
   mLoot,
   NFTx,
