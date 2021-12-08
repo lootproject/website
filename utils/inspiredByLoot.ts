@@ -1,5 +1,32 @@
 import { Project } from "../types/interface";
 
+const bannersNft: Project = {
+    name: "Banners (for Adventures)",
+    description: "Banners is 25000 text only NFTs that serve as society before the Great War. A Banner is a key to future graphic airdrops and projects built in the Exodus epoch.",
+    whatToDo: [
+        {
+            content: "Site",
+            url: "https://bannersnft.com/"
+        },
+        {
+            content: "Coming Soon",
+            url: "https://opensea.io/BannersNFT"
+        },
+    ],
+    website: {
+        url: "https://bannersnft.com/"
+    },
+    twitter: {
+        url: "https://twitter.com/BannersNft"
+    },
+    discord: {
+        url: "https://discord.gg/MYxGU7rjY4"
+    },
+    github: {
+        url: "https://github.com/farque65/BannersNFT"
+    }
+};
+
 const cryptoodleLoot: Project = {
     name: "Toodle Loot Bag",
     description:
@@ -94,5 +121,6 @@ export {
     nProject,
     treasure,
     dopeWars,
-    adventureCards
+    adventureCards,
+    bannersNft
 }

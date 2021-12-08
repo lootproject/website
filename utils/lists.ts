@@ -247,6 +247,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://opensea.io/collection/astrolonft",
   },
   {
+    name: "Banners (for Adventures)",
+    description: "Banners is 25000 text only NFTs that serve as society before the Great War. A Banner is a key to future graphic airdrops and projects built in the Exodus epoch.",
+    url: "https://bannersnft.com/",
+  },
+  {
     name: "Banquets",
     description: "Randomized adventurer meals",
     url: "https://etherscan.io/address/0x615a610649e656485d9baf0ebe525496d7b78e24",
