@@ -506,8 +506,8 @@ const LootExplorers: Project = {
   description: "Explorer characters with their own distinct classes, equipped with loot which are generated based off the first 8000 genesis bags of loot.",
   whatToDo: [
     {
-      content: "Coming soon",
-      url: "https://twitter.com/LootExplorers"
+      content: "Minting soon",
+      url: "https://lootexplorers.quest"
     },
   ],
   twitter: {
@@ -515,6 +515,12 @@ const LootExplorers: Project = {
   },
   discord: {
     url: "https://discord.gg/tkKrY8kYJ4" // TODO: not yet public
+  },
+  website: {
+    url: "https://lootexplorers.quest"
+  },
+  mintPrice: {
+    mint: 0.04
   },
   image: "/lootExplorers.jpeg",
   neededProject: loot
