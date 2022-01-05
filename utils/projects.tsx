@@ -478,7 +478,7 @@ const lootpunk: Project = {
     url: "https://twitter.com/LootpunkProject"
   },
   discord: {
-    url: "https://discord.gg/jKPZgRbs"
+    url: "https://discord.gg/VNJztprP"
   },
   mintPrice: {
     mint: 0.01
