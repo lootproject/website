@@ -19,6 +19,7 @@ import {
   LootExplorers,
   hyperLoot,
   lootSwag,
+  lootpunk,
   lootAlliance,
   divineDao,
   fLoot
@@ -88,7 +89,8 @@ export const getYourCharacter = [
       lootCharacter,
       LootExplorers,
       hyperLoot,
-      lootSwag
+      lootSwag,
+      lootpunk
     ],
   },
 ];

@@ -458,6 +458,34 @@ const lootMartAssemble: Project = {
   image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
   neededProject: loot
 };
+const lootpunk: Project = {
+  name: "Lootpunk",
+  description: "Lootpunk is the young and trendy profile picture for you to show off your status as a Loot investor. There are 8000 Lootpunks, and each one is uniquely designed based on the rarity of your own Loot bag.",
+  whatToDo: [
+    {
+      content: "Claim now",
+      url: "https://lootpunk.org/"
+    },
+  ],
+  website: {
+    url: "https://lootpunk.org/"
+  },
+  contract: {
+    content: "0xC62934146bfcb6F3dDE478cbAb1E64a25fcC32eC",
+    url: "https://etherscan.io/"
+  },
+  twitter: {
+    url: "https://twitter.com/LootpunkProject"
+  },
+  discord: {
+    url: "https://discord.gg/jKPZgRbs"
+  },
+  mintPrice: {
+    mint: 0.01
+  },
+  neededProject: loot,
+  image: 'https://api.lootpunk.org/randomimage'
+};
 const lootSwag: Project = {
   name: "Get a Loot Swag Avatar",
   description: "Customize loot avatars through skins.",
@@ -587,6 +615,7 @@ export {
   LootExplorers,
   hyperLoot,
   lootSwag,
+  lootpunk,
   lootAlliance,
   divineDao,
   fLoot
