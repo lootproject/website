@@ -534,7 +534,7 @@ const LootExplorers: Project = {
   description: "Explorer characters with their own distinct classes, equipped with loot which are generated based off the first 8000 genesis bags of loot.",
   whatToDo: [
     {
-      content: "Minting soon",
+      content: "Minting Now",
       url: "https://lootexplorers.quest"
     },
   ],
