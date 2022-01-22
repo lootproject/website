@@ -30,15 +30,19 @@ const bannersNft: Project = {
 const cryptoodleLoot: Project = {
     name: "Toodle Loot Bag",
     description:
-        "10,000 programmable Loot Bags engineered by Cryptoodles used to advance the technology of civilizations.",
+        "10,000 advanced Loot Bags engineered by Cryptoodles. Generate $TODL tokens from Loot, mLoot, and Toodle Loot Bags to stake and earn rewards.",
     whatToDo: [
         {
-            content: "Claim Free BAG",
+            content: "Mint Free BAG",
             url: "https://docs.cryptoodles.com/toodl-nfts/redeeming-loot-bag-nfts"
         },
         {
+            content: "Claim $TODL Airdrop",
+            url: "https://docs.cryptoodles.com/usdtodl-token/participating-in-the-usdtodl-protocol/redeeming-the-todl-airdrop"
+        },
+        {
             content: "Trade",
-            url: "https://opensea.io/collection/toodle-loot-bag"
+            url: "https://looksrare.org/collections/0x2A16107Ea0D28aE822168C8bB3eF5460b1924A78"
         }
 
     ],
