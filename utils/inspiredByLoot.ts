@@ -30,7 +30,7 @@ const bannersNft: Project = {
 const cryptoodleLoot: Project = {
     name: "Toodle Loot Bag",
     description:
-        "10,000 advanced Loot Bags engineered by Cryptoodles. Generate $TODL tokens from Loot, mLoot, and Toodle Loot Bags for the Toodle Protocol.",
+        "10,000 advanced Loot Bags engineered by Cryptoodles. Generate $TODL tokens from Loot, mLoot, and Toodle Loot Bags to stake and earn rewards.",
     whatToDo: [
         {
             content: "Mint Free BAG",
