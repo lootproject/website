@@ -68,7 +68,7 @@ export const whatToGet = [
   },
 ];
 
-export const getAfterLoot = [
+export const gearUp = [
   {
     name: "",
     description: "",
