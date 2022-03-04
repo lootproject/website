@@ -22,7 +22,8 @@ import {
   lootpunk,
   lootAlliance,
   divineDao,
-  fLoot
+  fLoot,
+  banners
 } from "./projects"
 
 import {
@@ -42,8 +43,7 @@ import {
   treasure,
   dopeWars,
   adventureCards,
-  cryptoodleLoot,
-  bannersNft
+  cryptoodleLoot
 } from "./inspiredByLoot"
 
 export const onlyLoot = [
@@ -73,10 +73,11 @@ export const gearUp = [
     name: "",
     description: "",
     project: [
-      realms,
+      banners,
       genesisMana,
       lootMart,
       lootRings,
+      realms,
     ],
   },
 ];
@@ -145,8 +146,7 @@ export const resources = [
       treasure,
       dopeWars,
       adventureCards,
-      cryptoodleLoot,
-      bannersNft
+      cryptoodleLoot
     ],
   }
 ];

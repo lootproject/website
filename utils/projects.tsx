@@ -594,6 +594,30 @@ const fLoot: Project = {
   },
 };
 
+const banners: Project = {
+  name: "Banners (for Adventures)",
+  description: "Banners is 25000 text only NFTs that serve as society before the Great War. A Banner is a key to future graphic airdrops and projects built in the Exodus epoch.",
+  whatToDo: [
+      {
+          content: "Mint",
+          url: "https://bannersnft.com/"
+      }
+  ],
+  image: "/banners.jpg",
+  website: {
+      url: "https://bannersnft.com/"
+  },
+  twitter: {
+      url: "https://twitter.com/BannersNft"
+  },
+  discord: {
+      url: "https://discord.gg/MYxGU7rjY4"
+  },
+  github: {
+      url: "https://github.com/farque65/BannersNFT"
+  }
+};
+
 export {
   loot,
   bibliotheca,
@@ -618,5 +642,6 @@ export {
   lootpunk,
   lootAlliance,
   divineDao,
-  fLoot
+  fLoot,
+  banners
 };
