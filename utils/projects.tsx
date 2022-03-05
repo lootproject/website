@@ -594,6 +594,79 @@ const fLoot: Project = {
   },
 };
 
+const banners: Project = {
+  name: "Banners (for Adventures)",
+  description: "Banners is the society and politics layer for Loot.  In a world full of Adventurers, Banners represents everyone else in the Realms. Each of the 25,000 Banners has thousands of strengths, connections and family members.",
+  whatToDo: [
+      {
+          content: "Mint",
+          url: "https://bannersnft.com/"
+      }
+  ],
+  image: "/banners.png",
+  website: {
+      url: "https://bannersnft.com/"
+  },
+  twitter: {
+      url: "https://twitter.com/BannersNft"
+  },
+  discord: {
+      url: "https://discord.gg/MYxGU7rjY4"
+  },
+  github: {
+      url: "https://github.com/farque65/BannersNFT"
+  }
+};
+
+const cryptsandcaverns: Project = {
+  name: "Crypts and Caverns",
+  description: "On-chain dungeon maps that provide a sense of place for the lootverse. Each dungeon map contains floors, walls, doors, and points of interest. Dungeon maps can be used by text, 2D, or 3D games in the Lootverse.",
+  whatToDo: [
+      {
+          content: "Trade on OS",
+          url: "https://opensea.io/collection/crypts-and-caverns"
+      }
+  ],
+  image: "/cryptsandcaverns.png",
+  website: {
+      url: "https://threepwave.com/cryptsandcaverns/"
+  },
+  twitter: {
+      url: "https://twitter.com/cryptsncaverns"
+  },
+  discord: {
+      url: "https://discord.com/invite/vXX84QjR7F"
+  },
+  github: {
+      url: "https://github.com/threepwave/cryptsandcaverns"
+  }
+};
+
+const theRift: Project = {
+  name: "Level Up",
+  description: "The Rift is leveling infrastructure for Loot, more Loot, and Genesis Adventurers. Playing across the Lootverse will earn your bag XP, and as you level up you'll be able to perform more powerful actions. Loot builders that integrate with Rift can use bag levels, and reward XP to users.",
+  whatToDo: [
+      {
+          content: "Earn XP",
+          url: "https://the-rift.notion.site/Ways-to-Earn-XP-9b304cd87e7a49db99903de9ee682635"
+      },
+      {
+        content: "Build with Rift",
+        url: "https://the-rift.notion.site/Rift-for-Builders-a6adaf6815434e638da01bc278306e75"
+    },
+  ],
+  image: "/therift.png",
+  website: {
+      url: "https://rift.live/"
+  },
+  twitter: {
+      url: "https://twitter.com/LootRift"
+  },
+  discord: {
+      url: "https://discord.gg/mtP8Qaa5py"
+  }
+};
+
 export {
   loot,
   bibliotheca,
@@ -618,5 +691,8 @@ export {
   lootpunk,
   lootAlliance,
   divineDao,
-  fLoot
+  fLoot,
+  banners,
+  cryptsandcaverns,
+  theRift
 };

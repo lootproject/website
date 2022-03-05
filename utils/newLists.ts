@@ -11,7 +11,6 @@ import {
   NFTx,
   openSea,
   realms,
-  dungeons,
   stakeARealm,
   sLoot,
   genesisAdventurer,
@@ -22,7 +21,10 @@ import {
   lootpunk,
   lootAlliance,
   divineDao,
-  fLoot
+  fLoot,
+  banners,
+  cryptsandcaverns,
+  theRift
 } from "./projects"
 
 import {
@@ -42,8 +44,7 @@ import {
   treasure,
   dopeWars,
   adventureCards,
-  cryptoodleLoot,
-  bannersNft
+  cryptoodleLoot
 } from "./inspiredByLoot"
 
 export const onlyLoot = [
@@ -68,15 +69,17 @@ export const whatToGet = [
   },
 ];
 
-export const getAfterLoot = [
+export const gearUp = [
   {
     name: "",
     description: "",
     project: [
-      realms,
+      banners,
+      cryptsandcaverns,
       genesisMana,
-      lootMart,
       lootRings,
+      realms,
+      theRift
     ],
   },
 ];
@@ -125,7 +128,8 @@ export const resources = [
     description: "",
     project: [
       lootWatcher,
-      bibliotheca
+      bibliotheca,
+      lootMart
     ],
   },
   {
@@ -145,8 +149,7 @@ export const resources = [
       treasure,
       dopeWars,
       adventureCards,
-      cryptoodleLoot,
-      bannersNft
+      cryptoodleLoot
     ],
   }
 ];

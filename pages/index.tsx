@@ -3,7 +3,7 @@ import Link from "next/link"; // Routing
 import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row";
-import { whatToGet, whatToDo, getAfterLoot, getYourCharacter, onlyLoot } from "../utils/newLists"
+import { whatToGet, whatToDo, gearUp, getYourCharacter, onlyLoot } from "../utils/newLists"
 import Opensea from "../img/opensea.svg"
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
@@ -104,7 +104,7 @@ export default function Home(): ReactElement {
             </div>
           </div>
 
-          {getAfterLoot.map(({ name, description, project }, i) => {
+          {gearUp.map(({ name, description, project }, i) => {
             return (
               <CardRow key={i} name={name} description={description} project={project} />
             );
