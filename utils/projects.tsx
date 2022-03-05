@@ -603,7 +603,7 @@ const banners: Project = {
           url: "https://bannersnft.com/"
       }
   ],
-  image: "/banners.jpg",
+  image: "/banners.png",
   website: {
       url: "https://bannersnft.com/"
   },
