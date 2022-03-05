@@ -23,7 +23,8 @@ import {
   lootAlliance,
   divineDao,
   fLoot,
-  banners
+  banners,
+  cryptsandcaverns
 } from "./projects"
 
 import {
@@ -74,8 +75,8 @@ export const gearUp = [
     description: "",
     project: [
       banners,
+      cryptsandcaverns,
       genesisMana,
-      lootMart,
       lootRings,
       realms,
     ],
@@ -126,7 +127,8 @@ export const resources = [
     description: "",
     project: [
       lootWatcher,
-      bibliotheca
+      bibliotheca,
+      lootMart
     ],
   },
   {

@@ -618,6 +618,30 @@ const banners: Project = {
   }
 };
 
+const cryptsandcaverns: Project = {
+  name: "Crypts and Caverns",
+  description: "On-chain dungeon maps that provide a sense of place for the lootverse. Each dungeon map contains floors, walls, doors, and points of interest. Dungeon maps can be used by text, 2D, or 3D games in the Lootverse.",
+  whatToDo: [
+      {
+          content: "Trade on OS",
+          url: "https://opensea.io/collection/crypts-and-caverns"
+      }
+  ],
+  image: "/cryptsandcaverns.png",
+  website: {
+      url: "https://threepwave.com/cryptsandcaverns/"
+  },
+  twitter: {
+      url: "https://twitter.com/cryptsncaverns"
+  },
+  discord: {
+      url: "https://discord.com/invite/vXX84QjR7F"
+  },
+  github: {
+      url: "https://github.com/threepwave/cryptsandcaverns"
+  }
+};
+
 export {
   loot,
   bibliotheca,
@@ -643,5 +667,6 @@ export {
   lootAlliance,
   divineDao,
   fLoot,
-  banners
+  banners,
+  cryptsandcaverns
 };
