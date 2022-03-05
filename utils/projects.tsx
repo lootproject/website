@@ -596,7 +596,7 @@ const fLoot: Project = {
 
 const banners: Project = {
   name: "Banners (for Adventures)",
-  description: "Banners is 25000 text only NFTs that serve as society before the Great War. A Banner is a key to future graphic airdrops and projects built in the Exodus epoch.",
+  description: "Banners is the society and politics layer for Loot.  In a world full of Adventurers, Banners represents everyone else in the Realms. Each of the 25,000 Banners has thousands of strengths, connections and family members.",
   whatToDo: [
       {
           content: "Mint",
