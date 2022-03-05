@@ -642,6 +642,31 @@ const cryptsandcaverns: Project = {
   }
 };
 
+const theRift: Project = {
+  name: "Level Up",
+  description: "The Rift is leveling infrastructure for Loot, more Loot, and Genesis Adventurers. Playing across the Lootverse will earn your bag XP, and as you level up you'll be able to perform more powerful actions. Loot builders that integrate with Rift can use bag levels, and reward XP to users.",
+  whatToDo: [
+      {
+          content: "Earn XP",
+          url: "https://the-rift.notion.site/Ways-to-Earn-XP-9b304cd87e7a49db99903de9ee682635"
+      },
+      {
+        content: "Build with Rift",
+        url: "https://the-rift.notion.site/Rift-for-Builders-a6adaf6815434e638da01bc278306e75"
+    },
+  ],
+  image: "/therift.png",
+  website: {
+      url: "https://rift.live/"
+  },
+  twitter: {
+      url: "https://twitter.com/LootRift"
+  },
+  discord: {
+      url: "https://discord.gg/mtP8Qaa5py"
+  }
+};
+
 export {
   loot,
   bibliotheca,
@@ -668,5 +693,6 @@ export {
   divineDao,
   fLoot,
   banners,
-  cryptsandcaverns
+  cryptsandcaverns,
+  theRift
 };

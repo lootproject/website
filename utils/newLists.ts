@@ -11,7 +11,6 @@ import {
   NFTx,
   openSea,
   realms,
-  dungeons,
   stakeARealm,
   sLoot,
   genesisAdventurer,
@@ -24,7 +23,8 @@ import {
   divineDao,
   fLoot,
   banners,
-  cryptsandcaverns
+  cryptsandcaverns,
+  theRift
 } from "./projects"
 
 import {
@@ -79,6 +79,7 @@ export const gearUp = [
       genesisMana,
       lootRings,
       realms,
+      theRift
     ],
   },
 ];
