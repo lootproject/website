@@ -637,6 +637,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://terraloot.dev/",
   },
   {
+    name: "The Crypt",
+    description: "A series of raiding games centred around the discovery of the lost Relics.",
+    url: "https://thecrypt.game/",
+  },
+  {
     name: "The Traveling Musician",
     description: "Travel tunes for loot holders",
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
