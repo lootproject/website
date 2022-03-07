@@ -706,7 +706,7 @@ const aQuest: Project = {
 
 const atlas: Project = {
   name: "Atlas",
-  description: "A massively multiplayer on-chain game of Economics and Chivalry. Settle a realm, harvest reosurces and craft items, raid other realms, and venture into dungeons.",
+  description: "Explore 50,000 points of interest across the Realms, including OG Loot, Genesis Loot, Crypts & Caverns. Through the Atlas, read and write lore of the past, present and future of the Lootverse.",
   whatToDo: [
       {
           content: "Explore",
