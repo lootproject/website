@@ -26,7 +26,8 @@ import {
   cryptsandcaverns,
   theRift,
   theCrypt,
-  aQuest
+  aQuest,
+  atlas
 } from "./projects"
 
 import {
@@ -106,6 +107,7 @@ export const goOnQuests = [
     description: "",
     project: [
       aQuest,
+      atlas,
       theCrypt
     ]
   }

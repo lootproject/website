@@ -704,6 +704,27 @@ const aQuest: Project = {
   }
 };
 
+const atlas: Project = {
+  name: "Atlas",
+  description: "A massively multiplayer on-chain game of Economics and Chivalry. Settle a realm, harvest reosurces and craft items, raid other realms, and venture into dungeons.",
+  whatToDo: [
+      {
+          content: "Explore",
+          url: "https://atlas.bibliothecadao.xyz/"
+      }
+  ],
+  image: "/atlas.png",
+  website: {
+      url: "https://atlas.bibliothecadao.xyz/"
+  },
+  twitter: {
+      url: "https://twitter.com/lootrealms"
+  },
+  discord: {
+      url: "https://discord.gg/2rUVck4ZPr"
+  }
+};
+
 export {
   loot,
   bibliotheca,
@@ -733,5 +754,6 @@ export {
   cryptsandcaverns,
   theRift,
   theCrypt,
-  aQuest
+  aQuest,
+  atlas
 };
