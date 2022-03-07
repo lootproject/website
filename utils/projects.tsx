@@ -1,5 +1,6 @@
 import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
+
 const loot: Project = {
   name: "Loot (for Adventurers)",
   description: "The original 8,000 OG Loot bags. ",
@@ -667,6 +668,42 @@ const theRift: Project = {
   }
 };
 
+const theCrypt: Project = {
+  name: "The Crypt",
+  description: "Releasing chapter by chapter, the Crypt is a series of raiding games centred around the discovery of the lost Relics. It has been said that the unearthing of these Relics may lead to a cataclysm of unimaginable proportions… ",
+  whatToDo: [
+      {
+          content: "Play",
+          url: "https://thecrypt.game/"
+      }
+  ],
+  image: "/thecrypt.png",
+  website: {
+      url: "https://thecrypt.game/"
+  },
+  twitter: {
+      url: "https://twitter.com/TheCryptGame"
+  },
+  discord: {
+      url: "https://discord.com/invite/aMwetFaz6F"
+  }
+};
+
+const aQuest: Project = {
+  name: "a quest",
+  description: "This is a decentralized game of grand cooperation, puzzle solving, and difficult decisions. It unfolds in several phases, involving key objectives and a final raid. Along the way, players will earn trophies and make new friends in the form of NFTs.",
+  whatToDo: [
+      {
+          content: "Learn More",
+          url: "https://a.quest/"
+      }
+  ],
+  image: "/aquest.png",
+  website: {
+      url: "https://a.quest/"
+  }
+};
+
 export {
   loot,
   bibliotheca,
@@ -694,5 +731,7 @@ export {
   fLoot,
   banners,
   cryptsandcaverns,
-  theRift
+  theRift,
+  theCrypt,
+  aQuest
 };
