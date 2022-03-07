@@ -3,7 +3,7 @@ import Link from "next/link"; // Routing
 import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row";
-import { whatToGet, whatToDo, gearUp, getYourCharacter, onlyLoot } from "../utils/newLists"
+import { whatToGet, goOnQuests, gearUp, getYourCharacter, onlyLoot } from "../utils/newLists"
 import Opensea from "../img/opensea.svg"
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
@@ -129,43 +129,22 @@ export default function Home(): ReactElement {
           })}
         </div>
       </div>
-      {/* <div id="chapter2" className="py-20 bg-gradient-to-b from-gray-700 to-gray-600">
-        <div className="container mx-auto mt-8">
-          <div className="flex justify-around">
-            <div className="px-4 py-8 text-center sm:px-20 rounded-2xl md:w-2/3">
-              <span className="uppercase sm:text-2xl">Chapter 3</span>
-              <h1 className="mt-4 text-center">Fun & Games</h1>
-              <p className="sm:text-2xl">Who carried these Loot bags? Where did they come from? What can you do with these treasures? Your adventure begins now.</p>
-            </div>
-          </div>
-
-
-          {whatToDo.map(({ name, description, project }, i) => {
-            return (
-              <CardRow key={i} name={name} description={description} project={project} />
-            );
-          })}
-        </div>
-      </div> */}
       <div id="chapter3" className="py-20 text-black bg-white ">
         <div className="container mx-auto mt-8">
           <div className="flex justify-around ">
             <div className="px-20 py-8 text-center rounded">
               <span className="tracking-widest text-gray-400 uppercase sm:text-xl">Chapter 3</span>
               <h1 className="mt-4 text-center">Go on Quests</h1>
+              <p className="text-gray-400 sm:text-2xl">Go on adventures and visit undiscovered corners of the Lootverse.</p>
             </div>
           </div>
-          <div className="px-4 mx-auto my-4 text-center sm:text-2xl sm:w-2/3 ">
-            <p className="my-4">Your journey continues soon.</p>
-            <br />
-            <a
-              target="_blank"
-              href="https://a.quest"
-              className="w-full px-5 py-2 my-1 text-lg text-center text-gray-200 bg-gray-800 border border-gray-700 hover:bg-gray-600 rounded-xl"
-            >
-              Coming soon
-            </a>
-          </div>
+
+          {goOnQuests.map(({ name, description, project }, i) => {
+            return (
+              <CardRow key={i} name={name} description={description} project={project} />
+            );
+          })}
+          
         </div>
       </div>
     </Layout>

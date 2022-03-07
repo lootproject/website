@@ -24,7 +24,10 @@ import {
   fLoot,
   banners,
   cryptsandcaverns,
-  theRift
+  theRift,
+  theCrypt,
+  aQuest,
+  atlas
 } from "./projects"
 
 import {
@@ -97,6 +100,18 @@ export const getYourCharacter = [
     ],
   },
 ];
+
+export const goOnQuests = [
+  {
+    name: "",
+    description: "",
+    project: [
+      aQuest,
+      atlas,
+      theCrypt
+    ]
+  }
+]
 
 export const whatToDo = [
   {
