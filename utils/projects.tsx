@@ -173,15 +173,15 @@ const bibliotheca: Project = {
 const genesisMana: Project = {
   name: "Genesis Project",
   heading: "Distill Genesis Mana with your Loot bag.",
-  description: "All bags with items 'of' Orders have free Genesis Mana inside them. Collect a perfect set of 8 Genesis Mana in order to resurrect a Genesis Adventurer and receive its “Genesis Loot” bag. ",
+  description: "All bags with items 'of' Orders have free Genesis Mana inside them. Collect a perfect set of 8 Genesis Mana in order to summon the spirit of a Genesis Adventurer and receive its “Genesis Loot” bag. ",
   whatToDo: [
     {
       content: "Distill Genesis Mana",
-      url: "https://genesisproject.notion.site/Genesis-Mana-a11c2f7bffbd4fa0a28d0519b19d26dc"
+      url: "http://genesisproject.xyz/"
     },
     {
       content: "Trade",
-      url: "https://genesisproject.notion.site/Genesis-Adventurer-cc41f0c184ab481aafb0e1056a48727e"
+      url: "https://opensea.io/collection/genesis-mana"
     }
   ],
   contract: {
@@ -399,15 +399,15 @@ const stakeARealm: Project = {
 
 const genesisAdventurer: Project = {
   name: "Genesis Loot",
-  description: "The 2,540 bags of Genesis Loot were carried by the original 'Genesis Adventurers.' Through teamwork and collaboration, players resurrect Genesis Adventurers to protect and champion their ancestral Orders.",
+  description: "A collaborative, community project to summon the spirits of the original 2,540 Genesis Adventurers.",
   whatToDo: [
     {
-      content: "Resurrect a Genesis Adventurer",
-      url: "https://genesisproject.notion.site/"
+      content: "Build a Genesis Loot Bag",
+      url: "http://genesisproject.xyz/"
     },
     {
-      content: "Trade on OS",
-      url: "https://opensea.io/collection/genesisadventurer"
+      content: "Enter the Genesis Portal",
+      url: "https://portal.genesisproject.xyz/"
     },
   ],
   website: {
