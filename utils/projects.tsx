@@ -522,9 +522,12 @@ const hyperLoot: Project = {
     url: "https://twitter.com/hyperloot_"
   },
   discord: {
-    url: "https://discord.gg/MAqUNNVVcT" // TODO: not yet public
+    url: "https://discord.gg/hyperloot" // TODO: not yet public
   },
-  image: "/hyper.jpg",
+  mintPrice: {
+    mint: 0.05
+  },
+  image: "/hyperloot@2x.jpg",
   neededProject: loot,
   website: {
     url: "https://hyperlootproject.com/"
