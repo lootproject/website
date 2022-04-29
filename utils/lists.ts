@@ -497,6 +497,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://mclues.io.ooo/",
   },
   {
+    name: "M3taloot",
+	description: "High quality 3D modeled wearables for avatars and game dev.",
+	url: "https://m3taloot.com",
+  },
+  {
     name: "Monsters",
     description: "Slay unique Monsters with your Loot",
     url: "https://monstersforadventurers.com",

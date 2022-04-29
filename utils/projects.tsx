@@ -508,7 +508,27 @@ const lootSwag: Project = {
   image: "/lootswag.png",
   neededProject: loot
 };
-
+const M3taloot: Project = {
+  name: "M3taloot",
+  description: "High quality 3D model assets based on Loot you can use in game dev. Add M3taloot to your custom avatar and go on adventures with indies making VR content together.",
+  whatToDo: [
+    {
+      content: "Coming soon",
+      url: "https://m3taloot.com"
+    },
+  ],
+  twitter: {
+    url: "https://twitter.com/m3org"
+  },
+  discord: {
+    url: "https://discord.gg/m3org"
+  },
+  image: "/M3taloot.png",
+  neededProject: loot,
+  website: {
+    url: "https://m3taloot.com/"
+  }
+};
 const hyperLoot: Project = {
   name: "Visualize Your Adventurer",
   description: "HyperLoot is a collection of unique characters generated based on the items from your Loot and mLoot bags. Each HyperLoot grants an access to the Hyperverse.",
@@ -747,6 +767,7 @@ export {
   genesisAdventurer,
   lootMartAssemble,
   LootExplorers,
+  M3taloot,
   hyperLoot,
   lootSwag,
   lootpunk,
