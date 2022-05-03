@@ -16,6 +16,7 @@ import {
   genesisAdventurer,
   lootMartAssemble,
   LootExplorers,
+  M3taloot,
   hyperLoot,
   lootSwag,
   lootpunk,
@@ -95,6 +96,7 @@ export const getYourCharacter = [
       lootCharacter,
       LootExplorers,
       hyperLoot,
+      M3taloot,
       lootSwag,
       lootpunk
     ],
