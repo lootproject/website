@@ -15,6 +15,11 @@ export const communityList: Record<string, string>[] = [
     description: "Focused on developers, artists, and writers with minimal derivative, token, and market chat",
     url: "https://discord.gg/Btefs83ART",
   },
+  {
+    name: "Loot Travel",
+    description: "The Art of movement. Travel NFTs for the Lootverse.",
+    url: "https://loot-travel.xyz",
+  },
 ];
 
 // Loot resources
@@ -670,5 +675,10 @@ export const derivativesList: Record<string, string>[] = [
     name: "VootLoot",
     description: "VootLoot is advance gear stored on Blockchain.",
     url: "https://polygonscan.com/token/0x43f061c0925d7162c73573d64c277aa741aa571c",
+  },
+  {
+    name: "Loot Travel",
+    description: "The Art of movement. Travel NFTs for the Lootverse.",
+    url: "https://loot-travel.xyz",
   },
 ];
