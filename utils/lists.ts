@@ -657,6 +657,11 @@ export const derivativesList: Record<string, string>[] = [
     url: "https://etherscan.io/address/0xF7AC82FedA08d0f3E071847250521c1297E1aF9c#writeContract",
   },
   {
+    name: "Traveler Loot",
+    description: "A Loot derivative project for Real World Travelers. Including an onchain competitive game for Looters (check code or github readme)",
+    url: "https://www.travelerloot.com/",
+  },
+  {
     name: "Treasure",
     description: "Decentralized, composable money for the metaverse",
     url: "https://opensea.io/collection/treasure-for-loot",
